@@ -1,0 +1,1867 @@
+{
+  "name": "Root",
+  "node_id": "Root",
+  "gate": "",
+  "gate_keywords": [],
+  "statements": [
+    {
+      "text": "OpenAI often introduces new features, enhancements, or product adjustments in response to competitive pressures, evolving user needs, or market opportunities.",
+      "keywords": [
+        "OpenAI",
+        "introduces",
+        "features",
+        "enhancements",
+        "product",
+        "adjustments",
+        "response",
+        "competitive",
+        "pressures",
+        "evolving",
+        "user",
+        "needs",
+        "market",
+        "opportunities"
+      ]
+    },
+    {
+      "text": "OpenAI often seeks to expand or diversify its infrastructure and partnerships to secure the resources necessary for scaling and reliable operation.",
+      "keywords": [
+        "OpenAI",
+        "seeks",
+        "expand",
+        "diversify",
+        "infrastructure",
+        "partnerships",
+        "secure",
+        "resources",
+        "necessary",
+        "scaling",
+        "reliable",
+        "operation"
+      ]
+    },
+    {
+      "text": "OpenAI often adapts or tailors its offerings to address the needs of new markets, industries, or user groups.",
+      "keywords": [
+        "OpenAI",
+        "adapts",
+        "tailors",
+        "offerings",
+        "address",
+        "needs",
+        "markets",
+        "industries",
+        "user",
+        "groups"
+      ]
+    },
+    {
+      "text": "OpenAI demonstrates a willingness to revise or reverse prior decisions when circumstances or priorities change.",
+      "keywords": [
+        "OpenAI",
+        "demonstrates",
+        "willingness",
+        "revise",
+        "reverse",
+        "prior",
+        "decisions",
+        "circumstances",
+        "priorities",
+        "change"
+      ]
+    }
+  ],
+  "children": [
+    {
+      "name": "Product Piloting",
+      "node_id": "1",
+      "gate": "Does the scene involve OpenAI piloting, testing, or limiting access to new features or products before a broader rollout?",
+      "gate_keywords": [
+        "scene",
+        "involve",
+        "OpenAI",
+        "piloting",
+        "testing",
+        "limiting",
+        "access",
+        "features",
+        "products",
+        "broader",
+        "rollout"
+      ],
+      "statements": [
+        {
+          "text": "OpenAI often revises or refines its products and features in response to significant user feedback or dissatisfaction.",
+          "keywords": [
+            "OpenAI",
+            "revises",
+            "refines",
+            "products",
+            "features",
+            "response",
+            "significant",
+            "user",
+            "feedback",
+            "dissatisfaction"
+          ]
+        },
+        {
+          "text": "OpenAI may adjust its product roadmap, launch timing, or feature set in response to competitive developments or operational constraints.",
+          "keywords": [
+            "OpenAI",
+            "adjust",
+            "product",
+            "roadmap",
+            "launch",
+            "timing",
+            "feature",
+            "set",
+            "response",
+            "competitive",
+            "developments",
+            "operational",
+            "constraints"
+          ]
+        },
+        {
+          "text": "OpenAI tends to pilot new functionalities or integrations with select users or regions before expanding access more widely.",
+          "keywords": [
+            "OpenAI",
+            "pilot",
+            "functionalities",
+            "integrations",
+            "select",
+            "users",
+            "regions",
+            "expanding",
+            "access",
+            "more",
+            "widely"
+          ]
+        },
+        {
+          "text": "OpenAI is willing to test alternative product configurations or access models to improve user satisfaction or manage technical challenges.",
+          "keywords": [
+            "OpenAI",
+            "willing",
+            "test",
+            "alternative",
+            "product",
+            "configurations",
+            "access",
+            "models",
+            "improve",
+            "user",
+            "satisfaction",
+            "manage",
+            "technical",
+            "challenges"
+          ]
+        },
+        {
+          "text": "OpenAI frequently incorporates user feedback and observed usage data to guide the refinement, scaling, or adaptation of its offerings.",
+          "keywords": [
+            "OpenAI",
+            "incorporates",
+            "user",
+            "feedback",
+            "observed",
+            "usage",
+            "data",
+            "guide",
+            "refinement",
+            "scaling",
+            "adaptation",
+            "offerings"
+          ]
+        },
+        {
+          "text": "OpenAI regularly explores and iterates on new ways for users to interact with its products, including collaborative and app-integrated experiences.",
+          "keywords": [
+            "OpenAI",
+            "regularly",
+            "explores",
+            "iterates",
+            "ways",
+            "users",
+            "interact",
+            "products",
+            "including",
+            "collaborative",
+            "app-integrated",
+            "experiences"
+          ]
+        }
+      ],
+      "children": [
+        {
+          "name": "Feature Restoration",
+          "node_id": "1-1",
+          "gate": "Does the scene suggest that OpenAI's next action may involve restoring, re-enabling, or maintaining previously removed or deprecated features or models due to renewed user demand or backlash?",
+          "gate_keywords": [
+            "scene",
+            "suggest",
+            "OpenAI's",
+            "action",
+            "involve",
+            "restoring",
+            "re-enabling",
+            "maintaining",
+            "previously",
+            "removed",
+            "deprecated",
+            "features",
+            "models",
+            "due",
+            "renewed",
+            "user",
+            "demand",
+            "backlash"
+          ],
+          "statements": [
+            {
+              "text": "OpenAI sometimes reintroduces or maintains legacy features or models when there is substantial user demand or negative response to their removal.",
+              "keywords": [
+                "OpenAI",
+                "sometimes",
+                "reintroduces",
+                "maintains",
+                "legacy",
+                "features",
+                "models",
+                "substantial",
+                "user",
+                "demand",
+                "negative",
+                "response",
+                "removal"
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "Third-party Integration",
+          "node_id": "1-2",
+          "gate": "Does the scene involve OpenAI collaborating with external partners or integrating third-party services, suggesting a possible expansion or deepening of such integrations?",
+          "gate_keywords": [
+            "scene",
+            "involve",
+            "OpenAI",
+            "collaborating",
+            "external",
+            "partners",
+            "integrating",
+            "third-party",
+            "services",
+            "suggesting",
+            "possible",
+            "expansion",
+            "deepening",
+            "integrations"
+          ],
+          "statements": [
+            {
+              "text": "OpenAI often explores and expands integrations with third-party services to enhance its platform's versatility.",
+              "keywords": [
+                "OpenAI",
+                "explores",
+                "expands",
+                "integrations",
+                "third-party",
+                "services",
+                "enhance",
+                "platform's",
+                "versatility"
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "Lightweight Launch",
+          "node_id": "1-3",
+          "gate": "Does the scene mention OpenAI releasing a simplified or limited version of a tool or feature, implying that OpenAI may monitor usage and adjust availability or functionality in response?",
+          "gate_keywords": [
+            "scene",
+            "mention",
+            "OpenAI",
+            "releasing",
+            "simplified",
+            "limited",
+            "version",
+            "tool",
+            "feature",
+            "implying",
+            "OpenAI",
+            "monitor",
+            "usage",
+            "adjust",
+            "availability",
+            "functionality",
+            "response"
+          ],
+          "statements": [
+            {
+              "text": "OpenAI sometimes launches lightweight or partial versions of features to gauge user response and manage resources before broader deployment.",
+              "keywords": [
+                "OpenAI",
+                "sometimes",
+                "launches",
+                "lightweight",
+                "partial",
+                "versions",
+                "features",
+                "gauge",
+                "user",
+                "response",
+                "manage",
+                "resources",
+                "broader",
+                "deployment"
+              ]
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Partnership & Ecosystem",
+      "node_id": "2",
+      "gate": "Does the scene describe OpenAI collaborating with external partners, organizations, or platforms, or seeking to expand its ecosystem?",
+      "gate_keywords": [
+        "scene",
+        "describe",
+        "OpenAI",
+        "collaborating",
+        "external",
+        "partners",
+        "organizations",
+        "platforms",
+        "seeking",
+        "expand",
+        "ecosystem"
+      ],
+      "statements": [
+        {
+          "text": "OpenAI frequently secures long-term access to essential resources through substantial financial commitments, multi-year agreements, or new partnerships.",
+          "keywords": [
+            "OpenAI",
+            "secures",
+            "long-term",
+            "access",
+            "essential",
+            "resources",
+            "substantial",
+            "financial",
+            "commitments",
+            "multi-year",
+            "agreements",
+            "partnerships"
+          ]
+        },
+        {
+          "text": "OpenAI often explores diversification into new domains, products, or markets when encountering challenges or limitations in its primary business lines.",
+          "keywords": [
+            "OpenAI",
+            "explores",
+            "diversification",
+            "domains",
+            "products",
+            "markets",
+            "encountering",
+            "challenges",
+            "limitations",
+            "primary",
+            "business",
+            "lines"
+          ]
+        }
+      ],
+      "children": [
+        {
+          "name": "Governance Pressure",
+          "node_id": "2-1",
+          "gate": "Does the scene involve OpenAI facing legal, regulatory, or stakeholder pressures that could impact its governance, organizational structure, or autonomy?",
+          "gate_keywords": [
+            "scene",
+            "involve",
+            "OpenAI",
+            "facing",
+            "legal",
+            "regulatory",
+            "stakeholder",
+            "pressures",
+            "impact",
+            "governance",
+            "organizational",
+            "structure",
+            "autonomy"
+          ],
+          "statements": [
+            {
+              "text": "OpenAI frequently revisits and renegotiates financial terms or partnership agreements to optimize its strategic position and respond to external pressures.",
+              "keywords": [
+                "OpenAI",
+                "revisits",
+                "renegotiates",
+                "financial",
+                "terms",
+                "partnership",
+                "agreements",
+                "optimize",
+                "strategic",
+                "position",
+                "respond",
+                "external",
+                "pressures"
+              ]
+            },
+            {
+              "text": "OpenAI tends to restructure or expand its leadership and governance in response to significant internal changes or strategic shifts.",
+              "keywords": [
+                "OpenAI",
+                "restructure",
+                "expand",
+                "leadership",
+                "governance",
+                "response",
+                "significant",
+                "internal",
+                "changes",
+                "strategic",
+                "shifts"
+              ]
+            },
+            {
+              "text": "OpenAI often accelerates decision-making or operational timelines in response to urgent competitive or reputational challenges.",
+              "keywords": [
+                "OpenAI",
+                "accelerates",
+                "decision-making",
+                "operational",
+                "timelines",
+                "response",
+                "urgent",
+                "competitive",
+                "reputational",
+                "challenges"
+              ]
+            },
+            {
+              "text": "OpenAI frequently modifies its organizational structure or strategy to balance growth ambitions with stakeholder and regulatory expectations.",
+              "keywords": [
+                "OpenAI",
+                "modifies",
+                "organizational",
+                "structure",
+                "strategy",
+                "balance",
+                "growth",
+                "ambitions",
+                "stakeholder",
+                "regulatory",
+                "expectations"
+              ]
+            },
+            {
+              "text": "OpenAI often launches new initiatives, hires, or partnerships to address emerging opportunities or challenges in the AI ecosystem.",
+              "keywords": [
+                "OpenAI",
+                "launches",
+                "initiatives",
+                "hires",
+                "partnerships",
+                "address",
+                "emerging",
+                "opportunities",
+                "challenges",
+                "AI",
+                "ecosystem"
+              ]
+            },
+            {
+              "text": "OpenAI tends to pursue high-profile partnerships and financial arrangements to secure its operational and strategic objectives, even if these involve complex or unconventional terms.",
+              "keywords": [
+                "OpenAI",
+                "pursue",
+                "high-profile",
+                "partnerships",
+                "financial",
+                "arrangements",
+                "secure",
+                "operational",
+                "strategic",
+                "objectives",
+                "involve",
+                "complex",
+                "unconventional",
+                "terms"
+              ]
+            }
+          ],
+          "children": [
+            {
+              "name": "Governance Restructuring",
+              "node_id": "2-1-1",
+              "gate": "Does the scene involve OpenAI encountering significant stakeholder, legal, or regulatory pressures that could prompt reconsideration or adjustment of its governance or organizational structure?",
+              "gate_keywords": [
+                "scene",
+                "involve",
+                "OpenAI",
+                "encountering",
+                "significant",
+                "stakeholder",
+                "legal",
+                "regulatory",
+                "pressures",
+                "prompt",
+                "reconsideration",
+                "adjustment",
+                "governance",
+                "organizational",
+                "structure"
+              ],
+              "statements": [
+                {
+                  "text": "OpenAI tends to adapt its governance or organizational structure in response to evolving stakeholder expectations, legal scrutiny, or regulatory requirements.",
+                  "keywords": [
+                    "OpenAI",
+                    "adapt",
+                    "governance",
+                    "organizational",
+                    "structure",
+                    "response",
+                    "evolving",
+                    "stakeholder",
+                    "expectations",
+                    "legal",
+                    "scrutiny",
+                    "regulatory",
+                    "requirements"
+                  ]
+                }
+              ],
+              "children": []
+            },
+            {
+              "name": "Talent Recruitment",
+              "node_id": "2-1-2",
+              "gate": "Does the scene involve OpenAI encountering gaps in expertise, leadership, or technical capability—such as departures or competitive talent movement—that could prompt recruitment or rehiring of key personnel?",
+              "gate_keywords": [
+                "scene",
+                "involve",
+                "OpenAI",
+                "encountering",
+                "gaps",
+                "expertise",
+                "leadership",
+                "technical",
+                "capability",
+                "departures",
+                "competitive",
+                "talent",
+                "movement",
+                "prompt",
+                "recruitment",
+                "rehiring",
+                "key",
+                "personnel"
+              ],
+              "statements": [
+                {
+                  "text": "OpenAI prioritizes acquiring or retaining high-impact talent and leadership, especially in response to internal needs or competitive pressures.",
+                  "keywords": [
+                    "OpenAI",
+                    "prioritizes",
+                    "acquiring",
+                    "retaining",
+                    "high-impact",
+                    "talent",
+                    "leadership",
+                    "especially",
+                    "response",
+                    "internal",
+                    "needs",
+                    "competitive",
+                    "pressures"
+                  ]
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Financial Pressure",
+          "node_id": "2-2",
+          "gate": "Does the scene suggest that OpenAI is encountering financial pressures, increased operational costs, or the need for substantial capital to support ongoing or planned initiatives?",
+          "gate_keywords": [
+            "scene",
+            "suggest",
+            "OpenAI",
+            "encountering",
+            "financial",
+            "pressures",
+            "increased",
+            "operational",
+            "costs",
+            "need",
+            "substantial",
+            "capital",
+            "support",
+            "ongoing",
+            "planned",
+            "initiatives"
+          ],
+          "statements": [
+            {
+              "text": "OpenAI often pursues large-scale funding rounds or strategic investments to support ambitious projects, operational expansion, or to address resource constraints.",
+              "keywords": [
+                "OpenAI",
+                "pursues",
+                "large-scale",
+                "funding",
+                "rounds",
+                "strategic",
+                "investments",
+                "support",
+                "ambitious",
+                "projects",
+                "operational",
+                "expansion",
+                "address",
+                "resource",
+                "constraints"
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "Partnership Shifts",
+          "node_id": "2-3",
+          "gate": "Does the scene involve OpenAI experiencing strained, shifting, or insufficient partnerships, dependencies, or market dynamics that could prompt a change in alliances or business relationships?",
+          "gate_keywords": [
+            "scene",
+            "involve",
+            "OpenAI",
+            "experiencing",
+            "strained",
+            "shifting",
+            "insufficient",
+            "partnerships",
+            "dependencies",
+            "market",
+            "dynamics",
+            "prompt",
+            "change",
+            "alliances",
+            "business",
+            "relationships"
+          ],
+          "statements": [
+            {
+              "text": "OpenAI tends to diversify or adjust its strategic partnerships and alliances, often engaging multiple major industry players to mitigate risks and reduce reliance on any single entity.",
+              "keywords": [
+                "OpenAI",
+                "diversify",
+                "adjust",
+                "strategic",
+                "partnerships",
+                "alliances",
+                "engaging",
+                "multiple",
+                "major",
+                "industry",
+                "players",
+                "mitigate",
+                "risks",
+                "reduce",
+                "reliance",
+                "single",
+                "entity"
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "Gradual Rollout",
+          "node_id": "2-4",
+          "gate": "Does the scene describe OpenAI piloting, testing, or gradually rolling out new features, products, or interaction models to select regions or user groups?",
+          "gate_keywords": [
+            "scene",
+            "describe",
+            "OpenAI",
+            "piloting",
+            "testing",
+            "gradually",
+            "rolling",
+            "out",
+            "features",
+            "products",
+            "interaction",
+            "models",
+            "select",
+            "regions",
+            "user",
+            "groups"
+          ],
+          "statements": [
+            {
+              "text": "OpenAI frequently introduces experimental features or pilots in limited settings to gather feedback and iterate before broader deployment.",
+              "keywords": [
+                "OpenAI",
+                "introduces",
+                "experimental",
+                "features",
+                "pilots",
+                "limited",
+                "settings",
+                "gather",
+                "feedback",
+                "iterate",
+                "broader",
+                "deployment"
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "User Engagement",
+          "node_id": "2-5",
+          "gate": "Does the scene suggest that OpenAI is seeking to enhance user engagement, collaboration, or expand the types of activities users can perform within its platform?",
+          "gate_keywords": [
+            "scene",
+            "suggest",
+            "OpenAI",
+            "seeking",
+            "enhance",
+            "user",
+            "engagement",
+            "collaboration",
+            "expand",
+            "types",
+            "activities",
+            "users",
+            "perform",
+            "platform"
+          ],
+          "statements": [
+            {
+              "text": "OpenAI often expands its platform by integrating new user experiences, such as collaborative tools, commerce, or novel interaction modes.",
+              "keywords": [
+                "OpenAI",
+                "expands",
+                "platform",
+                "integrating",
+                "user",
+                "experiences",
+                "collaborative",
+                "tools",
+                "commerce",
+                "novel",
+                "interaction",
+                "modes"
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "Talent & Acquisitions",
+          "node_id": "2-6",
+          "gate": "Does the scene involve the availability of specialized talent, teams, or startups with relevant expertise or technology that could accelerate OpenAI's goals?",
+          "gate_keywords": [
+            "scene",
+            "involve",
+            "availability",
+            "specialized",
+            "talent",
+            "teams",
+            "startups",
+            "relevant",
+            "expertise",
+            "technology",
+            "accelerate",
+            "OpenAI's",
+            "goals"
+          ],
+          "statements": [
+            {
+              "text": "OpenAI often develops new products, services, or ventures to address perceived gaps or evolving demands in technology and user experience.",
+              "keywords": [
+                "OpenAI",
+                "develops",
+                "products",
+                "services",
+                "ventures",
+                "address",
+                "perceived",
+                "gaps",
+                "evolving",
+                "demands",
+                "technology",
+                "user",
+                "experience"
+              ]
+            },
+            {
+              "text": "OpenAI tends to accelerate innovation, expand offerings, or make strategic investments in response to competitive pressures or industry changes.",
+              "keywords": [
+                "OpenAI",
+                "accelerate",
+                "innovation",
+                "expand",
+                "offerings",
+                "make",
+                "strategic",
+                "investments",
+                "response",
+                "competitive",
+                "pressures",
+                "industry",
+                "changes"
+              ]
+            },
+            {
+              "text": "OpenAI frequently seeks early-mover advantages by rapidly launching products, forming partnerships, or tailoring offerings to capture emerging opportunities.",
+              "keywords": [
+                "OpenAI",
+                "seeks",
+                "early-mover",
+                "advantages",
+                "rapidly",
+                "launching",
+                "products",
+                "forming",
+                "partnerships",
+                "tailoring",
+                "offerings",
+                "capture",
+                "emerging",
+                "opportunities"
+              ]
+            },
+            {
+              "text": "OpenAI tends to initiate new ventures, product lines, or local operations to extend its influence and address opportunities in new or adjacent markets.",
+              "keywords": [
+                "OpenAI",
+                "initiate",
+                "ventures",
+                "product",
+                "lines",
+                "local",
+                "operations",
+                "extend",
+                "influence",
+                "address",
+                "opportunities",
+                "adjacent",
+                "markets"
+              ]
+            },
+            {
+              "text": "OpenAI often acts to secure, co-develop, or integrate new technologies or platforms that could redefine user experience or industry standards.",
+              "keywords": [
+                "OpenAI",
+                "acts",
+                "secure",
+                "co-develop",
+                "integrate",
+                "technologies",
+                "platforms",
+                "redefine",
+                "user",
+                "experience",
+                "industry",
+                "standards"
+              ]
+            }
+          ],
+          "children": [
+            {
+              "name": "Industry Compliance",
+              "node_id": "2-6-1",
+              "gate": "Does the scene suggest that OpenAI's next action could be influenced by the need to meet compliance, security, or operational requirements of specific industries, sectors, or customer segments?",
+              "gate_keywords": [
+                "scene",
+                "suggest",
+                "OpenAI's",
+                "action",
+                "influenced",
+                "need",
+                "meet",
+                "compliance",
+                "security",
+                "operational",
+                "requirements",
+                "specific",
+                "industries",
+                "sectors",
+                "customer",
+                "segments"
+              ],
+              "statements": [
+                {
+                  "text": "OpenAI often adapts or customizes its products and go-to-market strategies to address the unique needs of regulated or high-value customer groups.",
+                  "keywords": [
+                    "OpenAI",
+                    "adapts",
+                    "customizes",
+                    "products",
+                    "go-to-market",
+                    "strategies",
+                    "address",
+                    "unique",
+                    "needs",
+                    "regulated",
+                    "high-value",
+                    "customer",
+                    "groups"
+                  ]
+                }
+              ],
+              "children": []
+            },
+            {
+              "name": "Org Restructuring",
+              "node_id": "2-6-2",
+              "gate": "Does the scene involve significant organizational or leadership changes, or internal restructuring, that could influence OpenAI's next action?",
+              "gate_keywords": [
+                "scene",
+                "involve",
+                "significant",
+                "organizational",
+                "leadership",
+                "changes",
+                "internal",
+                "restructuring",
+                "influence",
+                "OpenAI's",
+                "action"
+              ],
+              "statements": [
+                {
+                  "text": "OpenAI often responds to internal or external pressures by making bold organizational moves, such as leadership changes, team restructuring, or strategic acquisitions.",
+                  "keywords": [
+                    "OpenAI",
+                    "responds",
+                    "internal",
+                    "external",
+                    "pressures",
+                    "making",
+                    "bold",
+                    "organizational",
+                    "moves",
+                    "leadership",
+                    "changes",
+                    "team",
+                    "restructuring",
+                    "strategic",
+                    "acquisitions"
+                  ]
+                }
+              ],
+              "children": []
+            },
+            {
+              "name": "Enterprise Adoption",
+              "node_id": "2-6-3",
+              "gate": "Does the scene suggest that OpenAI's next action could be motivated by the need to accelerate adoption among large-scale, institutional, or government customers?",
+              "gate_keywords": [
+                "scene",
+                "suggest",
+                "OpenAI's",
+                "action",
+                "motivated",
+                "need",
+                "accelerate",
+                "adoption",
+                "large-scale",
+                "institutional",
+                "government",
+                "customers"
+              ],
+              "statements": [
+                {
+                  "text": "OpenAI frequently leverages strategic agreements, exclusive terms, or tailored programs to facilitate adoption and strengthen relationships with key institutional clients.",
+                  "keywords": [
+                    "OpenAI",
+                    "leverages",
+                    "strategic",
+                    "agreements",
+                    "exclusive",
+                    "terms",
+                    "tailored",
+                    "programs",
+                    "facilitate",
+                    "adoption",
+                    "strengthen",
+                    "relationships",
+                    "key",
+                    "institutional",
+                    "clients"
+                  ]
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Regional Adaptation",
+          "node_id": "2-7",
+          "gate": "Does the scene indicate that OpenAI is responding to region-specific regulatory, cultural, or market requirements?",
+          "gate_keywords": [
+            "scene",
+            "indicate",
+            "OpenAI",
+            "responding",
+            "region-specific",
+            "regulatory",
+            "cultural",
+            "market",
+            "requirements"
+          ],
+          "statements": [
+            {
+              "text": "OpenAI often initiates region- or sector-specific programs, partnerships, or product adaptations to address local needs and compliance requirements.",
+              "keywords": [
+                "OpenAI",
+                "initiates",
+                "region",
+                "sector-specific",
+                "programs",
+                "partnerships",
+                "product",
+                "adaptations",
+                "address",
+                "local",
+                "needs",
+                "compliance",
+                "requirements"
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "Strategic Collaboration",
+          "node_id": "2-8",
+          "gate": "Does the scene suggest that OpenAI is seeking to accelerate adoption, differentiation, or market presence through collaborations with influential partners, organizations, or experts?",
+          "gate_keywords": [
+            "scene",
+            "suggest",
+            "OpenAI",
+            "seeking",
+            "accelerate",
+            "adoption",
+            "differentiation",
+            "market",
+            "presence",
+            "collaborations",
+            "influential",
+            "partners",
+            "organizations",
+            "experts"
+          ],
+          "statements": [
+            {
+              "text": "OpenAI sometimes forms strategic collaborations or invests in external organizations and experts to enhance adoption, differentiation, or address emerging user expectations.",
+              "keywords": [
+                "OpenAI",
+                "sometimes",
+                "forms",
+                "strategic",
+                "collaborations",
+                "invests",
+                "external",
+                "organizations",
+                "experts",
+                "enhance",
+                "adoption",
+                "differentiation",
+                "address",
+                "emerging",
+                "user",
+                "expectations"
+              ]
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Safety & Ethics",
+      "node_id": "3",
+      "gate": "Does the scene indicate that OpenAI is encountering or anticipating technical, safety, or ethical challenges, or facing public or regulatory scrutiny?",
+      "gate_keywords": [
+        "scene",
+        "indicate",
+        "OpenAI",
+        "encountering",
+        "anticipating",
+        "technical",
+        "safety",
+        "ethical",
+        "challenges",
+        "facing",
+        "public",
+        "regulatory",
+        "scrutiny"
+      ],
+      "statements": [
+        {
+          "text": "OpenAI tends to prioritize safety, reliability, and compliance by updating its systems, policies, or safeguards in response to risks, incidents, or external pressures.",
+          "keywords": [
+            "OpenAI",
+            "prioritize",
+            "safety",
+            "reliability",
+            "compliance",
+            "updating",
+            "systems",
+            "policies",
+            "safeguards",
+            "response",
+            "risks",
+            "incidents",
+            "external",
+            "pressures"
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "name": "Legal & Governance",
+      "node_id": "4",
+      "gate": "Does the scene describe OpenAI facing legal, regulatory, or governance challenges, or significant stakeholder pressure?",
+      "gate_keywords": [
+        "scene",
+        "describe",
+        "OpenAI",
+        "facing",
+        "legal",
+        "regulatory",
+        "governance",
+        "challenges",
+        "significant",
+        "stakeholder",
+        "pressure"
+      ],
+      "statements": [],
+      "children": [
+        {
+          "name": "Competition Response",
+          "node_id": "4-1",
+          "gate": "Does the scene involve OpenAI responding to increased competition, market shifts, or the emergence of rival products?",
+          "gate_keywords": [
+            "scene",
+            "involve",
+            "OpenAI",
+            "responding",
+            "increased",
+            "competition",
+            "market",
+            "shifts",
+            "emergence",
+            "rival",
+            "products"
+          ],
+          "statements": [
+            {
+              "text": "OpenAI may accelerate, modify, or publicize product releases, features, or usage metrics in response to competitive pressures or market dynamics.",
+              "keywords": [
+                "OpenAI",
+                "accelerate",
+                "modify",
+                "publicize",
+                "product",
+                "releases",
+                "features",
+                "usage",
+                "metrics",
+                "response",
+                "competitive",
+                "pressures",
+                "market",
+                "dynamics"
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "Public Criticism",
+          "node_id": "4-2",
+          "gate": "Does the scene indicate OpenAI facing public, media, or stakeholder criticism regarding its policies, transparency, or the societal impact of its products?",
+          "gate_keywords": [
+            "scene",
+            "indicate",
+            "OpenAI",
+            "facing",
+            "public",
+            "media",
+            "stakeholder",
+            "criticism",
+            "policies",
+            "transparency",
+            "societal",
+            "impact",
+            "products"
+          ],
+          "statements": [
+            {
+              "text": "OpenAI often revises its internal policies, public stances, or documentation to address external criticism or evolving societal expectations.",
+              "keywords": [
+                "OpenAI",
+                "revises",
+                "internal",
+                "policies",
+                "public",
+                "stances",
+                "documentation",
+                "address",
+                "external",
+                "criticism",
+                "evolving",
+                "societal",
+                "expectations"
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "User Safety Incidents",
+          "node_id": "4-3",
+          "gate": "Does the scene involve OpenAI encountering incidents, risks, or scrutiny related to user safety, harm, or the well-being of vulnerable groups?",
+          "gate_keywords": [
+            "scene",
+            "involve",
+            "OpenAI",
+            "encountering",
+            "incidents",
+            "risks",
+            "scrutiny",
+            "related",
+            "user",
+            "safety",
+            "harm",
+            "well-being",
+            "vulnerable",
+            "groups"
+          ],
+          "statements": [
+            {
+              "text": "OpenAI frequently introduces or updates safety mechanisms, content moderation, or user protections in response to incidents or concerns about user harm.",
+              "keywords": [
+                "OpenAI",
+                "introduces",
+                "updates",
+                "safety",
+                "mechanisms",
+                "content",
+                "moderation",
+                "user",
+                "protections",
+                "response",
+                "incidents",
+                "concerns",
+                "user",
+                "harm"
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "Privacy & Data Security",
+          "node_id": "4-4",
+          "gate": "Does the scene describe OpenAI facing heightened scrutiny or requirements regarding privacy, data security, or responsible AI use?",
+          "gate_keywords": [
+            "scene",
+            "describe",
+            "OpenAI",
+            "facing",
+            "heightened",
+            "scrutiny",
+            "requirements",
+            "privacy",
+            "data",
+            "security",
+            "responsible",
+            "AI",
+            "use"
+          ],
+          "statements": [
+            {
+              "text": "OpenAI tends to implement new safeguards, compliance measures, or operational changes when confronted with privacy, security, or responsible use concerns.",
+              "keywords": [
+                "OpenAI",
+                "implement",
+                "safeguards",
+                "compliance",
+                "measures",
+                "operational",
+                "changes",
+                "confronted",
+                "privacy",
+                "security",
+                "responsible",
+                "use",
+                "concerns"
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "Legal Disputes",
+          "node_id": "4-5",
+          "gate": "Does the scene involve OpenAI being subject to legal disputes, acquisition offers, or challenges to its organizational autonomy or governance?",
+          "gate_keywords": [
+            "scene",
+            "involve",
+            "OpenAI",
+            "subject",
+            "legal",
+            "disputes",
+            "acquisition",
+            "offers",
+            "challenges",
+            "organizational",
+            "autonomy",
+            "governance"
+          ],
+          "statements": [
+            {
+              "text": "OpenAI often takes legal, procedural, or structural actions to defend its autonomy, mission alignment, or control in response to external threats or disputes.",
+              "keywords": [
+                "OpenAI",
+                "takes",
+                "legal",
+                "procedural",
+                "structural",
+                "actions",
+                "defend",
+                "autonomy",
+                "mission",
+                "alignment",
+                "control",
+                "response",
+                "external",
+                "threats",
+                "disputes"
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "Resource Constraints",
+          "node_id": "4-6",
+          "gate": "Does the scene indicate OpenAI experiencing resource constraints, time pressure, or external urgency affecting its safety, evaluation, or reporting processes?",
+          "gate_keywords": [
+            "scene",
+            "indicate",
+            "OpenAI",
+            "experiencing",
+            "resource",
+            "constraints",
+            "time",
+            "pressure",
+            "external",
+            "urgency",
+            "affecting",
+            "safety",
+            "evaluation",
+            "reporting",
+            "processes"
+          ],
+          "statements": [
+            {
+              "text": "OpenAI may adjust the timing, extent, or nature of its safety and evaluation practices in response to resource limitations or external pressures.",
+              "keywords": [
+                "OpenAI",
+                "adjust",
+                "timing",
+                "extent",
+                "nature",
+                "safety",
+                "evaluation",
+                "practices",
+                "response",
+                "resource",
+                "limitations",
+                "external",
+                "pressures"
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "Transparency & Openness",
+          "node_id": "4-7",
+          "gate": "Does the scene involve OpenAI responding to calls for increased transparency, openness, or alignment with industry norms regarding open-source or accessible AI?",
+          "gate_keywords": [
+            "scene",
+            "involve",
+            "OpenAI",
+            "responding",
+            "calls",
+            "increased",
+            "transparency",
+            "openness",
+            "alignment",
+            "industry",
+            "norms",
+            "open-source",
+            "accessible",
+            "AI"
+          ],
+          "statements": [
+            {
+              "text": "OpenAI sometimes modifies its transparency or openness practices, such as releasing open-weight models or sharing more about model reasoning, in response to external expectations or industry trends.",
+              "keywords": [
+                "OpenAI",
+                "sometimes",
+                "modifies",
+                "transparency",
+                "openness",
+                "practices",
+                "releasing",
+                "open-weight",
+                "models",
+                "sharing",
+                "more",
+                "model",
+                "reasoning",
+                "response",
+                "external",
+                "expectations",
+                "industry",
+                "trends"
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "Stakeholder Engagement",
+          "node_id": "4-8",
+          "gate": "Does the scene show OpenAI engaging with influential stakeholders, such as regulators, policymakers, major partners, or investors, in ways that could affect its strategy or operations?",
+          "gate_keywords": [
+            "scene",
+            "show",
+            "OpenAI",
+            "engaging",
+            "influential",
+            "stakeholders",
+            "regulators",
+            "policymakers",
+            "major",
+            "partners",
+            "investors",
+            "ways",
+            "affect",
+            "strategy",
+            "operations"
+          ],
+          "statements": [
+            {
+              "text": "OpenAI tends to implement or clarify compliance, transparency, or data handling measures when facing legal, regulatory, or jurisdictional scrutiny.",
+              "keywords": [
+                "OpenAI",
+                "implement",
+                "clarify",
+                "compliance",
+                "transparency",
+                "data",
+                "handling",
+                "measures",
+                "facing",
+                "legal",
+                "regulatory",
+                "jurisdictional",
+                "scrutiny"
+              ]
+            },
+            {
+              "text": "OpenAI frequently revisits and modifies its governance structure or organizational controls to address emerging challenges or preserve its independence.",
+              "keywords": [
+                "OpenAI",
+                "revisits",
+                "modifies",
+                "governance",
+                "structure",
+                "organizational",
+                "controls",
+                "address",
+                "emerging",
+                "challenges",
+                "preserve",
+                "independence"
+              ]
+            },
+            {
+              "text": "OpenAI tends to renegotiate or redefine its relationships and implement mechanisms to maintain control or influence during periods of transition or external pressure.",
+              "keywords": [
+                "OpenAI",
+                "renegotiate",
+                "redefine",
+                "relationships",
+                "implement",
+                "mechanisms",
+                "maintain",
+                "control",
+                "influence",
+                "periods",
+                "transition",
+                "external",
+                "pressure"
+              ]
+            },
+            {
+              "text": "OpenAI sometimes implements new control mechanisms or safeguards to maintain or reinforce operational autonomy during periods of organizational change.",
+              "keywords": [
+                "OpenAI",
+                "sometimes",
+                "implements",
+                "control",
+                "mechanisms",
+                "safeguards",
+                "maintain",
+                "reinforce",
+                "operational",
+                "autonomy",
+                "periods",
+                "organizational",
+                "change"
+              ]
+            }
+          ],
+          "children": [
+            {
+              "name": "Vulnerable User Safety",
+              "node_id": "4-8-1",
+              "gate": "Does the scene involve OpenAI's next action being triggered by incidents or concerns related to user safety, especially for vulnerable groups such as minors?",
+              "gate_keywords": [
+                "scene",
+                "involve",
+                "OpenAI's",
+                "action",
+                "triggered",
+                "incidents",
+                "concerns",
+                "related",
+                "user",
+                "safety",
+                "especially",
+                "vulnerable",
+                "groups",
+                "minors"
+              ],
+              "statements": [
+                {
+                  "text": "OpenAI frequently introduces or updates user protection mechanisms or safeguards in response to concerns about the safety or well-being of vulnerable users.",
+                  "keywords": [
+                    "OpenAI",
+                    "introduces",
+                    "updates",
+                    "user",
+                    "protection",
+                    "mechanisms",
+                    "safeguards",
+                    "response",
+                    "concerns",
+                    "safety",
+                    "well-being",
+                    "vulnerable",
+                    "users"
+                  ]
+                }
+              ],
+              "children": []
+            },
+            {
+              "name": "Competitive Pressure",
+              "node_id": "4-8-2",
+              "gate": "Does the scene involve OpenAI's next action being shaped by increased competition or external pressure from other technology providers?",
+              "gate_keywords": [
+                "scene",
+                "involve",
+                "OpenAI's",
+                "action",
+                "shaped",
+                "increased",
+                "competition",
+                "external",
+                "pressure",
+                "technology",
+                "providers"
+              ],
+              "statements": [
+                {
+                  "text": "OpenAI sometimes increases the transparency, openness, or accessibility of its technology or policies in response to competitive or reputational pressures.",
+                  "keywords": [
+                    "OpenAI",
+                    "sometimes",
+                    "increases",
+                    "transparency",
+                    "openness",
+                    "accessibility",
+                    "technology",
+                    "policies",
+                    "response",
+                    "competitive",
+                    "reputational",
+                    "pressures"
+                  ]
+                }
+              ],
+              "children": []
+            },
+            {
+              "name": "Market Expansion",
+              "node_id": "4-8-3",
+              "gate": "Does the scene involve OpenAI's next action being motivated by opportunities to expand its user base, enter new markets, or respond to stakeholder expectations?",
+              "gate_keywords": [
+                "scene",
+                "involve",
+                "OpenAI's",
+                "action",
+                "motivated",
+                "opportunities",
+                "expand",
+                "user",
+                "base",
+                "enter",
+                "markets",
+                "respond",
+                "stakeholder",
+                "expectations"
+              ],
+              "statements": [
+                {
+                  "text": "OpenAI may adjust its product accessibility, pricing, or offerings to appeal to new or strategically important user groups or partners.",
+                  "keywords": [
+                    "OpenAI",
+                    "adjust",
+                    "product",
+                    "accessibility",
+                    "pricing",
+                    "offerings",
+                    "appeal",
+                    "strategically",
+                    "important",
+                    "user",
+                    "groups",
+                    "partners"
+                  ]
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Security & Misuse",
+          "node_id": "4-9",
+          "gate": "Does the scene involve OpenAI encountering new or intensified risks related to misuse, security breaches, or information leaks?",
+          "gate_keywords": [
+            "scene",
+            "involve",
+            "OpenAI",
+            "encountering",
+            "intensified",
+            "risks",
+            "related",
+            "misuse",
+            "security",
+            "breaches",
+            "information",
+            "leaks"
+          ],
+          "statements": [
+            {
+              "text": "OpenAI tends to update its internal processes, oversight, or security protocols when facing heightened risks of misuse, leaks, or competitive threats.",
+              "keywords": [
+                "OpenAI",
+                "update",
+                "internal",
+                "processes",
+                "oversight",
+                "security",
+                "protocols",
+                "facing",
+                "heightened",
+                "risks",
+                "misuse",
+                "leaks",
+                "competitive",
+                "threats"
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "Distribution Expansion",
+          "node_id": "4-10",
+          "gate": "Does the scene describe OpenAI seeking to expand its reach or accessibility through new platforms, partnerships, or distribution channels?",
+          "gate_keywords": [
+            "scene",
+            "describe",
+            "OpenAI",
+            "seeking",
+            "expand",
+            "reach",
+            "accessibility",
+            "platforms",
+            "partnerships",
+            "distribution",
+            "channels"
+          ],
+          "statements": [
+            {
+              "text": "OpenAI may broaden its technology's availability or integration by pursuing new partnerships or distribution strategies.",
+              "keywords": [
+                "OpenAI",
+                "broaden",
+                "technology's",
+                "availability",
+                "integration",
+                "pursuing",
+                "partnerships",
+                "distribution",
+                "strategies"
+              ]
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "User Feedback",
+      "node_id": "5",
+      "gate": "Does the scene involve OpenAI facing criticism, negative feedback, or evidence of unmet user needs regarding its products or user experience?",
+      "gate_keywords": [
+        "scene",
+        "involve",
+        "OpenAI",
+        "facing",
+        "criticism",
+        "negative",
+        "feedback",
+        "evidence",
+        "unmet",
+        "user",
+        "needs",
+        "products",
+        "user",
+        "experience"
+      ],
+      "statements": [
+        {
+          "text": "OpenAI appears to modify its products, features, or moderation policies in response to user feedback, criticism, or identified shortcomings.",
+          "keywords": [
+            "OpenAI",
+            "modify",
+            "products",
+            "features",
+            "moderation",
+            "policies",
+            "response",
+            "user",
+            "feedback",
+            "criticism",
+            "identified",
+            "shortcomings"
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "name": "Growth & Investment",
+      "node_id": "6",
+      "gate": "Does the scene involve OpenAI pursuing significant growth, expansion, or investment opportunities?",
+      "gate_keywords": [
+        "scene",
+        "involve",
+        "OpenAI",
+        "pursuing",
+        "significant",
+        "growth",
+        "expansion",
+        "investment",
+        "opportunities"
+      ],
+      "statements": [
+        {
+          "text": "OpenAI regularly seeks large-scale investments, funding, or resource commitments to support anticipated growth and technological advancement.",
+          "keywords": [
+            "OpenAI",
+            "regularly",
+            "seeks",
+            "large-scale",
+            "investments",
+            "funding",
+            "resource",
+            "commitments",
+            "support",
+            "anticipated",
+            "growth",
+            "technological",
+            "advancement"
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "name": "Regional Compliance",
+      "node_id": "7",
+      "gate": "Does the scene indicate that OpenAI is engaging with new regulatory environments or compliance requirements in different regions?",
+      "gate_keywords": [
+        "scene",
+        "indicate",
+        "OpenAI",
+        "engaging",
+        "regulatory",
+        "environments",
+        "compliance",
+        "requirements",
+        "different",
+        "regions"
+      ],
+      "statements": [
+        {
+          "text": "OpenAI tends to adapt its offerings and infrastructure to comply with local regulations and data sovereignty laws.",
+          "keywords": [
+            "OpenAI",
+            "adapt",
+            "offerings",
+            "infrastructure",
+            "comply",
+            "local",
+            "regulations",
+            "data",
+            "sovereignty",
+            "laws"
+          ]
+        }
+      ],
+      "children": []
+    }
+  ]
+}

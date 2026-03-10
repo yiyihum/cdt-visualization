@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CDT + Adapter Visualization</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; margin: 0; overflow: hidden; }
+  .main-svg { width: 100vw; height: 100vh; }
+  .node { cursor: pointer; }
+  .node text { font-size: 12px; }
+  .link { fill: none; stroke: #ccc; stroke-width: 1.5px; }
+
+  #tooltip {
+    position: absolute; padding: 10px 14px; background: #fff; border: 1px solid #ddd;
+    border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.15); max-width: 520px;
+    font-size: 13px; line-height: 1.5; pointer-events: none; display: none; z-index: 10;
+  }
+  #tooltip .gate { color: #e67e22; font-weight: 600; margin-bottom: 6px; }
+  #tooltip .stmt { color: #2c3e50; margin: 2px 0; padding-left: 12px; text-indent: -12px; }
+  #tooltip .stmt::before { content: "\2022 "; color: #3498db; }
+  #tooltip .count { color: #7f8c8d; font-size: 11px; margin-top: 4px; }
+  #tooltip .adapter-section { margin-top: 8px; padding-top: 8px; border-top: 1px solid #eee; }
+  #tooltip .adapter-action { font-weight: 600; margin-bottom: 4px; }
+  #tooltip .adapter-action.modify { color: #e67e22; }
+  #tooltip .adapter-action.delete { color: #e74c3c; }
+  #tooltip .adapter-action.add { color: #27ae60; }
+  #tooltip .old-stmt { color: #999; text-decoration: line-through; margin: 2px 0 2px 12px; font-size: 12px; }
+  #tooltip .new-stmt { color: #2c3e50; margin: 2px 0 2px 12px; font-size: 12px; }
+  #tooltip .coverage { color: #7f8c8d; font-size: 11px; margin-left: 12px; }
+  #tooltip b { color: inherit; font-weight: 700; }
+
+  #controls {
+    position: absolute; top: 12px; left: 12px; z-index: 5;
+    background: rgba(255,255,255,0.95); border: 1px solid #ddd;
+    border-radius: 8px; padding: 12px 16px; box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  }
+  #controls .title { font-size: 16px; font-weight: 700; color: #333; margin-bottom: 10px; }
+  #controls .phase-btn {
+    display: block; width: 100%; text-align: left;
+    padding: 8px 12px; margin: 4px 0; border: 1px solid #ddd; border-radius: 5px;
+    background: #fff; cursor: pointer; font-size: 14px; color: #444;
+    transition: all 0.15s;
+  }
+  #controls .phase-btn:hover { background: #f5f5f5; }
+  #controls .phase-btn.active { background: #3498db; color: #fff; border-color: #2980b9; }
+  #controls .phase-date { font-size: 12px; color: #888; margin-top: 3px; }
+  #controls .phase-btn.active .phase-date { color: rgba(255,255,255,0.7); }
+  #controls .phase-stats { font-size: 11px; color: #888; margin-top: 2px; }
+  #controls .phase-btn.active .phase-stats { color: rgba(255,255,255,0.7); }
+
+  #legend {
+    position: absolute; bottom: 12px; left: 12px; font-size: 12px; color: #666;
+    background: rgba(255,255,255,0.85); padding: 6px 10px; border-radius: 4px;
+  }
+  #legend span { display: inline-block; width: 12px; height: 12px; border-radius: 50%; margin-right: 4px; vertical-align: middle; }
+
+  #loading {
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);
+    font-size: 16px; color: #888;
+  }
+</style>
+</head>
+<body>
+<div id="loading">Loading data...</div>
+<div id="controls" style="display:none"></div>
+<div id="legend" style="display:none">
+  <span style="background:#3498db;border:2px solid #2980b9"></span> Unchanged &nbsp;
+  <span style="background:#e67e22;border:2px solid #d35400"></span> Modified &nbsp;
+  <span style="background:#e74c3c;border:2px solid #c0392b"></span> Deleted &nbsp;
+  <span style="background:#27ae60;border:2px solid #1e8449"></span> Added &nbsp;
+  | Click node to expand, hover for details
+</div>
+<div id="tooltip"></div>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script>
+
+// =========== Data Loading ===========
+Promise.all([
+  fetch('data/cdt_with_keywords.json').then(r => r.json()),
+  fetch('data/adapter_phases.json').then(r => r.json()),
+]).then(([treeData, adapterPhases]) => {
+  document.getElementById('loading').remove();
+  document.getElementById('controls').style.display = '';
+  document.getElementById('legend').style.display = '';
+  init(treeData, adapterPhases);
+}).catch(err => {
+  document.getElementById('loading').textContent = 'Failed to load data: ' + err.message;
+});
+
+// =========== Keyword Highlighting ===========
+function hl(text, keywords) {
+  if (!keywords || keywords.length === 0) return text;
+  // Sort by length descending so longer phrases match first
+  const sorted = [...keywords].sort((a, b) => b.length - a.length);
+  const escaped = sorted.map(k => k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+  const re = new RegExp('\\b(' + escaped.join('|') + ')\\b', 'gi');
+  return text.replace(re, '<b>$1</b>');
+}
+
+// =========== Main Visualization ===========
+function init(treeData, adapterPhases) {
+
+const ACTION_COLORS = {
+  modify: "#e67e22",
+  delete: "#e74c3c",
+  add:    "#27ae60",
+};
+const DEFAULT_COLOR = "#3498db";
+const EMPTY_COLOR = "#e8e8e8";
+
+// =========== State ===========
+let activePhaseIdx = -1;
+let activeActions = {};
+
+// =========== Controls ===========
+const controls = d3.select("#controls");
+controls.append("div").attr("class", "title").text("Adapter Phases");
+
+controls.append("button")
+  .attr("class", "phase-btn active")
+  .attr("data-idx", -1)
+  .html("Base CDT <div class='phase-date'>Original tree</div>")
+  .on("click", function() { selectPhase(-1); });
+
+adapterPhases.forEach((phase, i) => {
+  const modCount = phase.actions.filter(a => a.action === "modify").length;
+  const addCount = phase.actions.filter(a => a.action === "add").length;
+  const delCount = phase.actions.filter(a => a.action === "delete").length;
+  controls.append("button")
+    .attr("class", "phase-btn")
+    .attr("data-idx", i)
+    .html(`Phase ${i}: ${phase.phase_name}
+      <div class="phase-date">${phase.date_range}</div>
+      <div class="phase-stats">${modCount} modify, ${addCount} add, ${delCount} delete</div>`)
+    .on("click", function() { selectPhase(i); });
+});
+
+function selectPhase(idx) {
+  activePhaseIdx = idx;
+  controls.selectAll(".phase-btn").classed("active", function() {
+    return +this.getAttribute("data-idx") === idx;
+  });
+
+  activeActions = {};
+  if (idx >= 0 && idx < adapterPhases.length) {
+    adapterPhases[idx].actions.forEach(a => {
+      if (!activeActions[a.node_id]) activeActions[a.node_id] = [];
+      activeActions[a.node_id].push(a);
+    });
+  }
+
+  renderPies();
+}
+
+// =========== Pie helpers ===========
+function getNodeActionTypes(d) {
+  const actions = activeActions[d.data.node_id];
+  if (!actions) return [];
+  const unique = [...new Set(actions.map(a => a.action))];
+  const order = ["delete", "modify", "add"];
+  return order.filter(t => unique.includes(t));
+}
+
+function nodeRadius(d) {
+  return 4 + Math.min(d.data.statements.length, 6) * 1.5;
+}
+
+function defaultColor(d) {
+  return d.data.statements.length > 0 ? DEFAULT_COLOR : EMPTY_COLOR;
+}
+
+const arcGen = d3.arc();
+
+function pieSlices(types, r) {
+  if (types.length === 0) return [];
+  const angleEach = (2 * Math.PI) / types.length;
+  return types.map((t, i) => ({
+    type: t,
+    color: ACTION_COLORS[t],
+    path: arcGen({
+      innerRadius: 0, outerRadius: r,
+      startAngle: i * angleEach,
+      endAngle: (i + 1) * angleEach,
+    }),
+  }));
+}
+
+function renderPies() {
+  g.selectAll("g.node").each(function(d) {
+    const el = d3.select(this);
+    const r = nodeRadius(d);
+    const types = getNodeActionTypes(d);
+
+    el.selectAll(".pie-slice").remove();
+    el.select("circle").remove();
+
+    if (types.length <= 1) {
+      const color = types.length === 1 ? ACTION_COLORS[types[0]] : defaultColor(d);
+      el.insert("circle", "text")
+        .attr("r", r)
+        .style("fill", color)
+        .style("stroke", d3.color(color).darker(0.3))
+        .style("stroke-width", 2);
+    } else {
+      const slices = pieSlices(types, r);
+      slices.forEach(s => {
+        el.insert("path", "text")
+          .attr("class", "pie-slice")
+          .attr("d", s.path)
+          .style("fill", s.color)
+          .style("stroke", "#fff")
+          .style("stroke-width", 1);
+      });
+      el.insert("circle", "text")
+        .attr("r", r)
+        .style("fill", "none")
+        .style("stroke", "#666")
+        .style("stroke-width", 1.5);
+    }
+  });
+}
+
+// =========== Main Tree ===========
+const margin = {top: 40, right: 120, bottom: 40, left: 160};
+const width = window.innerWidth - margin.left - margin.right;
+const height = window.innerHeight - margin.top - margin.bottom;
+
+const svg = d3.select("body").append("svg")
+  .attr("class", "main-svg")
+  .attr("width", width + margin.left + margin.right)
+  .attr("height", height + margin.top + margin.bottom);
+
+const g = svg.append("g")
+  .attr("transform", `translate(${margin.left},${margin.top})`);
+
+const zoomBehavior = d3.zoom().scaleExtent([0.2, 3]).on("zoom", (e) => {
+  g.attr("transform", e.transform);
+});
+svg.call(zoomBehavior);
+
+const tree = d3.tree().nodeSize([28, 280]);
+const root = d3.hierarchy(treeData);
+root.x0 = height / 2;
+root.y0 = 0;
+
+const tooltip = d3.select("#tooltip");
+let nodeIdCounter = 0;
+
+update(root);
+
+function update(source) {
+  const treeLayout = tree(root);
+  const nodes = treeLayout.descendants();
+  const links = treeLayout.links();
+
+  nodes.forEach(d => d.y = d.depth * 280);
+
+  const node = g.selectAll("g.node").data(nodes, d => d.id || (d.id = ++nodeIdCounter));
+
+  const nodeEnter = node.enter().append("g")
+    .attr("class", "node")
+    .attr("transform", d => `translate(${source.y0},${source.x0})`)
+    .on("click", (e, d) => { toggle(d); update(d); })
+    .on("mouseover", (e, d) => showTooltip(e, d))
+    .on("mouseout", () => tooltip.style("display", "none"));
+
+  nodeEnter.append("circle")
+    .attr("r", d => nodeRadius(d))
+    .style("fill", d => defaultColor(d))
+    .style("stroke", d => d3.color(defaultColor(d)).darker(0.3))
+    .style("stroke-width", 2);
+
+  nodeEnter.append("text")
+    .attr("dy", "0.35em")
+    .text(d => d.data.name)
+    .style("fill", "#333");
+
+  const nodeUpdate = nodeEnter.merge(node);
+  nodeUpdate.transition().duration(400)
+    .attr("transform", d => `translate(${d.y},${d.x})`);
+
+  nodeUpdate.select("text")
+    .attr("x", d => (d.children || d._children) ? -12 : 12)
+    .attr("text-anchor", d => (d.children || d._children) ? "end" : "start");
+
+  const nodeExit = node.exit().transition().duration(400)
+    .attr("transform", d => `translate(${source.y},${source.x})`)
+    .remove();
+  nodeExit.select("circle").attr("r", 1e-6);
+
+  const link = g.selectAll("path.link").data(links, d => d.target.id);
+
+  link.enter().insert("path", "g")
+    .attr("class", "link")
+    .attr("d", d => { const o = {x: source.x0, y: source.y0}; return diagonal(o, o); })
+    .merge(link)
+    .transition().duration(400)
+    .attr("d", d => diagonal(d.source, d.target));
+
+  link.exit().transition().duration(400)
+    .attr("d", d => { const o = {x: source.x, y: source.y}; return diagonal(o, o); })
+    .remove();
+
+  nodes.forEach(d => { d.x0 = d.x; d.y0 = d.y; });
+
+  renderPies();
+}
+
+function diagonal(s, d) {
+  return `M ${s.y} ${s.x} C ${(s.y + d.y) / 2} ${s.x}, ${(s.y + d.y) / 2} ${d.x}, ${d.y} ${d.x}`;
+}
+
+function toggle(d) {
+  if (d.children) { d._children = d.children; d.children = null; }
+  else { d.children = d._children; d._children = null; }
+}
+
+function showTooltip(event, d) {
+  let html = '';
+  if (d.data.gate) {
+    html += `<div class="gate">Gate: ${hl(d.data.gate, d.data.gate_keywords)}</div>`;
+  }
+  html += `<div style="color:#aaa;font-size:11px;margin-bottom:4px">Node: ${d.data.node_id}</div>`;
+
+  if (d.data.statements.length > 0) {
+    d.data.statements.forEach(s => {
+      html += `<div class="stmt">${hl(s.text, s.keywords)}</div>`;
+    });
+  } else {
+    html += `<div class="stmt" style="color:#999">No statements (pure router)</div>`;
+  }
+  const nChildren = (d.children || d._children || []).length;
+  if (nChildren > 0) html += `<div class="count">${nChildren} sub-branches</div>`;
+
+  // Adapter actions
+  const actions = activeActions[d.data.node_id];
+  if (actions && actions.length > 0) {
+    html += '<div class="adapter-section">';
+    actions.forEach(a => {
+      html += `<div class="adapter-action ${a.action}">${a.action.toUpperCase()}</div>`;
+      if (a.action === "delete") {
+        html += `<div class="old-stmt">${hl(a.old_statement, a.old_keywords)}</div>`;
+      } else if (a.action === "modify") {
+        html += `<div class="old-stmt">${hl(a.old_statement, a.old_keywords)}</div>`;
+        html += `<div class="new-stmt">&rarr; ${hl(a.new_statement, a.new_keywords)}</div>`;
+        if (a.old_coverage != null && a.new_coverage != null) {
+          html += `<div class="coverage">Coverage: ${(a.old_coverage*100).toFixed(0)}% &rarr; ${(a.new_coverage*100).toFixed(0)}%</div>`;
+        }
+      } else if (a.action === "add") {
+        html += `<div class="new-stmt">+ ${hl(a.new_statement, a.new_keywords)}</div>`;
+        if (a.new_coverage != null) {
+          html += `<div class="coverage">Coverage: ${(a.new_coverage*100).toFixed(0)}%` +
+                  (a.n_events ? ` (${a.n_events} events)` : '') + `</div>`;
+        }
+      }
+    });
+    html += '</div>';
+  }
+
+  tooltip.html(html).style("display", "block")
+    .style("left", (event.pageX + 15) + "px")
+    .style("top", (event.pageY - 10) + "px");
+}
+
+} // end init()
+</script>
+</body>
+</html>
