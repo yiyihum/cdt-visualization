@@ -196,7 +196,8 @@ adapterPhases.forEach((phase, i) => {
     .attr("data-idx", i)
     .html(`Phase ${i}
       <div class="phase-date">${phase.phase_name}</div>
-      <div class="phase-stats">${phase.date_range} | ${modCount}m ${addCount}a ${delCount}d</div>`)
+      <div class="phase-stats">${phase.date_range}</div>
+      <div class="phase-stats">${modCount} modify, ${addCount} add, ${delCount} delete</div>`)
     .on("click", function() { clearCase(); selectPhase(i); });
 });
 
