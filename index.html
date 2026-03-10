@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <title>CDT + Adapter Visualization</title>
 <style>
-  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; margin: 0; overflow: hidden; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; margin: 0; overflow: hidden; background: linear-gradient(135deg, #f5f7fa 0%, #e4e9f2 50%, #dce2ee 100%); }
   .main-svg { width: 100vw; height: 100vh; }
   .node { cursor: pointer; }
   .node text { font-size: 12px; }
-  .link { fill: none; stroke: #ccc; stroke-width: 1.5px; }
+  .link { fill: none; stroke: #b0bec5; stroke-width: 2.5px; }
 
   #tooltip {
     position: absolute; padding: 10px 14px; background: #fff; border: 1px solid #ddd;
@@ -456,7 +456,7 @@ const zoomBehavior = d3.zoom().scaleExtent([0.2, 3]).on("zoom", (e) => {
 });
 svg.call(zoomBehavior);
 
-const tree = d3.tree().nodeSize([28, 280]);
+const tree = d3.tree().nodeSize([40, 280]);
 const root = d3.hierarchy(treeData);
 root.x0 = height / 2;
 root.y0 = 0;
@@ -465,6 +465,11 @@ const tooltip = d3.select("#tooltip");
 let nodeIdCounter = 0;
 
 update(root);
+
+// Center the tree initially
+const initX = width / 2;
+const initY = height / 2;
+svg.call(zoomBehavior.transform, d3.zoomIdentity.translate(initX, initY).scale(0.8));
 
 function update(source) {
   const treeLayout = tree(root);
