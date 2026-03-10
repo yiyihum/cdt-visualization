@@ -12,7 +12,6 @@
         "old_coverage": 0.36,
         "new_coverage": 0.86,
         "old_keywords": [
-          "OpenAI",
           "seeks",
           "expand",
           "diversify",
@@ -26,7 +25,6 @@
           "operation"
         ],
         "new_keywords": [
-          "OpenAI",
           "pursues",
           "wide",
           "range",
@@ -66,7 +64,6 @@
         "new_coverage": 1.0,
         "n_events": 13,
         "new_keywords": [
-          "OpenAI",
           "pursues",
           "strategic",
           "collaborations",
@@ -88,7 +85,6 @@
         "new_coverage": 1.0,
         "n_events": 2,
         "new_keywords": [
-          "OpenAI",
           "pursues",
           "innovation",
           "collaborating",
@@ -105,7 +101,6 @@
         "action": "delete",
         "old_statement": "OpenAI frequently leverages strategic agreements, exclusive terms, or tailored programs to facilitate adoption and strengthen relationships with key institutional clients.",
         "old_keywords": [
-          "OpenAI",
           "leverages",
           "strategic",
           "agreements",
@@ -129,7 +124,6 @@
         "new_coverage": 1.0,
         "n_events": 1,
         "new_keywords": [
-          "OpenAI",
           "establishes",
           "local",
           "offices",
@@ -150,7 +144,6 @@
         "new_coverage": 1.0,
         "n_events": 10,
         "new_keywords": [
-          "OpenAI",
           "pursues",
           "strategic",
           "expansion",
@@ -172,7 +165,6 @@
         "new_coverage": 0.667,
         "n_events": 10,
         "new_keywords": [
-          "OpenAI",
           "takes",
           "assertive",
           "actions",
@@ -199,7 +191,6 @@
         "new_coverage": 0.875,
         "n_events": 14,
         "new_keywords": [
-          "OpenAI",
           "adapts",
           "policies",
           "product",
@@ -224,7 +215,6 @@
         "new_coverage": 1.0,
         "n_events": 16,
         "new_keywords": [
-          "OpenAI",
           "adapts",
           "policies",
           "product",
@@ -249,7 +239,6 @@
         "old_coverage": 0.286,
         "new_coverage": 1.0,
         "old_keywords": [
-          "OpenAI",
           "implement",
           "clarify",
           "compliance",
@@ -264,7 +253,6 @@
           "scrutiny"
         ],
         "new_keywords": [
-          "OpenAI",
           "adapts",
           "organizational",
           "strategies",
@@ -290,7 +278,6 @@
         "old_coverage": 0.429,
         "new_coverage": 1.0,
         "old_keywords": [
-          "OpenAI",
           "revisits",
           "modifies",
           "governance",
@@ -304,7 +291,6 @@
           "independence"
         ],
         "new_keywords": [
-          "OpenAI",
           "adapts",
           "organizational",
           "structure",
@@ -329,7 +315,6 @@
         "old_coverage": 0.429,
         "new_coverage": 1.0,
         "old_keywords": [
-          "OpenAI",
           "sometimes",
           "implements",
           "control",
@@ -344,7 +329,6 @@
           "change"
         ],
         "new_keywords": [
-          "OpenAI",
           "adapts",
           "organizational",
           "structures",
@@ -377,7 +361,6 @@
         "new_coverage": 1.0,
         "n_events": 2,
         "new_keywords": [
-          "OpenAI",
           "adapts",
           "strategies",
           "offerings",
@@ -394,7 +377,6 @@
         "action": "delete",
         "old_statement": "OpenAI may adjust its product accessibility, pricing, or offerings to appeal to new or strategically important user groups or partners.",
         "old_keywords": [
-          "OpenAI",
           "adjust",
           "product",
           "accessibility",
@@ -415,7 +397,6 @@
         "new_coverage": 1.0,
         "n_events": 1,
         "new_keywords": [
-          "OpenAI",
           "adapts",
           "services",
           "comply",
@@ -433,7 +414,6 @@
         "action": "delete",
         "old_statement": "OpenAI tends to update its internal processes, oversight, or security protocols when facing heightened risks of misuse, leaks, or competitive threats.",
         "old_keywords": [
-          "OpenAI",
           "update",
           "internal",
           "processes",
@@ -456,7 +436,6 @@
         "new_coverage": 1.0,
         "n_events": 1,
         "new_keywords": [
-          "OpenAI",
           "proactively",
           "engages",
           "government",
@@ -478,7 +457,6 @@
         "old_coverage": 0.407,
         "new_coverage": 0.963,
         "old_keywords": [
-          "OpenAI",
           "regularly",
           "seeks",
           "large-scale",
@@ -493,7 +471,6 @@
           "advancement"
         ],
         "new_keywords": [
-          "OpenAI",
           "pursues",
           "large-scale",
           "strategic",
@@ -528,7 +505,6 @@
         "new_coverage": 1.0,
         "n_events": 27,
         "new_keywords": [
-          "OpenAI",
           "adapts",
           "strategies",
           "products",
@@ -560,7 +536,6 @@
         "old_coverage": 0.273,
         "new_coverage": 0.864,
         "old_keywords": [
-          "OpenAI",
           "seeks",
           "expand",
           "diversify",
@@ -574,7 +549,6 @@
           "operation"
         ],
         "new_keywords": [
-          "OpenAI",
           "pursues",
           "organizational",
           "growth",
@@ -614,7 +588,6 @@
         "new_coverage": 1.0,
         "n_events": 32,
         "new_keywords": [
-          "OpenAI",
           "proactively",
           "engages",
           "external",
@@ -639,7 +612,6 @@
         "action": "delete",
         "old_statement": "OpenAI often explores and expands integrations with third-party services to enhance its platform's versatility.",
         "old_keywords": [
-          "OpenAI",
           "explores",
           "expands",
           "integrations",
@@ -657,7 +629,6 @@
         "new_coverage": 1.0,
         "n_events": 1,
         "new_keywords": [
-          "OpenAI",
           "accelerates",
           "product",
           "evaluation",
@@ -682,7 +653,6 @@
         "old_coverage": 0.2,
         "new_coverage": 0.9,
         "old_keywords": [
-          "OpenAI",
           "secures",
           "long-term",
           "access",
@@ -696,7 +666,6 @@
           "partnerships"
         ],
         "new_keywords": [
-          "OpenAI",
           "pursues",
           "strategic",
           "collaborations",
@@ -721,7 +690,6 @@
         "new_coverage": 1.0,
         "n_events": 10,
         "new_keywords": [
-          "OpenAI",
           "accelerates",
           "strategic",
           "initiatives",
@@ -739,7 +707,6 @@
         "action": "delete",
         "old_statement": "OpenAI often accelerates decision-making or operational timelines in response to urgent competitive or reputational challenges.",
         "old_keywords": [
-          "OpenAI",
           "accelerates",
           "decision-making",
           "operational",
@@ -756,7 +723,6 @@
         "action": "delete",
         "old_statement": "OpenAI often launches new initiatives, hires, or partnerships to address emerging opportunities or challenges in the AI ecosystem.",
         "old_keywords": [
-          "OpenAI",
           "launches",
           "initiatives",
           "hires",
@@ -774,7 +740,6 @@
         "action": "delete",
         "old_statement": "OpenAI often pursues large-scale funding rounds or strategic investments to support ambitious projects, operational expansion, or to address resource constraints.",
         "old_keywords": [
-          "OpenAI",
           "pursues",
           "large-scale",
           "funding",
@@ -798,7 +763,6 @@
         "new_coverage": 1.0,
         "n_events": 2,
         "new_keywords": [
-          "OpenAI",
           "makes",
           "strategic",
           "operational",
@@ -819,7 +783,6 @@
         "action": "delete",
         "old_statement": "OpenAI tends to diversify or adjust its strategic partnerships and alliances, often engaging multiple major industry players to mitigate risks and reduce reliance on any single entity.",
         "old_keywords": [
-          "OpenAI",
           "diversify",
           "adjust",
           "strategic",
@@ -845,7 +808,6 @@
         "new_coverage": 1.0,
         "n_events": 2,
         "new_keywords": [
-          "OpenAI",
           "accelerates",
           "product",
           "releases",
@@ -865,7 +827,6 @@
         "new_coverage": 1.0,
         "n_events": 1,
         "new_keywords": [
-          "OpenAI",
           "pursues",
           "strategic",
           "acquisitions",
@@ -887,7 +848,6 @@
         "new_coverage": 1.0,
         "n_events": 7,
         "new_keywords": [
-          "OpenAI",
           "accelerates",
           "product",
           "development",
@@ -912,7 +872,6 @@
         "new_coverage": 1.0,
         "n_events": 13,
         "new_keywords": [
-          "OpenAI",
           "adapts",
           "policies",
           "features",
@@ -946,7 +905,6 @@
         "new_coverage": 1.0,
         "n_events": 13,
         "new_keywords": [
-          "OpenAI",
           "adapts",
           "policies",
           "product",
@@ -974,7 +932,6 @@
         "old_coverage": 0.333,
         "new_coverage": 1.0,
         "old_keywords": [
-          "OpenAI",
           "implement",
           "clarify",
           "compliance",
@@ -989,7 +946,6 @@
           "scrutiny"
         ],
         "new_keywords": [
-          "OpenAI",
           "adapts",
           "organizational",
           "structure",
@@ -1012,7 +968,6 @@
         "new_coverage": 1.0,
         "n_events": 1,
         "new_keywords": [
-          "OpenAI",
           "preserves",
           "nonprofit",
           "oversight",
@@ -1031,7 +986,6 @@
         "new_coverage": 1.0,
         "n_events": 1,
         "new_keywords": [
-          "OpenAI",
           "maintains",
           "nonprofit",
           "oversight",
@@ -1048,7 +1002,6 @@
         "action": "delete",
         "old_statement": "OpenAI may broaden its technology's availability or integration by pursuing new partnerships or distribution strategies.",
         "old_keywords": [
-          "OpenAI",
           "broaden",
           "technology's",
           "availability",
@@ -1066,7 +1019,6 @@
         "new_coverage": 1.0,
         "n_events": 1,
         "new_keywords": [
-          "OpenAI",
           "strategically",
           "restructures",
           "partnerships",
@@ -1086,7 +1038,6 @@
         "new_coverage": 1.0,
         "n_events": 5,
         "new_keywords": [
-          "OpenAI",
           "increasingly",
           "relaxed",
           "safety",
@@ -1114,7 +1065,6 @@
         "old_coverage": 0.115,
         "new_coverage": 0.846,
         "old_keywords": [
-          "OpenAI",
           "regularly",
           "seeks",
           "large-scale",
@@ -1129,7 +1079,6 @@
           "advancement"
         ],
         "new_keywords": [
-          "OpenAI",
           "pursues",
           "strategic",
           "partnerships",
@@ -1160,7 +1109,6 @@
         "new_coverage": 0.957,
         "n_events": 25,
         "new_keywords": [
-          "OpenAI",
           "adapts",
           "strategies",
           "products",
@@ -1196,7 +1144,6 @@
         "old_coverage": 0.296,
         "new_coverage": 0.852,
         "old_keywords": [
-          "OpenAI",
           "seeks",
           "expand",
           "diversify",
@@ -1210,7 +1157,6 @@
           "operation"
         ],
         "new_keywords": [
-          "OpenAI",
           "pursues",
           "strategic",
           "actions",
@@ -1247,7 +1193,6 @@
         "new_coverage": 1.0,
         "n_events": 15,
         "new_keywords": [
-          "OpenAI",
           "manages",
           "legal",
           "financial",
@@ -1278,7 +1223,6 @@
         "action": "delete",
         "old_statement": "OpenAI tends to pilot new functionalities or integrations with select users or regions before expanding access more widely.",
         "old_keywords": [
-          "OpenAI",
           "pilot",
           "functionalities",
           "integrations",
@@ -1299,7 +1243,6 @@
         "old_coverage": 0.375,
         "new_coverage": 0.875,
         "old_keywords": [
-          "OpenAI",
           "explores",
           "diversification",
           "domains",
@@ -1313,7 +1256,6 @@
           "lines"
         ],
         "new_keywords": [
-          "OpenAI",
           "pursues",
           "large-scale",
           "partnerships",
@@ -1347,7 +1289,6 @@
         "new_coverage": 1.0,
         "n_events": 1,
         "new_keywords": [
-          "OpenAI",
           "seeks",
           "strategic",
           "partnerships",
@@ -1369,7 +1310,6 @@
         "new_coverage": 1.0,
         "n_events": 8,
         "new_keywords": [
-          "OpenAI",
           "forges",
           "large-scale",
           "strategic",
@@ -1398,7 +1338,6 @@
         "new_coverage": 1.0,
         "n_events": 2,
         "new_keywords": [
-          "OpenAI",
           "strategically",
           "expands",
           "capabilities",
@@ -1417,7 +1356,6 @@
         "action": "delete",
         "old_statement": "OpenAI frequently leverages strategic agreements, exclusive terms, or tailored programs to facilitate adoption and strengthen relationships with key institutional clients.",
         "old_keywords": [
-          "OpenAI",
           "leverages",
           "strategic",
           "agreements",
@@ -1441,7 +1379,6 @@
         "new_coverage": 1.0,
         "n_events": 1,
         "new_keywords": [
-          "OpenAI",
           "seeks",
           "expand",
           "global",
@@ -1463,7 +1400,6 @@
         "old_coverage": 0.462,
         "new_coverage": 0.923,
         "old_keywords": [
-          "OpenAI",
           "sometimes",
           "forms",
           "strategic",
@@ -1481,7 +1417,6 @@
           "expectations"
         ],
         "new_keywords": [
-          "OpenAI",
           "pursues",
           "large-scale",
           "partnerships",
@@ -1518,7 +1453,6 @@
         "new_coverage": 1.0,
         "n_events": 13,
         "new_keywords": [
-          "OpenAI",
           "pursues",
           "aggressive",
           "expansion",
@@ -1544,7 +1478,6 @@
         "new_coverage": 1.0,
         "n_events": 16,
         "new_keywords": [
-          "OpenAI",
           "responds",
           "external",
           "pressures",
@@ -1579,7 +1512,6 @@
         "new_coverage": 1.0,
         "n_events": 16,
         "new_keywords": [
-          "OpenAI",
           "responds",
           "external",
           "pressures",
@@ -1615,7 +1547,6 @@
         "old_coverage": 0.286,
         "new_coverage": 1.0,
         "old_keywords": [
-          "OpenAI",
           "implement",
           "clarify",
           "compliance",
@@ -1630,7 +1561,6 @@
           "scrutiny"
         ],
         "new_keywords": [
-          "OpenAI",
           "adapts",
           "organizational",
           "structure",
@@ -1661,7 +1591,6 @@
         "old_coverage": 0.429,
         "new_coverage": 1.0,
         "old_keywords": [
-          "OpenAI",
           "sometimes",
           "implements",
           "control",
@@ -1676,7 +1605,6 @@
           "change"
         ],
         "new_keywords": [
-          "OpenAI",
           "adapts",
           "organizational",
           "structures",
@@ -1711,7 +1639,6 @@
         "new_coverage": 1.0,
         "n_events": 2,
         "new_keywords": [
-          "OpenAI",
           "responds",
           "external",
           "legal",
@@ -1734,7 +1661,6 @@
         "new_coverage": 1.0,
         "n_events": 13,
         "new_keywords": [
-          "OpenAI",
           "responds",
           "emerging",
           "challenges",
@@ -1763,7 +1689,6 @@
         "old_coverage": 0.419,
         "new_coverage": 0.871,
         "old_keywords": [
-          "OpenAI",
           "regularly",
           "seeks",
           "large-scale",
@@ -1778,7 +1703,6 @@
           "advancement"
         ],
         "new_keywords": [
-          "OpenAI",
           "aggressively",
           "pursues",
           "large-scale",
@@ -1819,7 +1743,6 @@
         "new_coverage": 0.944,
         "n_events": 28,
         "new_keywords": [
-          "OpenAI",
           "pursues",
           "aggressive",
           "expansion",
@@ -1847,7 +1770,6 @@
         "action": "delete",
         "old_statement": "OpenAI tends to adapt its offerings and infrastructure to comply with local regulations and data sovereignty laws.",
         "old_keywords": [
-          "OpenAI",
           "adapt",
           "offerings",
           "infrastructure",
@@ -1866,7 +1788,6 @@
         "new_coverage": 1.0,
         "n_events": 2,
         "new_keywords": [
-          "OpenAI",
           "adapts",
           "strategies",
           "responding",
@@ -1894,7 +1815,6 @@
         "old_coverage": 0.385,
         "new_coverage": 0.904,
         "old_keywords": [
-          "OpenAI",
           "seeks",
           "expand",
           "diversify",
@@ -1908,7 +1828,6 @@
           "operation"
         ],
         "new_keywords": [
-          "OpenAI",
           "pursues",
           "rapid",
           "growth",
@@ -1945,7 +1864,6 @@
         "old_coverage": 0.25,
         "new_coverage": 1.0,
         "old_keywords": [
-          "OpenAI",
           "revises",
           "refines",
           "products",
@@ -1957,7 +1875,6 @@
           "dissatisfaction"
         ],
         "new_keywords": [
-          "OpenAI",
           "experiments",
           "iterates",
           "ChatGPT",
@@ -1984,7 +1901,6 @@
         "old_coverage": 0.25,
         "new_coverage": 1.0,
         "old_keywords": [
-          "OpenAI",
           "adjust",
           "product",
           "roadmap",
@@ -1999,7 +1915,6 @@
           "constraints"
         ],
         "new_keywords": [
-          "OpenAI",
           "iteratively",
           "tests",
           "adjusts",
@@ -2024,7 +1939,6 @@
         "old_coverage": 0.294,
         "new_coverage": 0.941,
         "old_keywords": [
-          "OpenAI",
           "secures",
           "long-term",
           "access",
@@ -2038,7 +1952,6 @@
           "partnerships"
         ],
         "new_keywords": [
-          "OpenAI",
           "aggressively",
           "pursues",
           "growth",
@@ -2069,7 +1982,6 @@
         "old_coverage": 0.471,
         "new_coverage": 0.941,
         "old_keywords": [
-          "OpenAI",
           "explores",
           "diversification",
           "domains",
@@ -2083,7 +1995,6 @@
           "lines"
         ],
         "new_keywords": [
-          "OpenAI",
           "pursues",
           "aggressive",
           "expansion",
@@ -2120,7 +2031,6 @@
         "new_coverage": 0.8,
         "n_events": 14,
         "new_keywords": [
-          "OpenAI",
           "expands",
           "platform",
           "capabilities",
@@ -2144,7 +2054,6 @@
         "action": "delete",
         "old_statement": "OpenAI tends to restructure or expand its leadership and governance in response to significant internal changes or strategic shifts.",
         "old_keywords": [
-          "OpenAI",
           "restructure",
           "expand",
           "leadership",
@@ -2162,7 +2071,6 @@
         "action": "delete",
         "old_statement": "OpenAI often accelerates decision-making or operational timelines in response to urgent competitive or reputational challenges.",
         "old_keywords": [
-          "OpenAI",
           "accelerates",
           "decision-making",
           "operational",
@@ -2179,7 +2087,6 @@
         "action": "delete",
         "old_statement": "OpenAI often launches new initiatives, hires, or partnerships to address emerging opportunities or challenges in the AI ecosystem.",
         "old_keywords": [
-          "OpenAI",
           "launches",
           "initiatives",
           "hires",
@@ -2197,7 +2104,6 @@
         "action": "delete",
         "old_statement": "OpenAI tends to diversify or adjust its strategic partnerships and alliances, often engaging multiple major industry players to mitigate risks and reduce reliance on any single entity.",
         "old_keywords": [
-          "OpenAI",
           "diversify",
           "adjust",
           "strategic",
@@ -2223,7 +2129,6 @@
         "new_coverage": 1.0,
         "n_events": 3,
         "new_keywords": [
-          "OpenAI",
           "aggressively",
           "pursues",
           "growth",
@@ -2246,7 +2151,6 @@
         "new_coverage": 1.0,
         "n_events": 3,
         "new_keywords": [
-          "OpenAI",
           "aggressively",
           "pursues",
           "growth",
@@ -2267,7 +2171,6 @@
         "action": "delete",
         "old_statement": "OpenAI often adapts or customizes its products and go-to-market strategies to address the unique needs of regulated or high-value customer groups.",
         "old_keywords": [
-          "OpenAI",
           "adapts",
           "customizes",
           "products",
@@ -2289,7 +2192,6 @@
         "new_coverage": 1.0,
         "n_events": 1,
         "new_keywords": [
-          "OpenAI",
           "acquires",
           "integrates",
           "external",
@@ -2309,7 +2211,6 @@
         "new_coverage": 0.75,
         "n_events": 3,
         "new_keywords": [
-          "OpenAI",
           "systematically",
           "accelerates",
           "growth",
@@ -2329,7 +2230,6 @@
         "new_coverage": 0.75,
         "n_events": 3,
         "new_keywords": [
-          "OpenAI",
           "systematically",
           "accelerates",
           "growth",
@@ -2349,7 +2249,6 @@
         "action": "delete",
         "old_statement": "OpenAI frequently leverages strategic agreements, exclusive terms, or tailored programs to facilitate adoption and strengthen relationships with key institutional clients.",
         "old_keywords": [
-          "OpenAI",
           "leverages",
           "strategic",
           "agreements",
@@ -2373,7 +2272,6 @@
         "new_coverage": 1.0,
         "n_events": 1,
         "new_keywords": [
-          "OpenAI",
           "acquires",
           "integrates",
           "external",
@@ -2393,7 +2291,6 @@
         "new_coverage": 1.0,
         "n_events": 15,
         "new_keywords": [
-          "OpenAI",
           "pursues",
           "aggressive",
           "expansion",
@@ -2418,7 +2315,6 @@
         "new_coverage": 0.875,
         "n_events": 7,
         "new_keywords": [
-          "OpenAI",
           "responds",
           "external",
           "pressures",
@@ -2446,7 +2342,6 @@
         "new_coverage": 0.875,
         "n_events": 7,
         "new_keywords": [
-          "OpenAI",
           "responds",
           "external",
           "pressures",
@@ -2473,7 +2368,6 @@
         "action": "delete",
         "old_statement": "OpenAI may accelerate, modify, or publicize product releases, features, or usage metrics in response to competitive pressures or market dynamics.",
         "old_keywords": [
-          "OpenAI",
           "accelerate",
           "modify",
           "publicize",
@@ -2496,7 +2390,6 @@
         "new_coverage": 1.0,
         "n_events": 1,
         "new_keywords": [
-          "OpenAI",
           "accelerates",
           "deployment",
           "advanced",
@@ -2521,7 +2414,6 @@
         "old_coverage": 0.333,
         "new_coverage": 1.0,
         "old_keywords": [
-          "OpenAI",
           "implement",
           "clarify",
           "compliance",
@@ -2536,7 +2428,6 @@
           "scrutiny"
         ],
         "new_keywords": [
-          "OpenAI",
           "responds",
           "proactively",
           "external",
@@ -2565,7 +2456,6 @@
         "old_coverage": 0.333,
         "new_coverage": 1.0,
         "old_keywords": [
-          "OpenAI",
           "sometimes",
           "implements",
           "control",
@@ -2580,7 +2470,6 @@
           "change"
         ],
         "new_keywords": [
-          "OpenAI",
           "adapts",
           "strategies",
           "policies",
@@ -2604,7 +2493,6 @@
         "new_coverage": 1.0,
         "n_events": 2,
         "new_keywords": [
-          "OpenAI",
           "responds",
           "external",
           "pressures",
@@ -2627,7 +2515,6 @@
         "action": "delete",
         "old_statement": "OpenAI may adjust its product accessibility, pricing, or offerings to appeal to new or strategically important user groups or partners.",
         "old_keywords": [
-          "OpenAI",
           "adjust",
           "product",
           "accessibility",
@@ -2648,7 +2535,6 @@
         "new_coverage": 1.0,
         "n_events": 1,
         "new_keywords": [
-          "OpenAI",
           "proactively",
           "updates",
           "policies",
@@ -2668,7 +2554,6 @@
         "new_coverage": 1.0,
         "n_events": 1,
         "new_keywords": [
-          "OpenAI's",
           "strategic",
           "shifts",
           "organizational",
@@ -2689,7 +2574,6 @@
         "old_coverage": 0.333,
         "new_coverage": 1.0,
         "old_keywords": [
-          "OpenAI",
           "update",
           "internal",
           "processes",
@@ -2705,7 +2589,6 @@
           "threats"
         ],
         "new_keywords": [
-          "OpenAI",
           "typically",
           "responds",
           "public",
@@ -2733,7 +2616,6 @@
         "action": "delete",
         "old_statement": "OpenAI may broaden its technology's availability or integration by pursuing new partnerships or distribution strategies.",
         "old_keywords": [
-          "OpenAI",
           "broaden",
           "technology's",
           "availability",
@@ -2751,7 +2633,6 @@
         "new_coverage": 1.0,
         "n_events": 2,
         "new_keywords": [
-          "OpenAI",
           "introduces",
           "features",
           "terminology",
@@ -2774,7 +2655,6 @@
         "new_coverage": 1.0,
         "n_events": 9,
         "new_keywords": [
-          "OpenAI",
           "responds",
           "external",
           "pressures",
@@ -2805,7 +2685,6 @@
         "old_coverage": 0.281,
         "new_coverage": 0.938,
         "old_keywords": [
-          "OpenAI",
           "regularly",
           "seeks",
           "large-scale",
@@ -2820,7 +2699,6 @@
           "advancement"
         ],
         "new_keywords": [
-          "OpenAI",
           "pursues",
           "aggressive",
           "growth",
@@ -2852,7 +2730,6 @@
         "new_coverage": 0.87,
         "n_events": 26,
         "new_keywords": [
-          "OpenAI",
           "accelerates",
           "product",
           "innovation",

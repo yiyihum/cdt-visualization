@@ -24,7 +24,8 @@ FUNCTION_WORDS = set(
     "new next than then there here thus hence into upon within without across "
     "along among through between against during before after until since while "
     "although though whereas unless because whether despite about regarding "
-    "concerning tends appears seems likely able".split()
+    "concerning tends appears seems likely able "
+    "openai openai's".split()
 )
 
 # Gate text → short label (hand-crafted)
@@ -167,10 +168,11 @@ def enrich_adapter(adapter_data: list) -> list:
 
 
 def main():
-    root = Path(__file__).resolve().parents[3]  # group-behaviors/
-    cdt_path = root / "openai_case/adapter_phase/adapted_cdts/base_cdt.json"
-    adapter_path = root / "openai_case/adapter_phase/visualization/adapter_display.json"
-    out_dir = root / "docs" / "data"
+    here = Path(__file__).resolve().parent
+    src = Path("/data/yiming/project/group-behaviors")
+    cdt_path = src / "openai_case/adapter_phase/adapted_cdts/base_cdt.json"
+    adapter_path = src / "openai_case/adapter_phase/visualization/adapter_display.json"
+    out_dir = here / "data"
     out_dir.mkdir(parents=True, exist_ok=True)
 
     # Enrich CDT
