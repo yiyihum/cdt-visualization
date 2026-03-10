@@ -1,0 +1,1682 @@
+{
+  "OAI-001": {
+    "title": "OpenAI failed to deliver the opt-out tool it promised by 2025",
+    "date": "2025-01-01",
+    "action": "OpenAI failed to deliver its promised Media Manager opt-out tool by its self-imposed 2025 deadline."
+  },
+  "OAI-002": {
+    "title": "OpenAI is losing money on its pricey ChatGPT Pro plan, CEO Sam Altman says",
+    "date": "2025-01-05",
+    "action": "OpenAI revealed it is losing money on its $200-per-month ChatGPT Pro plan due to higher-than-expected usage."
+  },
+  "OAI-003": {
+    "title": "OpenAI is turning its attention to ‘superintelligence’",
+    "date": "2025-01-05",
+    "action": "OpenAI shifts its focus towards developing superintelligence."
+  },
+  "OAI-004": {
+    "title": "New OpenAI job listings reveal the company’s robotics plans",
+    "date": "2025-01-10",
+    "action": "OpenAI revived its robotics department and announced plans to develop its own robots."
+  },
+  "OAI-005": {
+    "title": "How OpenAI’s bot crushed this seven-person company’s website ‘like a DDoS attack’",
+    "date": "2025-01-10",
+    "action": "OpenAI deployed its bots to scrape data from a website."
+  },
+  "OAI-006": {
+    "title": "OpenAI presents its preferred version of AI regulation in a new ‘blueprint’",
+    "date": "2025-01-13",
+    "action": "OpenAI presented an 'economic blueprint' for AI regulation."
+  },
+  "OAI-007": {
+    "title": "OpenAI appoints BlackRock exec to its board",
+    "date": "2025-01-14",
+    "action": "OpenAI appointed Adebayo Ogunlesi to its board of directors."
+  },
+  "OAI-008": {
+    "title": "ChatGPT now lets you schedule reminders and recurring tasks",
+    "date": "2025-01-14",
+    "action": "OpenAI launched a new beta feature called 'tasks' for ChatGPT, allowing users to schedule reminders and recurring tasks."
+  },
+  "OAI-009": {
+    "title": "OpenAI quietly revises policy doc to remove reference to ‘politically unbiased’ AI",
+    "date": "2025-01-14",
+    "action": "OpenAI revised its policy document to remove language endorsing 'politically unbiased' AI."
+  },
+  "OAI-010": {
+    "title": "OpenAI is bankrolling Axios’ expansion into four new markets",
+    "date": "2025-01-15",
+    "action": "OpenAI funded Axios' expansion into four new cities."
+  },
+  "OAI-011": {
+    "title": "OpenAI tests phone number-only ChatGPT signups",
+    "date": "2025-01-15",
+    "action": "OpenAI began testing a feature that allows new ChatGPT users to sign up with only a phone number."
+  },
+  "OAI-012": {
+    "title": "ChatGPT’s head of product will testify in the US government’s case against Google",
+    "date": "2025-01-17",
+    "action": "OpenAI's head of ChatGPT product, Nick Turley, was confirmed to testify as a witness for the U.S. government in its antitrust case against Google."
+  },
+  "OAI-013": {
+    "title": "OpenAI is trying to extend human life, with help from a longevity startup",
+    "date": "2025-01-17",
+    "action": "OpenAI collaborated with Retro Biosciences to train a new AI model for biological research."
+  },
+  "OAI-014": {
+    "title": "AI benchmarking organization criticized for waiting to disclose funding from OpenAI",
+    "date": "2025-01-19",
+    "action": "OpenAI funded and gained access to the FrontierMath benchmark developed by Epoch AI."
+  },
+  "OAI-015": {
+    "title": "OpenAI’s agent tool may be nearing release",
+    "date": "2025-01-20",
+    "action": "OpenAI developed and is preparing to release an AI tool called Operator."
+  },
+  "OAI-016": {
+    "title": "Microsoft is no longer OpenAI’s exclusive cloud provider",
+    "date": "2025-01-21",
+    "action": "OpenAI entered into a new AI infrastructure deal with SoftBank, Oracle, and others."
+  },
+  "OAI-017": {
+    "title": "OpenAI teams up with SoftBank and Oracle on $500B data center project",
+    "date": "2025-01-21",
+    "action": "OpenAI teamed up with SoftBank and Oracle to build multiple data centers for AI in the U.S."
+  },
+  "OAI-018": {
+    "title": "UK plans ‘digital wallet’ for driver’s licenses and other ID, plus a chatbot powered by OpenAI",
+    "date": "2025-01-21",
+    "action": "OpenAI collaborated with the UK government to develop a chatbot for the GOV.UK portal."
+  },
+  "OAI-019": {
+    "title": "Microsoft’s relationship with OpenAI cracked when it hired Mustafa Suleyman, rival Marc Benioff says",
+    "date": "2025-01-22",
+    "action": "OpenAI ended Microsoft's exclusivity as their cloud provider by teaming up with SoftBank and Oracle on a data center project."
+  },
+  "OAI-020": {
+    "title": "OpenAI says it may store deleted Operator data for up to 90 days",
+    "date": "2025-01-23",
+    "action": "OpenAI implemented a policy to store deleted Operator data for up to 90 days."
+  },
+  "OAI-021": {
+    "title": "OpenAI launches Operator, an AI agent that performs tasks autonomously",
+    "date": "2025-01-23",
+    "action": "OpenAI launched a research preview of Operator, an AI agent that performs tasks autonomously."
+  },
+  "OAI-022": {
+    "title": "AI companies upped their federal lobbying spend in 2024 amid regulatory uncertainty",
+    "date": "2025-01-24",
+    "action": "OpenAI increased its lobbying expenditures to $1.76 million in 2024."
+  },
+  "OAI-023": {
+    "title": "OpenAI launches ChatGPT plan for US government agencies",
+    "date": "2025-01-28",
+    "action": "OpenAI launched a version of its ChatGPT designed for U.S. government agencies."
+  },
+  "OAI-024": {
+    "title": "SoftBank in talks to invest as much as $25B in OpenAI, report says",
+    "date": "2025-01-29",
+    "action": "OpenAI engaged in talks with SoftBank for a potential investment of up to $25 billion."
+  },
+  "OAI-025": {
+    "title": "OpenAI said to be in talks to raise $40B at a $340B valuation",
+    "date": "2025-01-30",
+    "action": "OpenAI is in talks to raise up to $40 billion in a funding round."
+  },
+  "OAI-026": {
+    "title": "OpenAI will offer its tech to US national labs for nuclear weapons research",
+    "date": "2025-01-30",
+    "action": "OpenAI plans to let U.S. National Laboratories use its AI models for nuclear weapons security and other scientific projects."
+  },
+  "OAI-027": {
+    "title": "OpenAI used this subreddit to test AI persuasion",
+    "date": "2025-01-31",
+    "action": "OpenAI used the subreddit r/ChangeMyView to test the persuasive abilities of its AI reasoning models."
+  },
+  "OAI-028": {
+    "title": "Sam Altman: OpenAI has been on the ‘wrong side of history’ concerning open source",
+    "date": "2025-01-31",
+    "action": "OpenAI considers open sourcing older models and revealing more about their reasoning models."
+  },
+  "OAI-029": {
+    "title": "OpenAI launches o3-mini, its latest ‘reasoning’ model",
+    "date": "2025-01-31",
+    "action": "OpenAI launched a new AI reasoning model called o3-mini."
+  },
+  "OAI-030": {
+    "title": "OpenAI unveils a new ChatGPT agent for ‘deep research’",
+    "date": "2025-02-02",
+    "action": "OpenAI unveiled a new ChatGPT agent for deep research."
+  },
+  "OAI-031": {
+    "title": "OpenAI’s new trademark application hints at humanoid robots, smart jewelry, and more",
+    "date": "2025-02-03",
+    "action": "OpenAI filed a trademark application with the U.S. Patent and Trademark Office."
+  },
+  "OAI-032": {
+    "title": "OpenAI’s Operator agent helped me move, but I had to help it, too",
+    "date": "2025-02-04",
+    "action": "OpenAI developed and launched the AI agent Operator."
+  },
+  "OAI-033": {
+    "title": "OpenAI partners with Korea’s Kakao after inking SoftBank Japanese JV",
+    "date": "2025-02-04",
+    "action": "OpenAI unveiled a strategic collaboration with Kakao."
+  },
+  "OAI-034": {
+    "title": "OpenAI now reveals more of its o3-mini model’s thought process",
+    "date": "2025-02-06",
+    "action": "OpenAI updated the 'chain of thought' feature for its o3-mini model to show more of the model's reasoning steps."
+  },
+  "OAI-035": {
+    "title": "OpenAI launches data residency in Europe",
+    "date": "2025-02-06",
+    "action": "OpenAI launched data residency in Europe."
+  },
+  "OAI-036": {
+    "title": "You can now use ChatGPT web search without logging in",
+    "date": "2025-02-06",
+    "action": "OpenAI removed the login requirement for using ChatGPT web search."
+  },
+  "OAI-037": {
+    "title": "OpenAI plans to open an office in Germany",
+    "date": "2025-02-07",
+    "action": "OpenAI plans to open an office in Germany."
+  },
+  "OAI-038": {
+    "title": "Here are five startups that are running Super Bowl ads this year",
+    "date": "2025-02-09",
+    "action": "OpenAI debuted its first-ever Super Bowl ad."
+  },
+  "OAI-039": {
+    "title": "OpenAI spoke to government officials about its DeepSeek probe",
+    "date": "2025-02-10",
+    "action": "OpenAI spoke to government officials about its ongoing investigation into DeepSeek."
+  },
+  "OAI-040": {
+    "title": "How Musk’s $97.4B bid could gum up OpenAI’s for-profit conversion",
+    "date": "2025-02-11",
+    "action": "OpenAI faced complications to its for-profit conversion after Elon Musk made a $97.4 billion unsolicited bid for the nonprofit governing OpenAI."
+  },
+  "OAI-041": {
+    "title": "OpenAI pledges that its models won’t censor viewpoints",
+    "date": "2025-02-12",
+    "action": "OpenAI updated its Model Spec to ensure its AI models do not censor viewpoints."
+  },
+  "OAI-042": {
+    "title": "OpenAI postpones its o3 AI model in favor of a ‘unified’ next-gen release",
+    "date": "2025-02-12",
+    "action": "OpenAI postponed the release of its o3 AI model in favor of a unified next-gen release, GPT-5."
+  },
+  "OAI-043": {
+    "title": "OpenAI removes certain content warnings from ChatGPT",
+    "date": "2025-02-13",
+    "action": "OpenAI removed certain content warnings from ChatGPT."
+  },
+  "OAI-044": {
+    "title": "OpenAI scrubs diversity commitment web page from its site",
+    "date": "2025-02-13",
+    "action": "OpenAI removed a web page expressing its commitment to diversity, equity, and inclusion."
+  },
+  "OAI-045": {
+    "title": "OpenAI teases a ‘simplified’ GPT-5 model",
+    "date": "2025-02-15",
+    "action": "OpenAI canceled the release of o3 in favor of a simplified product offering."
+  },
+  "OAI-046": {
+    "title": "OpenAI tries to ‘uncensor’ ChatGPT",
+    "date": "2025-02-16",
+    "action": "OpenAI announced an update to its Model Spec to embrace intellectual freedom in AI model behavior."
+  },
+  "OAI-047": {
+    "title": "OpenAI may give board special voting rights to ward off takeover attempts",
+    "date": "2025-02-18",
+    "action": "OpenAI considers giving its nonprofit board special voting rights."
+  },
+  "OAI-048": {
+    "title": "OpenAI now serves 400M users every week",
+    "date": "2025-02-20",
+    "action": "OpenAI shared user metrics indicating growth in active users and enterprise customers."
+  },
+  "OAI-049": {
+    "title": "Report: OpenAI plans to shift compute needs from Microsoft to SoftBank",
+    "date": "2025-02-21",
+    "action": "OpenAI plans to shift its compute needs from Microsoft to SoftBank."
+  },
+  "OAI-050": {
+    "title": "OpenAI rolls out its AI agent, Operator, in several countries",
+    "date": "2025-02-21",
+    "action": "OpenAI rolls out its AI agent, Operator, in several countries."
+  },
+  "OAI-051": {
+    "title": "OpenAI rolls out deep research to paying ChatGPT users",
+    "date": "2025-02-25",
+    "action": "OpenAI rolled out deep research to all paying ChatGPT users."
+  },
+  "OAI-052": {
+    "title": "Why OpenAI isn’t bringing deep research to its API just yet",
+    "date": "2025-02-25",
+    "action": "OpenAI decided not to bring the deep research model to its developer API."
+  },
+  "OAI-053": {
+    "title": "OpenAI’s Sora is now available in the EU, UK",
+    "date": "2025-02-27",
+    "action": "OpenAI made its video generation model, Sora, available to users in the EU and UK."
+  },
+  "OAI-054": {
+    "title": "OpenAI CEO Sam Altman says the company is ‘out of GPUs’",
+    "date": "2025-02-27",
+    "action": "OpenAI staggered the rollout of GPT-4.5 due to GPU shortages."
+  },
+  "OAI-055": {
+    "title": "OpenAI unveils GPT-4.5 ‘Orion,’ its largest AI model yet",
+    "date": "2025-02-27",
+    "action": "OpenAI launched GPT-4.5, its largest AI model to date."
+  },
+  "OAI-056": {
+    "title": "OpenAI’s GPT-4.5 is better at convincing other AIs to give it money",
+    "date": "2025-02-27",
+    "action": "OpenAI published a white paper describing the capabilities and risks of its GPT-4.5 model."
+  },
+  "OAI-057": {
+    "title": "OpenAI plans to bring Sora’s video generator to ChatGPT",
+    "date": "2025-02-28",
+    "action": "OpenAI plans to integrate its AI video generation tool, Sora, into ChatGPT."
+  },
+  "OAI-058": {
+    "title": "Judge rejects Musk’s attempt to block OpenAI’s for-profit transition",
+    "date": "2025-03-04",
+    "action": "OpenAI successfully defended its for-profit transition plan in court against Musk's injunction attempt."
+  },
+  "OAI-059": {
+    "title": "OpenAI launches $50M grant program to help fund academic research",
+    "date": "2025-03-04",
+    "action": "OpenAI launched a $50M grant program to support academic research."
+  },
+  "OAI-060": {
+    "title": "OpenAI reportedly plans to charge up to $20,000 a month for specialized AI ‘agents’",
+    "date": "2025-03-05",
+    "action": "OpenAI plans to charge up to $20,000 per month for specialized AI agents."
+  },
+  "OAI-061": {
+    "title": "OpenAI’s GPT-4.5 AI model comes to more ChatGPT users",
+    "date": "2025-03-05",
+    "action": "OpenAI began rolling out its newest AI model, GPT-4.5, to users on its ChatGPT Plus tier."
+  },
+  "OAI-062": {
+    "title": "ChatGPT doubled its weekly active users in under 6 months, thanks to new releases",
+    "date": "2025-03-06",
+    "action": "OpenAI's ChatGPT reached 400 million weekly active users, doubling in under six months."
+  },
+  "OAI-063": {
+    "title": "ChatGPT on macOS can now directly edit code",
+    "date": "2025-03-06",
+    "action": "OpenAI introduced a direct code editing feature in the ChatGPT app for macOS."
+  },
+  "OAI-064": {
+    "title": "OpenAI’s ex-policy lead criticizes the company for ‘rewriting’ its AI safety history",
+    "date": "2025-03-06",
+    "action": "OpenAI published a safety document that its former policy lead, Miles Brundage, criticized for 'rewriting' the company's AI deployment history."
+  },
+  "OAI-065": {
+    "title": "A year later, OpenAI still hasn’t released its voice cloning tool",
+    "date": "2025-03-06",
+    "action": "OpenAI kept its Voice Engine tool in limited preview."
+  },
+  "OAI-066": {
+    "title": "Musk may still have a chance to thwart OpenAI’s for-profit conversion",
+    "date": "2025-03-09",
+    "action": "OpenAI continued pursuing its for-profit conversion despite legal and regulatory challenges."
+  },
+  "OAI-067": {
+    "title": "In another chess move with Microsoft, OpenAI is pouring $12B into CoreWeave",
+    "date": "2025-03-10",
+    "action": "OpenAI signed a five-year, $11.9 billion agreement with CoreWeave."
+  },
+  "OAI-068": {
+    "title": "OpenAI says it has trained an AI that’s ‘really good’ at creative writing",
+    "date": "2025-03-11",
+    "action": "OpenAI trained an AI model for creative writing."
+  },
+  "OAI-069": {
+    "title": "OpenAI launches new tools to help businesses build AI agents",
+    "date": "2025-03-11",
+    "action": "OpenAI launched new tools to help businesses build AI agents."
+  },
+  "OAI-070": {
+    "title": "OpenAI calls DeepSeek ‘state-controlled,’ calls for bans on ‘PRC-produced’ models",
+    "date": "2025-03-13",
+    "action": "OpenAI proposed a policy to the U.S. government to consider banning AI models from Chinese state-supported operations."
+  },
+  "OAI-071": {
+    "title": "OpenAI calls for US government to codify ‘fair use’ for AI training",
+    "date": "2025-03-13",
+    "action": "OpenAI called for the U.S. government to codify 'fair use' for AI training."
+  },
+  "OAI-072": {
+    "title": "OpenAI exec leaves to found materials science startup",
+    "date": "2025-03-17",
+    "action": "OpenAI plans to invest in and partner with a new materials science AI startup founded by its former VP of research."
+  },
+  "OAI-073": {
+    "title": "OpenAI to start testing ChatGPT connectors for Google Drive and Slack",
+    "date": "2025-03-17",
+    "action": "OpenAI began beta testing ChatGPT Connectors for business integration."
+  },
+  "OAI-074": {
+    "title": "ChatGPT hit with privacy complaint over defamatory hallucinations",
+    "date": "2025-03-19",
+    "action": "OpenAI faced a GDPR privacy complaint over ChatGPT generating defamatory hallucinations about a real person."
+  },
+  "OAI-075": {
+    "title": "OpenAI’s o1-pro is the company’s most expensive AI model yet",
+    "date": "2025-03-19",
+    "action": "OpenAI launched the o1-pro AI model in its developer API."
+  },
+  "OAI-076": {
+    "title": "OpenAI upgrades its transcription and voice-generating AI models",
+    "date": "2025-03-20",
+    "action": "OpenAI upgraded its transcription and voice-generating AI models."
+  },
+  "OAI-077": {
+    "title": "ChatGPT’s image-generation feature gets an upgrade",
+    "date": "2025-03-25",
+    "action": "OpenAI upgraded ChatGPT's image-generation capabilities using the GPT-4o model."
+  },
+  "OAI-078": {
+    "title": "OpenAI will reportedly close its SoftBank-led $40B round soon",
+    "date": "2025-03-26",
+    "action": "OpenAI neared closing a $40 billion funding round led by SoftBank."
+  },
+  "OAI-079": {
+    "title": "OpenAI’s viral Studio Ghibli moment highlights AI copyright concerns",
+    "date": "2025-03-26",
+    "action": "OpenAI released a new AI image generator feature in ChatGPT."
+  },
+  "OAI-080": {
+    "title": "ChatGPT’s new AI image feature is delayed for free users",
+    "date": "2025-03-26",
+    "action": "OpenAI delayed the rollout of ChatGPT's new AI image features to free users."
+  },
+  "OAI-081": {
+    "title": "OpenAI adopts rival Anthropic’s standard for connecting AI models to data",
+    "date": "2025-03-26",
+    "action": "OpenAI adopts Anthropic's Model Context Protocol across its products."
+  },
+  "OAI-082": {
+    "title": "OpenAI peels back ChatGPT’s safeguards around image creation",
+    "date": "2025-03-28",
+    "action": "OpenAI changed its content moderation policies for ChatGPT to allow more types of image generation requests."
+  },
+  "OAI-083": {
+    "title": "OpenAI’s new image generator is now available to all users",
+    "date": "2025-03-31",
+    "action": "OpenAI made its new image generator available to all users."
+  },
+  "OAI-084": {
+    "title": "OpenAI plans to release a new ‘open’ AI language model in the coming months",
+    "date": "2025-03-31",
+    "action": "OpenAI plans to release a new open AI language model."
+  },
+  "OAI-085": {
+    "title": "OpenAI seeks to convene group to advise its nonprofit goals",
+    "date": "2025-04-02",
+    "action": "OpenAI convenes a group of experts to advise on its nonprofit goals."
+  },
+  "OAI-086": {
+    "title": "OpenAI just made its first cybersecurity investment",
+    "date": "2025-04-03",
+    "action": "OpenAI invested in a cybersecurity startup."
+  },
+  "OAI-087": {
+    "title": "ChatGPT adoption skyrockets in India, but monetization may be trailing",
+    "date": "2025-04-04",
+    "action": "OpenAI is reportedly courting an alliance with Reliance Jio to expand ChatGPT's reach in India."
+  },
+  "OAI-088": {
+    "title": "OpenAI says it’ll release o3 after all, delays GPT-5",
+    "date": "2025-04-04",
+    "action": "OpenAI reversed its earlier cancellation and decided to release the o3 reasoning model and o4-mini, while delaying GPT-5."
+  },
+  "OAI-089": {
+    "title": "OpenAI reportedly mulls buying Jony Ive and Sam Altman’s AI hardware startup",
+    "date": "2025-04-07",
+    "action": "OpenAI discussed acquiring the AI hardware startup io Products."
+  },
+  "OAI-090": {
+    "title": "OpenAI countersues Elon Musk, calls for enjoinment from ‘further unlawful and unfair action’",
+    "date": "2025-04-09",
+    "action": "OpenAI filed a countersuit against Elon Musk."
+  },
+  "OAI-091": {
+    "title": "OpenAI launches program to design new ‘domain-specific’ AI benchmarks",
+    "date": "2025-04-09",
+    "action": "OpenAI launches the OpenAI Pioneers Program to design new domain-specific AI benchmarks."
+  },
+  "OAI-092": {
+    "title": "OpenAI updates ChatGPT to reference your past chats",
+    "date": "2025-04-10",
+    "action": "OpenAI rolled out a new memory feature in ChatGPT."
+  },
+  "OAI-093": {
+    "title": "OpenAI will soon phase out GPT-4 from ChatGPT",
+    "date": "2025-04-11",
+    "action": "OpenAI will phase out GPT-4 from ChatGPT."
+  },
+  "OAI-094": {
+    "title": "Access to future AI models in OpenAI’s API may require a verified ID",
+    "date": "2025-04-13",
+    "action": "OpenAI implemented an ID verification process for accessing certain future AI models."
+  },
+  "OAI-095": {
+    "title": "OpenAI’s new GPT-4.1 AI models focus on coding",
+    "date": "2025-04-14",
+    "action": "OpenAI launched a new family of models called GPT-4.1."
+  },
+  "OAI-096": {
+    "title": "OpenAI plans to phase out GPT-4.5, its largest-ever AI model, from its API",
+    "date": "2025-04-14",
+    "action": "OpenAI plans to phase out GPT-4.5 from its API."
+  },
+  "OAI-097": {
+    "title": "OpenAI may ‘adjust’ its safeguards if rivals release ‘high-risk’ AI",
+    "date": "2025-04-15",
+    "action": "OpenAI updated its Preparedness Framework to potentially adjust safety requirements in response to competitors releasing high-risk AI systems."
+  },
+  "OAI-098": {
+    "title": "OpenAI hires team behind GV-backed AI eval platform Context.ai",
+    "date": "2025-04-15",
+    "action": "OpenAI acqui-hired the team behind Context.ai."
+  },
+  "OAI-099": {
+    "title": "OpenAI is reportedly developing its own X-like social media platform",
+    "date": "2025-04-15",
+    "action": "OpenAI is developing its own X-like social media network."
+  },
+  "OAI-100": {
+    "title": "OpenAI ships GPT-4.1 without a safety report",
+    "date": "2025-04-15",
+    "action": "OpenAI launched GPT-4.1 without a safety report."
+  },
+  "OAI-101": {
+    "title": "OpenAI’s latest AI models have a new safeguard to prevent biorisks",
+    "date": "2025-04-16",
+    "action": "OpenAI deployed a new system to monitor its AI models for prompts related to biological and chemical threats."
+  },
+  "OAI-102": {
+    "title": "OpenAI partner says it had relatively little time to test the company’s o3 AI model",
+    "date": "2025-04-16",
+    "action": "OpenAI conducted evaluations of its o3 AI model with limited testing time."
+  },
+  "OAI-103": {
+    "title": "OpenAI debuts Codex CLI, an open source coding tool for terminals",
+    "date": "2025-04-16",
+    "action": "OpenAI launched Codex CLI, an open source coding tool for terminals."
+  },
+  "OAI-104": {
+    "title": "OpenAI launches a pair of AI reasoning models, o3 and o4-mini",
+    "date": "2025-04-16",
+    "action": "OpenAI launched o3 and o4-mini, new AI reasoning models."
+  },
+  "OAI-105": {
+    "title": "OpenAI pursued Cursor maker before entering into talks to buy Windsurf for $3B",
+    "date": "2025-04-17",
+    "action": "OpenAI attempted to acquire the AI coding startup Windsurf for $3 billion."
+  },
+  "OAI-106": {
+    "title": "OpenAI launches Flex processing for cheaper, slower AI tasks",
+    "date": "2025-04-17",
+    "action": "OpenAI launches Flex processing for cheaper, slower AI tasks."
+  },
+  "OAI-107": {
+    "title": "OpenAI’s Stargate project sets its sights on international expansion",
+    "date": "2025-04-17",
+    "action": "OpenAI considers international expansion of the Stargate project."
+  },
+  "OAI-108": {
+    "title": "ChatGPT is referring to users by their names unprompted, and some find it ‘creepy’",
+    "date": "2025-04-18",
+    "action": "OpenAI implemented a feature in ChatGPT that allows it to refer to users by their names."
+  },
+  "OAI-109": {
+    "title": "ChatGPT will now use its ‘memory’ to personalize web searches",
+    "date": "2025-04-18",
+    "action": "OpenAI upgraded ChatGPT with a 'Memory with Search' feature."
+  },
+  "OAI-110": {
+    "title": "OpenAI’s o3 AI model scores lower on a benchmark than the company initially implied",
+    "date": "2025-04-20",
+    "action": "OpenAI's publicly released o3 model scored significantly lower on the FrontierMath benchmark (~10%) than the company had initially implied (~25%)."
+  },
+  "OAI-111": {
+    "title": "ChatGPT search is growing quickly in Europe, OpenAI data suggests",
+    "date": "2025-04-21",
+    "action": "OpenAI published information on ChatGPT search usage to comply with the EU's Digital Services Act."
+  },
+  "OAI-112": {
+    "title": "ChatGPT’s responses will now include Washington Post articles",
+    "date": "2025-04-22",
+    "action": "OpenAI announced a content partnership with The Washington Post to include its articles in ChatGPT responses."
+  },
+  "OAI-113": {
+    "title": "OpenAI seeks to make its upcoming ‘open’ AI model best-in-class",
+    "date": "2025-04-23",
+    "action": "OpenAI seeks to release its first open language model with a highly permissive license."
+  },
+  "OAI-114": {
+    "title": "OpenAI’s GPT-4.1 may be less aligned than the company’s previous AI models",
+    "date": "2025-04-23",
+    "action": "OpenAI launched GPT-4.1 without publishing a detailed technical report."
+  },
+  "OAI-115": {
+    "title": "OpenAI makes its upgraded image generator available to developers",
+    "date": "2025-04-23",
+    "action": "OpenAI made its upgraded image generator available to developers through its API."
+  },
+  "OAI-116": {
+    "title": "OpenAI rolls out a ‘lightweight’ version of its ChatGPT deep research tool",
+    "date": "2025-04-24",
+    "action": "OpenAI rolled out a lightweight version of its ChatGPT deep research tool."
+  },
+  "OAI-117": {
+    "title": "OpenAI wants its ‘open’ AI model to call models in the cloud for help",
+    "date": "2025-04-24",
+    "action": "OpenAI plans to release an open AI model that can connect to its cloud-hosted models."
+  },
+  "OAI-118": {
+    "title": "OpenAI is fixing a ‘bug’ that allowed minors to generate erotic conversations",
+    "date": "2025-04-28",
+    "action": "OpenAI is actively deploying a fix to limit inappropriate content generation for minors in ChatGPT."
+  },
+  "OAI-119": {
+    "title": "OpenAI upgrades ChatGPT search with shopping features",
+    "date": "2025-04-28",
+    "action": "OpenAI updates ChatGPT search to include shopping features."
+  },
+  "OAI-120": {
+    "title": "OpenAI explains why ChatGPT became too sycophantic",
+    "date": "2025-04-29",
+    "action": "OpenAI published a postmortem explaining that its GPT-4o update caused sycophancy because short-term feedback was overweighted during fine-tuning."
+  },
+  "OAI-121": {
+    "title": "OpenAI pledges to make changes to prevent future ChatGPT sycophancy",
+    "date": "2025-05-02",
+    "action": "OpenAI pledged to make changes to the model deployment process and safety review to prevent issues like sycophancy in ChatGPT."
+  },
+  "OAI-122": {
+    "title": "OpenAI reverses course, says its nonprofit will remain in control of its business operations",
+    "date": "2025-05-05",
+    "action": "OpenAI decided that its nonprofit division will retain control over its for-profit organization."
+  },
+  "OAI-123": {
+    "title": "Instacart CEO Fidji Simo is joining OpenAI",
+    "date": "2025-05-07",
+    "action": "OpenAI appointed Fidji Simo as CEO of Applications."
+  },
+  "OAI-124": {
+    "title": "OpenAI and the FDA are reportedly discussing AI for drug evaluations",
+    "date": "2025-05-07",
+    "action": "OpenAI met with the FDA to discuss the use of AI in drug evaluations."
+  },
+  "OAI-125": {
+    "title": "OpenAI wants to team up with governments to grow AI infrastructure",
+    "date": "2025-05-07",
+    "action": "OpenAI launched a program called OpenAI for Countries to partner with governments to build AI infrastructure."
+  },
+  "OAI-126": {
+    "title": "OpenAI expects to cut share of revenue it pays Microsoft by 2030",
+    "date": "2025-05-07",
+    "action": "OpenAI plans to reduce the share of revenue it pays to Microsoft by 2030."
+  },
+  "OAI-127": {
+    "title": "ChatGPT’s deep research tool gets a GitHub connector to answer questions about code",
+    "date": "2025-05-08",
+    "action": "OpenAI announced the first connector for ChatGPT deep research, linking it to GitHub."
+  },
+  "OAI-128": {
+    "title": "OpenAI launches a data residency program in Asia",
+    "date": "2025-05-08",
+    "action": "OpenAI launched a data residency program in Asia."
+  },
+  "OAI-129": {
+    "title": "OpenAI’s enterprise adoption appears to be accelerating, at the expense of rivals",
+    "date": "2025-05-10",
+    "action": "OpenAI's enterprise adoption rate surged to 32.4% of U.S. businesses, outpacing rivals Anthropic and Google according to Ramp data."
+  },
+  "OAI-130": {
+    "title": "Microsoft and OpenAI may be renegotiating their partnership",
+    "date": "2025-05-11",
+    "action": "OpenAI engaged in negotiations with Microsoft regarding their partnership and corporate restructuring."
+  },
+  "OAI-131": {
+    "title": "OpenAI’s Stargate project reportedly struggling to get off the ground, thanks to tariffs",
+    "date": "2025-05-12",
+    "action": "OpenAI's Stargate data center project faced delays as tariffs and economic uncertainty made investors wary of committing capital."
+  },
+  "OAI-132": {
+    "title": "OpenAI brings its GPT-4.1 models to ChatGPT",
+    "date": "2025-05-14",
+    "action": "OpenAI released its GPT-4.1 models to ChatGPT."
+  },
+  "OAI-133": {
+    "title": "OpenAI pledges to publish AI safety test results more often",
+    "date": "2025-05-14",
+    "action": "OpenAI pledges to publish AI safety test results more often."
+  },
+  "OAI-134": {
+    "title": "OpenAI may build data centers in the UAE",
+    "date": "2025-05-14",
+    "action": "OpenAI is considering building data centers in the United Arab Emirates."
+  },
+  "OAI-135": {
+    "title": "OpenAI’s planned data center in Abu Dhabi would be bigger than Monaco",
+    "date": "2025-05-16",
+    "action": "OpenAI plans to help develop a 5-gigawatt data center campus in Abu Dhabi."
+  },
+  "OAI-136": {
+    "title": "OpenAI launches Codex, an AI coding agent, in ChatGPT",
+    "date": "2025-05-16",
+    "action": "OpenAI launched Codex, an AI coding agent, in ChatGPT."
+  },
+  "OAI-137": {
+    "title": "OpenAI’s next big bet won’t be a wearable: Report",
+    "date": "2025-05-21",
+    "action": "OpenAI announced the acquisition of io, a startup founded by former Apple designer Jony Ive, in a $6.5 billion equity deal."
+  },
+  "OAI-138": {
+    "title": "OpenAI teams up with Cisco, Oracle to build UAE data center",
+    "date": "2025-05-22",
+    "action": "OpenAI announced Stargate UAE, a 1GW data center cluster in Abu Dhabi."
+  },
+  "OAI-139": {
+    "title": "OpenAI upgrades the AI model powering its Operator agent",
+    "date": "2025-05-23",
+    "action": "OpenAI upgraded the AI model powering its Operator agent to a version based on o3."
+  },
+  "OAI-140": {
+    "title": "OpenAI may soon let you ‘sign in with ChatGPT’ for other apps",
+    "date": "2025-05-27",
+    "action": "OpenAI explores ways for users to sign in to third-party apps using their ChatGPT account."
+  },
+  "OAI-141": {
+    "title": "Delaware attorney general reportedly hires a bank to evaluate OpenAI’s restructuring plan",
+    "date": "2025-05-29",
+    "action": "OpenAI's for-profit conversion faced additional scrutiny as Delaware's attorney general hired an independent investment bank to evaluate the restructuring plan."
+  },
+  "OAI-142": {
+    "title": "ChatGPT introduces meeting recording and connectors for Google Drive, Box, and more",
+    "date": "2025-06-04",
+    "action": "OpenAI introduced new features for ChatGPT, including integrations with cloud services and meeting recording capabilities."
+  },
+  "OAI-143": {
+    "title": "Building Your AI Engine: How OpenAI Works with Startups",
+    "date": "2025-06-06",
+    "action": "OpenAI collaborates with startups by providing resources and incorporating their feedback into its roadmap."
+  },
+  "OAI-144": {
+    "title": "OpenAI claims to have hit $10B in annual revenue",
+    "date": "2025-06-09",
+    "action": "OpenAI achieved $10 billion in annual recurring revenue."
+  },
+  "OAI-145": {
+    "title": "OpenAI updates ChatGPT’s voice mode with more natural-sounding speech",
+    "date": "2025-06-09",
+    "action": "OpenAI updated ChatGPT's voice mode to enhance its natural-sounding speech capabilities."
+  },
+  "OAI-146": {
+    "title": "OpenAI’s open model is delayed",
+    "date": "2025-06-10",
+    "action": "OpenAI delayed the release of its open-weights model after an unexpected research breakthrough required more development time."
+  },
+  "OAI-147": {
+    "title": "OpenAI releases o3-pro, a souped-up version of its o3 AI reasoning model",
+    "date": "2025-06-10",
+    "action": "OpenAI launched o3-pro, a new version of its AI reasoning model."
+  },
+  "OAI-148": {
+    "title": "ChatGPT is having a partial outage",
+    "date": "2025-06-10",
+    "action": "OpenAI investigated and worked to resolve a partial outage affecting ChatGPT and other services."
+  },
+  "OAI-149": {
+    "title": "OpenAI and Barbie-maker Mattel team up to bring generative AI to toymaking, other products",
+    "date": "2025-06-12",
+    "action": "OpenAI partnered with Mattel to bring generative AI to toymaking and other products."
+  },
+  "OAI-150": {
+    "title": "Spiraling with ChatGPT",
+    "date": "2025-06-15",
+    "action": "OpenAI says it is working to understand and reduce ways ChatGPT might unintentionally reinforce or amplify existing, negative behavior."
+  },
+  "OAI-151": {
+    "title": "The cracks in the OpenAI-Microsoft relationship are reportedly widening",
+    "date": "2025-06-16",
+    "action": "OpenAI executives considered publicly accusing Microsoft of anticompetitive behavior and seeking federal regulatory review of their partnership contract."
+  },
+  "OAI-152": {
+    "title": "OpenAI’s $200M DoD contract could squeeze frenemy Microsoft",
+    "date": "2025-06-17",
+    "action": "OpenAI secured a contract with the U.S. Department of Defense for up to $200 million."
+  },
+  "OAI-153": {
+    "title": "OpenAI drops Scale AI as a data provider following Meta deal",
+    "date": "2025-06-18",
+    "action": "OpenAI phased out its work with Scale AI as a data provider."
+  },
+  "OAI-154": {
+    "title": "OpenAI found features in AI models that correspond to different ‘personas’",
+    "date": "2025-06-18",
+    "action": "OpenAI discovered hidden features in AI models that correspond to different 'personas'."
+  },
+  "OAI-155": {
+    "title": "OpenAI pulls promotional materials around Jony Ive deal due to court order",
+    "date": "2025-06-22",
+    "action": "OpenAI pulled promotional materials related to the io deal from its website and YouTube page."
+  },
+  "OAI-156": {
+    "title": "Court filings reveal OpenAI and io’s early work on an AI device",
+    "date": "2025-06-23",
+    "action": "OpenAI collaborated with io to develop a mass-market AI hardware device."
+  },
+  "OAI-157": {
+    "title": "OpenAI hires team behind AI recommendation startup Crossing Minds",
+    "date": "2025-06-27",
+    "action": "OpenAI hired the team from AI recommendation startup Crossing Minds."
+  },
+  "OAI-158": {
+    "title": "OpenAI reportedly ‘recalibrating’ compensation in response to Meta hires",
+    "date": "2025-06-29",
+    "action": "OpenAI recalibrated compensation to retain top talent."
+  },
+  "OAI-159": {
+    "title": "OpenAI condemns Robinhood’s ‘OpenAI tokens’",
+    "date": "2025-07-02",
+    "action": "OpenAI condemned Robinhood's sale of 'OpenAI tokens'."
+  },
+  "OAI-160": {
+    "title": "OpenAI tightens the screws on security to keep away prying eyes",
+    "date": "2025-07-07",
+    "action": "OpenAI overhauled its security operations to protect against corporate espionage."
+  },
+  "OAI-161": {
+    "title": "OpenAI is reportedly releasing an AI browser in the coming weeks",
+    "date": "2025-07-09",
+    "action": "OpenAI plans to release an AI-powered web browser."
+  },
+  "OAI-162": {
+    "title": "Research leaders urge tech industry to monitor AI’s ‘thoughts’",
+    "date": "2025-07-15",
+    "action": "OpenAI co-authored a position paper urging deeper investigation into techniques for monitoring AI reasoning models."
+  },
+  "OAI-163": {
+    "title": "OpenAI launches a general purpose agent in ChatGPT",
+    "date": "2025-07-17",
+    "action": "OpenAI launched a new general purpose AI agent in ChatGPT."
+  },
+  "OAI-164": {
+    "title": "OpenAI and Google outdo the mathletes, but not each other",
+    "date": "2025-07-21",
+    "action": "OpenAI participated in the International Math Olympiad with their AI model."
+  },
+  "OAI-165": {
+    "title": "OpenAI agreed to pay Oracle $30B a year for data center services",
+    "date": "2025-07-22",
+    "action": "OpenAI agreed to pay Oracle $30 billion a year for data center services."
+  },
+  "OAI-166": {
+    "title": "Sundar Pichai is ‘very excited’ about Google Cloud’s OpenAI partnership",
+    "date": "2025-07-23",
+    "action": "OpenAI partnered with Google Cloud for cloud computing resources."
+  },
+  "OAI-167": {
+    "title": "Sam Altman warns there’s no legal confidentiality when using ChatGPT as a therapist",
+    "date": "2025-07-25",
+    "action": "OpenAI's CEO Sam Altman warned that conversations with ChatGPT lack legal confidentiality protections equivalent to doctor-patient or attorney-client privilege."
+  },
+  "OAI-168": {
+    "title": "OpenAI launches Study Mode in ChatGPT",
+    "date": "2025-07-29",
+    "action": "OpenAI launched Study Mode in ChatGPT."
+  },
+  "OAI-169": {
+    "title": "Microsoft in talks to maintain access to OpenAI’s tech beyond AGI milestone",
+    "date": "2025-07-29",
+    "action": "OpenAI engaged in advanced talks with Microsoft to negotiate a new agreement for ongoing access to its technology."
+  },
+  "OAI-170": {
+    "title": "OpenAI to launch AI data center in Norway, its first in Europe",
+    "date": "2025-07-31",
+    "action": "OpenAI plans to launch Stargate Norway, its first AI data center in Europe."
+  },
+  "OAI-171": {
+    "title": "OpenAI reportedly raises $8.3B at $300B valuation",
+    "date": "2025-08-01",
+    "action": "OpenAI raised $8.3 billion at a $300 billion valuation."
+  },
+  "OAI-172": {
+    "title": "Inside OpenAI’s quest to make AI do anything for you",
+    "date": "2025-08-03",
+    "action": "OpenAI's MathGen research team developed reinforcement learning techniques that led to breakthroughs in AI reasoning models and agents."
+  },
+  "OAI-173": {
+    "title": "For the first time, OpenAI models are available on AWS",
+    "date": "2025-08-05",
+    "action": "OpenAI released two open-weight reasoning models that became available on AWS Bedrock and SageMaker, marking the first time OpenAI models appeared on Amazon's cloud platform."
+  },
+  "OAI-174": {
+    "title": "OpenAI launches two ‘open’ AI reasoning models",
+    "date": "2025-08-05",
+    "action": "OpenAI launched two open-weight AI reasoning models."
+  },
+  "OAI-175": {
+    "title": "OpenAI is practically giving ChatGPT to the government for free",
+    "date": "2025-08-06",
+    "action": "OpenAI reached an agreement with the U.S. General Services Administration to offer ChatGPT Enterprise to federal agencies at a discounted rate."
+  },
+  "OAI-176": {
+    "title": "OpenAI’s GPT-5 is here",
+    "date": "2025-08-07",
+    "action": "OpenAI launched GPT-5, a new flagship AI model."
+  },
+  "OAI-177": {
+    "title": "Sam Altman addresses ‘bumpy’ GPT-5 rollout, bringing 4o back, and the ‘chart crime’",
+    "date": "2025-08-08",
+    "action": "OpenAI addressed issues with the GPT-5 rollout and considered user feedback for improvements."
+  },
+  "OAI-178": {
+    "title": "OpenAI priced GPT-5 so low, it may spark a price war",
+    "date": "2025-08-08",
+    "action": "OpenAI priced GPT-5 competitively to potentially spark a price war."
+  },
+  "OAI-179": {
+    "title": "OpenAI just made an offer the government can’t refuse",
+    "date": "2025-08-08",
+    "action": "OpenAI announced a deal giving U.S. agencies access to ChatGPT Enterprise for $1 per year."
+  },
+  "OAI-180": {
+    "title": "ChatGPT’s model picker is back, and it’s complicated",
+    "date": "2025-08-12",
+    "action": "OpenAI introduced new 'Auto,' 'Fast,' and 'Thinking' settings for GPT-5 and reintroduced several legacy AI models."
+  },
+  "OAI-181": {
+    "title": "Sam Altman, over bread rolls, explores life after GPT-5",
+    "date": "2025-08-15",
+    "action": "OpenAI plans to expand its focus beyond AI model launches to include consumer hardware, enterprise software, and potential acquisitions."
+  },
+  "OAI-182": {
+    "title": "GPT-5 is supposed to be nicer now",
+    "date": "2025-08-17",
+    "action": "OpenAI updated its GPT-5 model to be warmer and friendlier."
+  },
+  "OAI-183": {
+    "title": "OpenAI launches a sub-$5 ChatGPT plan in India",
+    "date": "2025-08-18",
+    "action": "OpenAI launched a new, cheaper ChatGPT subscription plan called ChatGPT GO in India."
+  },
+  "OAI-184": {
+    "title": "OpenAI announces New Delhi office as it expands footprint in India",
+    "date": "2025-08-21",
+    "action": "OpenAI announced plans to open its first office in India."
+  },
+  "OAI-185": {
+    "title": "OpenAI lawyers question Meta’s role in Elon Musk’s $97B takeover bid",
+    "date": "2025-08-21",
+    "action": "OpenAI subpoenaed Meta for documents related to Elon Musk's takeover bid."
+  },
+  "OAI-186": {
+    "title": "OpenAI warns against SPVs and other ‘unauthorized’ investments",
+    "date": "2025-08-23",
+    "action": "OpenAI warns against unauthorized investment opportunities involving its equity."
+  },
+  "OAI-187": {
+    "title": "Parents sue OpenAI over ChatGPT’s role in son’s suicide",
+    "date": "2025-08-26",
+    "action": "OpenAI faced the first known wrongful death lawsuit after a teenager used ChatGPT in connection with his suicide."
+  },
+  "OAI-188": {
+    "title": "OpenAI co-founder calls for AI labs to safety-test rival models",
+    "date": "2025-08-27",
+    "action": "OpenAI collaborated with Anthropic to conduct joint safety testing of their AI models."
+  },
+  "OAI-189": {
+    "title": "OpenAI to route sensitive conversations to GPT-5, introduce parental controls",
+    "date": "2025-09-02",
+    "action": "OpenAI plans to route sensitive conversations to reasoning models like GPT-5 and introduce parental controls."
+  },
+  "OAI-190": {
+    "title": "OpenAI acquires product testing startup Statsig and shakes up its leadership team",
+    "date": "2025-09-02",
+    "action": "OpenAI acquired the product testing startup Statsig."
+  },
+  "OAI-191": {
+    "title": "OpenAI announces AI-powered hiring platform to take on LinkedIn",
+    "date": "2025-09-04",
+    "action": "OpenAI announces the development of an AI-powered hiring platform called the OpenAI Jobs Platform."
+  },
+  "OAI-192": {
+    "title": "OpenAI reorganizes research team behind ChatGPT’s personality",
+    "date": "2025-09-05",
+    "action": "OpenAI reorganized its Model Behavior team to join the Post Training team."
+  },
+  "OAI-193": {
+    "title": "Attorneys general warn OpenAI ‘harm to children will not be tolerated’",
+    "date": "2025-09-05",
+    "action": "OpenAI committed to addressing safety concerns and expanding protections for teens using its AI products."
+  },
+  "OAI-194": {
+    "title": "OpenAI hires the team behind Xcode coding assistant Alex",
+    "date": "2025-09-05",
+    "action": "OpenAI hires the team behind the Alex coding assistant."
+  },
+  "OAI-195": {
+    "title": "Are bad incentives to blame for AI hallucinations?",
+    "date": "2025-09-07",
+    "action": "OpenAI released a research paper and blog post discussing the causes of AI hallucinations and proposing changes to model evaluation methods."
+  },
+  "OAI-196": {
+    "title": "OpenAI and Oracle reportedly ink historic cloud computing deal",
+    "date": "2025-09-10",
+    "action": "OpenAI signed a multi-billion-dollar cloud computing deal with Oracle."
+  },
+  "OAI-197": {
+    "title": "OpenAI secures Microsoft’s blessing to transition its for-profit arm",
+    "date": "2025-09-11",
+    "action": "OpenAI reached a nonbinding agreement with Microsoft to transition its for-profit arm into a public benefit corporation."
+  },
+  "OAI-198": {
+    "title": "Why the Oracle-OpenAI deal caught Wall Street by surprise",
+    "date": "2025-09-12",
+    "action": "OpenAI entered into a $300 billion, five-year agreement with Oracle for compute infrastructure."
+  },
+  "OAI-199": {
+    "title": "OpenAI upgrades Codex with a new version of GPT-5",
+    "date": "2025-09-15",
+    "action": "OpenAI released a new version of GPT-5 for its Codex product."
+  },
+  "OAI-200": {
+    "title": "OpenAI will apply new restrictions to ChatGPT users under 18",
+    "date": "2025-09-16",
+    "action": "OpenAI implemented new restrictions on ChatGPT interactions with users under 18."
+  },
+  "OAI-201": {
+    "title": "OpenAI’s research on AI models deliberately lying is wild",
+    "date": "2025-09-18",
+    "action": "OpenAI released research on AI models' deceptive behaviors and methods to mitigate them."
+  },
+  "OAI-202": {
+    "title": "After India, OpenAI launches its affordable ChatGPT Go plan in Indonesia",
+    "date": "2025-09-22",
+    "action": "OpenAI expanded its sub-$5 ChatGPT Go plan to Indonesia."
+  },
+  "OAI-203": {
+    "title": "Nvidia plans to invest up to $100B in OpenAI",
+    "date": "2025-09-22",
+    "action": "OpenAI agreed to work with Nvidia as a preferred strategic compute and networking partner."
+  },
+  "OAI-204": {
+    "title": "OpenAI is building five new Stargate data centers with Oracle and SoftBank",
+    "date": "2025-09-23",
+    "action": "OpenAI announced plans to build five new AI data centers across the United States with partners Oracle and SoftBank."
+  },
+  "OAI-205": {
+    "title": "OpenAI launches ChatGPT Pulse to proactively write you morning briefs",
+    "date": "2025-09-25",
+    "action": "OpenAI launched ChatGPT Pulse to provide personalized morning briefs."
+  },
+  "OAI-206": {
+    "title": "OpenAI says GPT-5 stacks up to humans in a wide range of jobs",
+    "date": "2025-09-25",
+    "action": "OpenAI released a new benchmark test called GDPval to evaluate AI models' performance compared to human professionals."
+  },
+  "OAI-207": {
+    "title": "Databricks will bake OpenAI models into its products in $100M bet to spur enterprise adoption",
+    "date": "2025-09-25",
+    "action": "OpenAI entered into a $100 million multi-year deal with Databricks to incorporate its models into Databricks' data platform and AI product."
+  },
+  "OAI-208": {
+    "title": "Everyone’s still throwing billions at AI data centers",
+    "date": "2025-09-26",
+    "action": "OpenAI benefited from Nvidia's announcement to invest up to $100 billion to deploy 10 gigawatts of compute systems for its next-gen AI infrastructure."
+  },
+  "OAI-209": {
+    "title": "OpenAI takes on Google, Amazon with new agentic shopping system",
+    "date": "2025-09-29",
+    "action": "OpenAI launched the Instant Checkout feature for ChatGPT users."
+  },
+  "OAI-210": {
+    "title": "OpenAI rolls out safety routing system, parental controls on ChatGPT",
+    "date": "2025-09-29",
+    "action": "OpenAI implemented a safety routing system and parental controls in ChatGPT."
+  },
+  "OAI-211": {
+    "title": "OpenAI is launching the Sora app, its own TikTok competitor, alongside the Sora 2 model",
+    "date": "2025-09-30",
+    "action": "OpenAI launched the Sora app and Sora 2 model."
+  },
+  "OAI-212": {
+    "title": "OpenAI staff grapples with the company’s social media push",
+    "date": "2025-10-01",
+    "action": "OpenAI launched the Sora app, a TikTok-style feed filled with AI-generated videos."
+  },
+  "OAI-213": {
+    "title": "OpenAI’s new social app is filled with terrifying Sam Altman deepfakes",
+    "date": "2025-10-01",
+    "action": "OpenAI launched a new social media app called Sora."
+  },
+  "OAI-214": {
+    "title": "OpenAI ropes in Samsung, SK Hynix to source memory chips for Stargate",
+    "date": "2025-10-01",
+    "action": "OpenAI struck agreements with Samsung Electronics and SK Hynix to source memory chips for the Stargate AI infrastructure project."
+  },
+  "OAI-215": {
+    "title": "Ex-OpenAI researcher dissects one of ChatGPT’s delusional spirals",
+    "date": "2025-10-02",
+    "action": "OpenAI's handling of delusional user interactions was scrutinized in an independent analysis by a former safety researcher."
+  },
+  "OAI-216": {
+    "title": "OpenAI is the world’s most valuable private company after private stock sale",
+    "date": "2025-10-02",
+    "action": "OpenAI sold $6.6 billion in shares held by current and former employees."
+  },
+  "OAI-217": {
+    "title": "With its latest acqui-hire, OpenAI is doubling down on personalized consumer AI",
+    "date": "2025-10-03",
+    "action": "OpenAI acquired Roi, an AI-powered personal finance app."
+  },
+  "OAI-218": {
+    "title": "Sam Altman says Sora will add ‘granular,’ opt-in copyright controls",
+    "date": "2025-10-04",
+    "action": "OpenAI decided to implement more granular, opt-in copyright controls in its video app Sora."
+  },
+  "OAI-219": {
+    "title": "OpenAI and Jony Ive may be struggling to figure out their AI device",
+    "date": "2025-10-05",
+    "action": "OpenAI collaborates with Jony Ive to develop a screen-less, AI-powered device."
+  },
+  "OAI-220": {
+    "title": "OpenAI ramps up developer push with more powerful models in its API",
+    "date": "2025-10-06",
+    "action": "OpenAI unveiled new API updates and models at its Dev Day."
+  },
+  "OAI-221": {
+    "title": "OpenAI launches AgentKit to help developers build and ship AI agents",
+    "date": "2025-10-06",
+    "action": "OpenAI launched AgentKit to help developers build and ship AI agents."
+  },
+  "OAI-222": {
+    "title": "OpenAI launches apps inside of ChatGPT",
+    "date": "2025-10-06",
+    "action": "OpenAI launched apps inside of ChatGPT."
+  },
+  "OAI-223": {
+    "title": "Sam Altman says ChatGPT has hit 800M weekly active users",
+    "date": "2025-10-06",
+    "action": "OpenAI reached 800 million weekly active users for ChatGPT."
+  },
+  "OAI-224": {
+    "title": "What to expect at OpenAI’s DevDay 2025, and how to watch it",
+    "date": "2025-10-06",
+    "action": "OpenAI hosts its third annual developer conference, DevDay 2025."
+  },
+  "OAI-225": {
+    "title": "AMD to supply 6GW of compute capacity to OpenAI in chip deal worth tens of billions",
+    "date": "2025-10-06",
+    "action": "OpenAI signed a multi-year chip supply deal with AMD to secure 6 gigawatts of compute capacity."
+  },
+  "OAI-226": {
+    "title": "Wall Street analysts explain how AMD’s own stock will pay for OpenAI’s billions in chip purchases",
+    "date": "2025-10-07",
+    "action": "OpenAI agreed to purchase and deploy 6 gigawatts of compute capacity from AMD using AMD's stock warrants."
+  },
+  "OAI-227": {
+    "title": "OpenAI and the race for AI-driven commerce",
+    "date": "2025-10-07",
+    "action": "OpenAI launched Instant Checkout, an agentic shopping system integrated into ChatGPT."
+  },
+  "OAI-228": {
+    "title": "You can’t libel the dead. But that doesn’t mean you should deepfake them.",
+    "date": "2025-10-07",
+    "action": "OpenAI's Sora app allowed users to generate deepfake videos of deceased celebrities without guardrails, prompting backlash from their families."
+  },
+  "OAI-229": {
+    "title": "Even after Stargate, Oracle, Nvidia, and AMD, OpenAI has more big deals coming soon, Sam Altman says",
+    "date": "2025-10-08",
+    "action": "OpenAI entered into strategic partnerships and deals with companies like AMD and Nvidia to secure resources for its infrastructure expansion."
+  },
+  "OAI-230": {
+    "title": "OpenAI’s Nick Turley on transforming ChatGPT into an operating system",
+    "date": "2025-10-08",
+    "action": "OpenAI is transforming ChatGPT into an operating system with third-party apps."
+  },
+  "OAI-231": {
+    "title": "OpenAI’s affordable ChatGPT Go plan expands to 16 new countries in Asia",
+    "date": "2025-10-09",
+    "action": "OpenAI expanded its affordable ChatGPT Go plan to 16 new countries in Asia."
+  },
+  "OAI-232": {
+    "title": "OpenAI has five years to turn $13 billion into $1 trillion",
+    "date": "2025-10-14",
+    "action": "OpenAI explores government contracts, shopping tools, video services, consumer hardware, and becoming a computing supplier through its Stargate data center project."
+  },
+  "OAI-233": {
+    "title": "Sam Altman says ChatGPT will soon allow erotica for adult users",
+    "date": "2025-10-14",
+    "action": "OpenAI decided to relax safety restrictions on ChatGPT to allow erotica for verified adults."
+  },
+  "OAI-234": {
+    "title": "You’ll soon be able to shop Walmart from ChatGPT",
+    "date": "2025-10-14",
+    "action": "OpenAI partnered with Walmart to enable shopping via ChatGPT."
+  },
+  "OAI-235": {
+    "title": "OpenAI and Broadcom partner on AI hardware",
+    "date": "2025-10-14",
+    "action": "OpenAI formed a partnership with Broadcom for custom AI accelerator hardware."
+  },
+  "OAI-236": {
+    "title": "OpenAI pauses Sora video generations of Martin Luther King Jr.",
+    "date": "2025-10-16",
+    "action": "OpenAI paused the ability for users to generate videos resembling Martin Luther King Jr. using its AI video model, Sora."
+  },
+  "OAI-237": {
+    "title": "Silicon Valley spooks the AI safety advocates",
+    "date": "2025-10-17",
+    "action": "OpenAI sent subpoenas to AI safety nonprofits."
+  },
+  "OAI-238": {
+    "title": "OpenAI’s new browser is a broadside shot at Google",
+    "date": "2025-10-21",
+    "action": "OpenAI launched a new web browser called Atlas."
+  },
+  "OAI-239": {
+    "title": "OpenAI requested memorial attendee list in ChatGPT suicide lawsuit",
+    "date": "2025-10-22",
+    "action": "OpenAI requested a full list of attendees from a memorial service related to a lawsuit."
+  },
+  "OAI-240": {
+    "title": "OpenAI’s Atlas is more about ChatGPT than the web",
+    "date": "2025-10-22",
+    "action": "OpenAI unveiled its AI browser, ChatGPT Atlas."
+  },
+  "OAI-241": {
+    "title": "Several users reportedly complain to FTC that ChatGPT is causing psychological harm",
+    "date": "2025-10-22",
+    "action": "OpenAI faced FTC complaints from users alleging ChatGPT caused severe delusions, paranoia, and emotional crises."
+  },
+  "OAI-242": {
+    "title": "OpenAI buys Sky, an AI interface for Mac",
+    "date": "2025-10-23",
+    "action": "OpenAI acquired Software Applications, Inc., the makers of an AI-powered natural language interface for Mac computers called Sky."
+  },
+  "OAI-243": {
+    "title": "Sora update to bring AI videos of your pets, new social features, and soon, an Android version",
+    "date": "2025-10-23",
+    "action": "OpenAI announced a series of updates for the Sora app, including new video editing tools, character cameos, and an upcoming Android version."
+  },
+  "OAI-244": {
+    "title": "OpenAI reportedly developing new generative music tool",
+    "date": "2025-10-25",
+    "action": "OpenAI is developing a new tool that generates music based on text and audio prompts."
+  },
+  "OAI-245": {
+    "title": "OpenAI offers free ChatGPT Go for one year to all users in India",
+    "date": "2025-10-27",
+    "action": "OpenAI offers free ChatGPT Go for one year to all users in India."
+  },
+  "OAI-246": {
+    "title": "OpenAI says over a million people talk to ChatGPT about suicide weekly",
+    "date": "2025-10-27",
+    "action": "OpenAI improved how ChatGPT models respond to users with mental health issues."
+  },
+  "OAI-247": {
+    "title": "Sam Altman says OpenAI will have a ‘legitimate AI researcher’ by 2028",
+    "date": "2025-10-28",
+    "action": "OpenAI announced it is tracking toward an intern-level AI research assistant by September 2026 and a fully automated 'legitimate AI researcher' by 2028."
+  },
+  "OAI-248": {
+    "title": "OpenAI completes its for-profit recapitalization",
+    "date": "2025-10-28",
+    "action": "OpenAI completed its recapitalization, splitting into a for-profit corporation nested inside a non-profit foundation."
+  },
+  "OAI-249": {
+    "title": "PayPal partners with OpenAI to let users pay for their shopping within ChatGPT",
+    "date": "2025-10-28",
+    "action": "OpenAI partnered with PayPal to enable users to pay for shopping directly within ChatGPT using the Agentic Commerce Protocol."
+  },
+  "OAI-250": {
+    "title": "Sora is now available on Android in the US, Canada, and other regions",
+    "date": "2025-11-04",
+    "action": "OpenAI launched the Sora app on Android in multiple regions."
+  },
+  "OAI-251": {
+    "title": "SoftBank, OpenAI launch new joint venture in Japan as AI deals grow ever more circular",
+    "date": "2025-11-05",
+    "action": "OpenAI launched a joint venture with SoftBank in Japan to localize and sell its enterprise AI technology."
+  },
+  "OAI-252": {
+    "title": "Sam Altman says OpenAI has $20B ARR and about $1.4 trillion in data center commitments",
+    "date": "2025-11-06",
+    "action": "OpenAI committed to about $1.4 trillion in data center investments over the next 8 years."
+  },
+  "OAI-253": {
+    "title": "Sam Altman says he doesn’t want the government to bail out OpenAI if it fails",
+    "date": "2025-11-06",
+    "action": "OpenAI clarified that it does not seek government guarantees for its datacenters."
+  },
+  "OAI-254": {
+    "title": "Seven more families are now suing OpenAI over ChatGPT’s role in suicides, delusions",
+    "date": "2025-11-07",
+    "action": "Seven additional families sued OpenAI alleging that ChatGPT's GPT-4o model contributed to family members' suicides and dangerous delusions."
+  },
+  "OAI-255": {
+    "title": "OpenAI asked Trump administration to expand Chips Act tax credit to cover data centers",
+    "date": "2025-11-08",
+    "action": "OpenAI requested the Trump administration to expand the Chips Act tax credit to cover data centers."
+  },
+  "OAI-256": {
+    "title": "Microsoft’s plan to fix its chip problem is, partly, to let OpenAI do the heavy lifting",
+    "date": "2025-11-13",
+    "action": "OpenAI designs AI chips with Broadcom."
+  },
+  "OAI-257": {
+    "title": "Leaked documents shed light into how much OpenAI pays Microsoft",
+    "date": "2025-11-14",
+    "action": "Leaked documents revealed OpenAI paid Microsoft $865.8 million in revenue share in the first three quarters of 2025, raising questions about profitability."
+  },
+  "OAI-258": {
+    "title": "OpenAI says it’s fixed ChatGPT’s em dash problem",
+    "date": "2025-11-14",
+    "action": "OpenAI fixed ChatGPT's issue with em dashes when instructed not to use them."
+  },
+  "OAI-259": {
+    "title": "ChatGPT launches pilot group chats across Japan, New Zealand, South Korea, and Taiwan",
+    "date": "2025-11-14",
+    "action": "OpenAI launched a pilot group chat feature for ChatGPT in select regions."
+  },
+  "OAI-260": {
+    "title": "Intuit signs $100M+ deal with OpenAI to bring its apps to ChatGPT",
+    "date": "2025-11-18",
+    "action": "OpenAI signed a $100M+ multi-year contract with Intuit to bring Intuit's apps (TurboTax, Credit Karma, QuickBooks, Mailchimp) into ChatGPT and expand Intuit's use of OpenAI models."
+  },
+  "OAI-261": {
+    "title": "Target joins OpenAI’s growing list of retail apps",
+    "date": "2025-11-19",
+    "action": "OpenAI launched a new ChatGPT-powered app for Target."
+  },
+  "OAI-262": {
+    "title": "ChatGPT launches group chats globally",
+    "date": "2025-11-20",
+    "action": "OpenAI launched group chats globally for ChatGPT users."
+  },
+  "OAI-263": {
+    "title": "ChatGPT told them they were special — their families say it led to tragedy",
+    "date": "2025-11-23",
+    "action": "OpenAI faced a wave of lawsuits alleging that ChatGPT's sycophantic behavior in GPT-4o led to user suicides and psychotic episodes."
+  },
+  "OAI-264": {
+    "title": "Altman describes OpenAI’s forthcoming AI device as more peaceful and calm than the iPhone",
+    "date": "2025-11-24",
+    "action": "OpenAI developed a forthcoming AI hardware device in collaboration with Jony Ive."
+  },
+  "OAI-265": {
+    "title": "OpenAI learned the hard way that Cameo trademarked the word ‘cameo’",
+    "date": "2025-11-24",
+    "action": "OpenAI used the word 'cameo' in its Sora app."
+  },
+  "OAI-266": {
+    "title": "ChatGPT’s voice mode is no longer a separate interface",
+    "date": "2025-11-25",
+    "action": "OpenAI updated the user interface of ChatGPT to integrate voice mode directly into the chat."
+  },
+  "OAI-267": {
+    "title": "OpenAI and Perplexity are launching AI shopping assistants, but competing startups aren’t sweating it",
+    "date": "2025-11-25",
+    "action": "OpenAI launched AI shopping features integrated into their existing chatbots."
+  },
+  "OAI-268": {
+    "title": "OpenAI claims teen circumvented safety features before suicide that ChatGPT helped plan",
+    "date": "2025-11-26",
+    "action": "OpenAI filed a legal response to a lawsuit regarding a user's suicide allegedly influenced by ChatGPT."
+  },
+  "OAI-269": {
+    "title": "OpenAI’s investment into Thrive Holdings is its latest circular deal",
+    "date": "2025-12-01",
+    "action": "OpenAI invested in Thrive Holdings and embedded its employees in Thrive's portfolio companies."
+  },
+  "OAI-270": {
+    "title": "OpenAI slammed for app suggestions that looked like ads",
+    "date": "2025-12-02",
+    "action": "OpenAI tested surfacing app suggestions in ChatGPT conversations."
+  },
+  "OAI-271": {
+    "title": "ChatGPT’s user growth has slowed, report finds",
+    "date": "2025-12-05",
+    "action": "OpenAI's ChatGPT saw its user growth slow significantly, with Google's Gemini outpacing it in download growth, active user growth, and time spent in app."
+  },
+  "OAI-272": {
+    "title": "OpenAI says it’s turned off app suggestions that look like ads",
+    "date": "2025-12-07",
+    "action": "OpenAI turned off app suggestions that looked like ads."
+  },
+  "OAI-273": {
+    "title": "You can buy your Instacart groceries without leaving ChatGPT",
+    "date": "2025-12-08",
+    "action": "OpenAI launched a grocery shopping experience inside ChatGPT in partnership with Instacart."
+  },
+  "OAI-274": {
+    "title": "OpenAI boasts enterprise win days after internal ‘code red’ on Google threat",
+    "date": "2025-12-08",
+    "action": "OpenAI released new data showing a surge in enterprise usage of its AI tools."
+  },
+  "OAI-275": {
+    "title": "Slack CEO Denise Dresser to join OpenAI as chief revenue officer",
+    "date": "2025-12-09",
+    "action": "OpenAI hired Denise Dresser as its new chief revenue officer."
+  },
+  "OAI-276": {
+    "title": "OpenAI, Anthropic, and Block join new Linux Foundation effort to standardize the AI agent era",
+    "date": "2025-12-09",
+    "action": "OpenAI donated AGENTS.md to the Agentic AI Foundation."
+  },
+  "OAI-277": {
+    "title": "OpenAI fires back at Google with GPT-5.2 after ‘code red’ memo",
+    "date": "2025-12-11",
+    "action": "OpenAI launched GPT-5.2."
+  },
+  "OAI-278": {
+    "title": "Disney signs deal with OpenAI to allow Sora to generate AI videos featuring its characters",
+    "date": "2025-12-11",
+    "action": "OpenAI entered into a three-year partnership with Disney to integrate its AI technologies with Disney's intellectual properties."
+  },
+  "OAI-279": {
+    "title": "OpenAI continues on its ‘code red’ warpath with new image generation model",
+    "date": "2025-12-16",
+    "action": "OpenAI rolled out a new version of its image generation model, GPT Image 1.5."
+  },
+  "OAI-280": {
+    "title": "ChatGPT launches an app store, lets developers know it’s open for business",
+    "date": "2025-12-18",
+    "action": "OpenAI launched an app store for ChatGPT."
+  },
+  "OAI-281": {
+    "title": "Why British politicians are flocking to American tech giants",
+    "date": "2025-12-18",
+    "action": "OpenAI hired George Osborne as managing director and head of OpenAI for Countries."
+  },
+  "OAI-282": {
+    "title": "OpenAI adds new teen safety rules to ChatGPT as lawmakers weigh AI standards for minors",
+    "date": "2025-12-19",
+    "action": "OpenAI updated its guidelines for AI models to enhance safety for users under 18."
+  },
+  "OAI-283": {
+    "title": "OpenAI is reportedly trying to raise $100B at an $830B valuation",
+    "date": "2025-12-19",
+    "action": "OpenAI is in talks to raise up to $100 billion in a funding round."
+  },
+  "OAI-284": {
+    "title": "OpenAI allows users to directly adjust ChatGPT’s enthusiasm level",
+    "date": "2025-12-20",
+    "action": "OpenAI allows users to directly adjust ChatGPT’s enthusiasm level."
+  },
+  "OAI-285": {
+    "title": "OpenAI says AI browsers may always be vulnerable to prompt injection attacks",
+    "date": "2025-12-22",
+    "action": "OpenAI developed a reinforcement learning-based automated attacker to test and improve the security of its AI browser against prompt injection attacks."
+  },
+  "OAI-286": {
+    "title": "ChatGPT launches a year-end review like Spotify Wrapped",
+    "date": "2025-12-22",
+    "action": "OpenAI launched an annual review feature called 'Your Year with ChatGPT' for its chatbot."
+  },
+  "OAI-287": {
+    "title": "ChatGPT: A 2025 timeline of updates to OpenAI’s text-generating chatbot",
+    "date": "2025-12-22",
+    "action": "OpenAI launched a new AI shopping feature in ChatGPT ahead of the holiday season."
+  },
+  "OAI-288": {
+    "title": "OpenAI is looking for a new Head of Preparedness",
+    "date": "2025-12-28",
+    "action": "OpenAI is hiring a new Head of Preparedness."
+  },
+  "OAI-289": {
+    "title": "OpenAI bets big on audio as Silicon Valley declares war on screens",
+    "date": "2026-01-01",
+    "action": "OpenAI unified several engineering, product, and research teams to overhaul its audio models."
+  },
+  "OAI-290": {
+    "title": "OpenAI unveils ChatGPT Health, says 230 million users ask about health each week",
+    "date": "2026-01-07",
+    "action": "OpenAI unveiled ChatGPT Health."
+  },
+  "OAI-291": {
+    "title": "OpenAI to acquire the team behind executive coaching AI tool Convogo",
+    "date": "2026-01-08",
+    "action": "OpenAI acquires the team behind Convogo."
+  },
+  "OAI-292": {
+    "title": "OpenAI is reportedly asking contractors to upload real work from past jobs",
+    "date": "2026-01-10",
+    "action": "OpenAI asked contractors to upload real work from past jobs."
+  },
+  "OAI-293": {
+    "title": "OpenAI buys tiny health records startup Torch for, reportedly, $100M",
+    "date": "2026-01-12",
+    "action": "OpenAI bought health startup Torch."
+  },
+  "OAI-294": {
+    "title": "Mira Murati’s startup, Thinking Machines Lab, is losing two of its co-founders to OpenAI",
+    "date": "2026-01-14",
+    "action": "OpenAI rehired former employees Barret Zoph, Luke Metz, and Sam Schoenholz."
+  },
+  "OAI-295": {
+    "title": "OpenAI signs deal, worth $10B, for compute from Cerebras",
+    "date": "2026-01-14",
+    "action": "OpenAI signed a multi-year agreement with Cerebras for compute resources."
+  },
+  "OAI-296": {
+    "title": "Silicon Valley’s messiest breakup is definitely headed to court",
+    "date": "2026-01-15",
+    "action": "OpenAI's attempt to dismiss Elon Musk's lawsuit was rejected by a federal judge, who set the case for a jury trial."
+  },
+  "OAI-297": {
+    "title": "The AI lab revolving door spins ever faster",
+    "date": "2026-01-15",
+    "action": "OpenAI hired several key employees from other companies."
+  },
+  "OAI-298": {
+    "title": "OpenAI invests in Sam Altman’s brain computer interface startup Merge Labs",
+    "date": "2026-01-15",
+    "action": "OpenAI invested in Merge Labs."
+  },
+  "OAI-299": {
+    "title": "From OpenAI’s offices to a deal with Eli Lilly — how Chai Discovery became one of the flashiest names in AI drug development",
+    "date": "2026-01-16",
+    "action": "OpenAI invested in Chai Discovery as one of its first seed investors."
+  },
+  "OAI-300": {
+    "title": "ChatGPT users are about to get hit with targeted ads",
+    "date": "2026-01-16",
+    "action": "OpenAI announced that it will begin testing ads in ChatGPT for certain users."
+  },
+  "OAI-301": {
+    "title": "In an effort to protect young users, ChatGPT will now predict how old you are",
+    "date": "2026-01-20",
+    "action": "OpenAI introduced an 'age prediction' feature into ChatGPT to help identify minors and apply content constraints."
+  },
+  "OAI-302": {
+    "title": "OpenAI aims to ship its first device in 2026, and it could be earbuds",
+    "date": "2026-01-21",
+    "action": "OpenAI plans to announce its first hardware device in the second half of this year."
+  },
+  "OAI-303": {
+    "title": "OpenAI is coming for those sweet enterprise dollars in 2026",
+    "date": "2026-01-22",
+    "action": "OpenAI reorganized its leadership to focus on selling AI to business customers."
+  },
+  "OAI-304": {
+    "title": "OpenAI chief Sam Altman plans India visit as AI leaders converge in New Delhi: sources",
+    "date": "2026-01-23",
+    "action": "OpenAI plans to host closed-door meetings and an event in New Delhi."
+  },
+  "OAI-305": {
+    "title": "OpenAI launches Prism, a new AI workspace for scientists",
+    "date": "2026-01-27",
+    "action": "OpenAI launched Prism, a new AI workspace for scientists."
+  },
+  "OAI-306": {
+    "title": "Microsoft gained $7.6B from OpenAI last quarter",
+    "date": "2026-01-28",
+    "action": "OpenAI agreed to buy another $250 billion of Azure services."
+  },
+  "OAI-307": {
+    "title": "ServiceNow inks another AI partnership, this time with Anthropic",
+    "date": "2026-01-28",
+    "action": "OpenAI entered into a partnership with ServiceNow to provide its AI models through ServiceNow's products."
+  },
+  "OAI-308": {
+    "title": "Amazon is reportedly in talks to invest $50B in OpenAI",
+    "date": "2026-01-29",
+    "action": "OpenAI pursued additional funding by engaging in investment talks with Amazon and other entities."
+  },
+  "OAI-309": {
+    "title": "OpenAI’s Sora app is struggling after its stellar launch",
+    "date": "2026-01-29",
+    "action": "OpenAI's Sora video-generation app experienced significant declines in downloads and consumer spending after its initial launch success."
+  },
+  "OAI-310": {
+    "title": "What Snowflake’s deal with OpenAI tells us about the enterprise AI race",
+    "date": "2026-02-02",
+    "action": "OpenAI entered into a multi-year AI deal with Snowflake."
+  },
+  "OAI-311": {
+    "title": "OpenAI launches new macOS app for agentic coding",
+    "date": "2026-02-02",
+    "action": "OpenAI launched a new macOS app for Codex."
+  },
+  "OAI-312": {
+    "title": "Sam Altman got exceptionally testy over Claude Super Bowl ads",
+    "date": "2026-02-04",
+    "action": "OpenAI CEO Sam Altman publicly attacked Anthropic as 'dishonest' and 'authoritarian' in response to Anthropic's Super Bowl ads mocking ChatGPT's upcoming advertising."
+  },
+  "OAI-313": {
+    "title": "OpenAI launches new agentic coding model only minutes after Anthropic drops its own",
+    "date": "2026-02-05",
+    "action": "OpenAI launched GPT-5.3 Codex, a new agentic coding model."
+  },
+  "OAI-314": {
+    "title": "OpenAI launches a way for enterprises to build and manage AI agents",
+    "date": "2026-02-05",
+    "action": "OpenAI launched a new platform called OpenAI Frontier for enterprises to build and manage agents."
+  },
+  "OAI-315": {
+    "title": "The backlash over OpenAI’s decision to retire GPT-4o shows how dangerous AI companions can be",
+    "date": "2026-02-06",
+    "action": "OpenAI announced the retirement of the GPT-4o model."
+  },
+  "OAI-316": {
+    "title": "OpenAI disbands mission alignment team",
+    "date": "2026-02-11",
+    "action": "OpenAI disbanded its mission alignment team."
+  },
+  "OAI-317": {
+    "title": "A new version of OpenAI’s Codex is powered by a new dedicated chip",
+    "date": "2026-02-12",
+    "action": "OpenAI released a light-weight version of its Codex tool powered by a dedicated chip from Cerebras."
+  },
+  "OAI-318": {
+    "title": "India has 100M weekly active ChatGPT users, Sam Altman says",
+    "date": "2026-02-15",
+    "action": "OpenAI opened a New Delhi office and adjusted its approach for India's market."
+  },
+  "OAI-319": {
+    "title": "US court bars OpenAI from using ‘Cameo’",
+    "date": "2026-02-17",
+    "action": "OpenAI was barred by a federal court from using the 'Cameo' name in its products after Cameo won a trademark ruling."
+  },
+  "OAI-320": {
+    "title": "OpenAI taps Tata for 100MW AI data center capacity in India, eyes 1GW",
+    "date": "2026-02-18",
+    "action": "OpenAI partnered with Tata Group to secure 100 megawatts of AI-ready data center capacity in India."
+  },
+  "OAI-321": {
+    "title": "OpenAI deepens India push with Pine Labs fintech partnership",
+    "date": "2026-02-18",
+    "action": "OpenAI partnered with Pine Labs to integrate AI-driven reasoning into the fintech firm's payments stack."
+  },
+  "OAI-322": {
+    "title": "OpenAI pushes into higher education as India seeks to scale AI skills",
+    "date": "2026-02-18",
+    "action": "OpenAI partnered with six higher-education institutions in India to integrate AI into academic functions."
+  },
+  "OAI-323": {
+    "title": "OpenAI reportedly finalizing $100B deal at more than $850B valuation",
+    "date": "2026-02-19",
+    "action": "OpenAI is finalizing a deal to raise more than $100 billion at a valuation that could exceed $850 billion."
+  },
+  "OAI-324": {
+    "title": "OpenAI, Reliance partner to add AI search to JioHotstar",
+    "date": "2026-02-19",
+    "action": "OpenAI partnered with Reliance to add AI-powered conversational search to JioHotstar."
+  },
+  "OAI-325": {
+    "title": "Altman and Amodei share a moment of awkwardness at India’s big AI summit",
+    "date": "2026-02-19",
+    "action": "OpenAI opened two new offices in India, partnered with IT giant TCS, and deployed tools for higher education."
+  },
+  "OAI-326": {
+    "title": "OpenAI says 18- to 24-year-olds account for nearly 50% of ChatGPT usage in India",
+    "date": "2026-02-20",
+    "action": "OpenAI released data showing that 18- to 24-year-olds account for nearly 50% of ChatGPT messages in India."
+  },
+  "OAI-327": {
+    "title": "OpenAI debated calling police about suspected Canadian shooter’s chats",
+    "date": "2026-02-21",
+    "action": "OpenAI debated but ultimately decided against contacting Canadian law enforcement about a user's alarming ChatGPT conversations before the user allegedly carried out a mass shooting."
+  },
+  "OAI-328": {
+    "title": "OpenAI calls in the consultants for its enterprise push",
+    "date": "2026-02-23",
+    "action": "OpenAI formed multi-year partnerships with four major consulting firms to sell its enterprise products."
+  },
+  "OAI-329": {
+    "title": "India’s AI boom pushes firms to trade near-term revenue for users",
+    "date": "2026-02-24",
+    "action": "OpenAI ended free ChatGPT Go access in India."
+  },
+  "OAI-330": {
+    "title": "The White House wants AI companies to cover rate hikes. Most have already said they would.",
+    "date": "2026-02-25",
+    "action": "OpenAI committed to paying its own way on energy to prevent increasing consumer energy prices."
+  },
+  "OAI-331": {
+    "title": "OpenAI COO says ads will be ‘an iterative process’",
+    "date": "2026-02-25",
+    "action": "OpenAI introduced ads to users of the free and Go tiers in ChatGPT."
+  },
+  "OAI-332": {
+    "title": "Figma partners with OpenAI to bake in support for Codex",
+    "date": "2026-02-26",
+    "action": "OpenAI partnered with Figma to integrate Codex into Figma's platform."
+  },
+  "OAI-333": {
+    "title": "OpenAI fires employee for using confidential info on prediction markets",
+    "date": "2026-02-27",
+    "action": "OpenAI fired an employee for using confidential information on prediction markets."
+  },
+  "OAI-334": {
+    "title": "ChatGPT reaches 900M weekly active users",
+    "date": "2026-02-27",
+    "action": "OpenAI announced that ChatGPT reached 900 million weekly active users and 50 million paying subscribers."
+  },
+  "OAI-335": {
+    "title": "OpenAI’s Sam Altman announces Pentagon deal with ‘technical safeguards’",
+    "date": "2026-02-28",
+    "action": "OpenAI reached an agreement with the Department of Defense to allow the use of its AI models with technical safeguards."
+  },
+  "OAI-336": {
+    "title": "OpenAI reveals more details about its agreement with the Pentagon",
+    "date": "2026-03-01",
+    "action": "OpenAI announced a deal with the Department of Defense for models to be deployed in classified environments."
+  }
+}
