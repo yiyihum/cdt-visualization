@@ -35,6 +35,7 @@
     border-radius: 8px; padding: 8px 10px; box-shadow: 0 1px 4px rgba(0,0,0,0.1);
     max-height: 90vh; overflow-y: auto; width: 185px;
   }
+  #controls .subtitle { font-size: 10px; color: #888; margin-bottom: 1px; }
   #controls .title { font-size: 13px; font-weight: 700; color: #333; margin-bottom: 6px; }
   #controls .section-label { font-size: 10px; font-weight: 600; color: #888; margin: 8px 0 3px; text-transform: uppercase; letter-spacing: 0.5px; }
   #controls .phase-btn {
@@ -177,6 +178,7 @@ let activeCaseIdx = -1;
 
 // =========== Controls ===========
 const controls = d3.select("#controls");
+controls.append("div").attr("class", "subtitle").text("OpenAI Behavior Simulation");
 controls.append("div").attr("class", "title").text("CDT Visualization");
 
 controls.append("div").attr("class", "section-label").text("Adapter Phases");
