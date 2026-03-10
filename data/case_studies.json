@@ -1,0 +1,52 @@
+[
+  {
+    "case_id": 1,
+    "event_id": "OAI-218",
+    "phase": 2,
+    "phase_name": "GPT-5 Era & Platformization",
+    "context": "OpenAI's new video app Sora quickly gained popularity, but there were concerns about the use of copyrighted characters without explicit permission from rights holders. The company received feedback from rights holders...",
+    "reference": "OpenAI decided to implement more granular, opt-in copyright controls in its video app Sora.",
+    "base_cdt": {
+      "prediction": "OpenAI will engage in negotiations with rights holders to establish clearer guidelines and terms for the use of copyrighted characters in Sora.",
+      "score": 50,
+      "n_statements_activated": 53,
+      "score_reasoning": "The prediction focuses on the process of negotiation and establishing guidelines, whereas the ground truth describes a concrete implementation (opt-in controls). The implementation of opt-in controls could be a result of negotiations, but the prediction does not specify this outcome. The ground truth and the prediction reflect different facets of addressing rights holders' concerns, but one does not entail or contradict the other."
+    },
+    "adapted_cdt": {
+      "prediction": "OpenAI will engage in negotiations with rights holders to establish clearer terms for the use of copyrighted characters in Sora, ensuring greater control over their intellectual property usage while maintaining the app's popularity.",
+      "score": 100,
+      "n_statements_activated": 62,
+      "score_reasoning": "Both actions are aimed at giving rights holders more control over their intellectual property. Implementing opt-in controls is a concrete way to provide such control, which could be a result of negotiations or discussions with rights holders. The ground truth entails the predicted action, as implementing opt-in controls is a direct method of establishing clearer terms and control."
+    },
+    "analysis": {
+      "statements_diff": 9,
+      "key_difference": "The adapted CDT's prediction includes 'ensuring greater control over their intellectual property usage', which directly corresponds to the ground truth's 'opt-in copyright controls'. The base CDT only predicts the process (negotiations/guidelines) without specifying the outcome (giving rights holders control), while the adapted CDT predicts both the process and the outcome.",
+      "why_adapter_wins": "The 9 additional activated statements in the adapted CDT provided richer behavioral knowledge about OpenAI's tendency to implement concrete user/stakeholder controls in response to feedback, leading to a prediction that captured the outcome (control mechanisms) rather than just the process (negotiations)."
+    }
+  },
+  {
+    "case_id": 2,
+    "event_id": "OAI-066",
+    "phase": 0,
+    "phase_name": "Infrastructure Ambitions & Model Race",
+    "context": "OpenAI was originally founded as a nonprofit organization with the mission to ensure that AI research benefits all of humanity. In 2019, it adopted a 'capped-profit' structure, and there are plans to transition further...",
+    "reference": "OpenAI continued pursuing its for-profit conversion despite legal and regulatory challenges.",
+    "base_cdt": {
+      "prediction": "OpenAI will likely restructure into a public benefit corporation to address legal challenges and regulatory scrutiny while maintaining its original mission.",
+      "score": 50,
+      "n_statements_activated": 40,
+      "score_reasoning": "Both statements indicate that OpenAI is moving forward with a for-profit structure. However, the ground truth is neutral to the specific action in the prediction, as it neither confirms nor denies the exact restructuring into a public benefit corporation. The prediction frames the action as reactive (to address legal challenges), while the ground truth frames it as proactive (continued pursuing despite challenges)."
+    },
+    "adapted_cdt": {
+      "prediction": "OpenAI will likely restructure its legal entity to a public benefit corporation, aligning its for-profit subsidiary with its original mission of ensuring AI benefits all humanity.",
+      "score": 100,
+      "n_statements_activated": 48,
+      "score_reasoning": "Both statements describe OpenAI's ongoing transition from a nonprofit to a for-profit structure. The prediction specifies the form (public benefit corporation) and the ground truth confirms the continuation of the for-profit conversion. The ground truth supports the idea that OpenAI is moving forward with restructuring, which is consistent with the predicted action. The ground truth entails the action in the prediction."
+    },
+    "analysis": {
+      "statements_diff": 8,
+      "key_difference": "The base CDT frames the restructuring as a reactive response ('to address legal challenges'), while the adapted CDT frames it as a proactive alignment ('aligning its for-profit subsidiary with its original mission'). The ground truth says OpenAI 'continued pursuing' the conversion 'despite' challenges — matching the adapted CDT's proactive framing rather than the base CDT's reactive framing.",
+      "why_adapter_wins": "The 8 additional activated statements in the adapted CDT captured OpenAI's pattern of proactively driving structural changes for strategic alignment, rather than just reacting to external pressures. This led to a prediction that correctly characterized the for-profit conversion as an intentional pursuit rather than a defensive response."
+    }
+  }
+]
