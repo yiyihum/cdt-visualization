@@ -321,6 +321,16 @@ function showCasePanel(cs, act) {
     </div>
 
     <div class="section">
+      <div class="section-title">Key Difference</div>
+      <div class="context-text">${cs.analysis.key_difference}</div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Analysis</div>
+      <div class="context-text">${cs.analysis.why_adapter_wins}</div>
+    </div>
+
+    <div class="section">
       <div class="section-title">Activated Statements Comparison</div>
       <div class="stmt-counts">
         Base CDT: <b>${baseStmts.length}</b> statements &nbsp;|&nbsp;
@@ -351,11 +361,6 @@ function showCasePanel(cs, act) {
           return `<div class="stmt-item ${cls}">${s}</div>`;
         }).join('')}
       </div>
-    </div>
-
-    <div class="section">
-      <div class="section-title">Analysis</div>
-      <div class="context-text">${cs.analysis.why_adapter_wins}</div>
     </div>
   `;
 
