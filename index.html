@@ -33,8 +33,10 @@
     position: absolute; top: 12px; left: 12px; z-index: 5;
     background: rgba(255,255,255,0.95); border: 1px solid #ddd;
     border-radius: 8px; padding: 12px 16px; box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    max-height: 90vh; overflow-y: auto;
   }
   #controls .title { font-size: 16px; font-weight: 700; color: #333; margin-bottom: 10px; }
+  #controls .section-label { font-size: 12px; font-weight: 600; color: #888; margin: 12px 0 4px; text-transform: uppercase; letter-spacing: 0.5px; }
   #controls .phase-btn {
     display: block; width: 100%; text-align: left;
     padding: 8px 12px; margin: 4px 0; border: 1px solid #ddd; border-radius: 5px;
@@ -48,6 +50,16 @@
   #controls .phase-stats { font-size: 11px; color: #888; margin-top: 2px; }
   #controls .phase-btn.active .phase-stats { color: rgba(255,255,255,0.7); }
 
+  #controls .case-btn {
+    display: block; width: 100%; text-align: left;
+    padding: 8px 12px; margin: 4px 0; border: 1px solid #9b59b6; border-radius: 5px;
+    background: #fff; cursor: pointer; font-size: 13px; color: #8e44ad;
+    transition: all 0.15s;
+  }
+  #controls .case-btn:hover { background: #f5eef8; }
+  #controls .case-btn.active { background: #9b59b6; color: #fff; }
+  #controls .case-btn .case-eid { font-weight: 600; }
+
   #legend {
     position: absolute; bottom: 12px; left: 12px; font-size: 12px; color: #666;
     background: rgba(255,255,255,0.85); padding: 6px 10px; border-radius: 4px;
@@ -58,6 +70,57 @@
     position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);
     font-size: 16px; color: #888;
   }
+
+  /* Case study panel */
+  #case-panel {
+    position: absolute; top: 0; right: 0; width: 520px; height: 100vh;
+    background: #fff; border-left: 2px solid #9b59b6; z-index: 8;
+    overflow-y: auto; display: none; box-shadow: -4px 0 12px rgba(0,0,0,0.1);
+  }
+  #case-panel .panel-header {
+    position: sticky; top: 0; background: #9b59b6; color: #fff;
+    padding: 12px 16px; font-size: 15px; font-weight: 700;
+    display: flex; justify-content: space-between; align-items: center;
+  }
+  #case-panel .close-btn {
+    background: none; border: none; color: #fff; font-size: 20px; cursor: pointer;
+    padding: 0 4px; line-height: 1;
+  }
+  #case-panel .section { padding: 12px 16px; border-bottom: 1px solid #eee; }
+  #case-panel .section-title { font-size: 13px; font-weight: 700; color: #555; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px; }
+  #case-panel .context-text { font-size: 13px; color: #555; line-height: 1.5; }
+  #case-panel .ref-text { font-size: 13px; color: #2c3e50; font-weight: 600; }
+
+  #case-panel .compare-cols { display: flex; gap: 0; }
+  #case-panel .compare-col { flex: 1; padding: 12px; border-bottom: 1px solid #eee; }
+  #case-panel .compare-col:first-child { border-right: 1px solid #eee; }
+  #case-panel .col-title { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px; }
+  #case-panel .col-title.base { color: #3498db; }
+  #case-panel .col-title.adapted { color: #9b59b6; }
+
+  #case-panel .stmt-item { font-size: 12px; color: #444; margin: 4px 0; padding: 4px 6px; border-radius: 3px; line-height: 1.4; }
+  #case-panel .stmt-item.shared { background: #f0f0f0; }
+  #case-panel .stmt-item.only-base { background: #ebf5fb; border-left: 3px solid #3498db; }
+  #case-panel .stmt-item.only-adapted { background: #f5eef8; border-left: 3px solid #9b59b6; }
+
+  #case-panel .pred-box { padding: 10px; border-radius: 6px; margin: 6px 0; font-size: 13px; line-height: 1.5; }
+  #case-panel .pred-box.base-pred { background: #ebf5fb; border: 1px solid #3498db; }
+  #case-panel .pred-box.adapted-pred { background: #f5eef8; border: 1px solid #9b59b6; }
+  #case-panel .score-badge { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 11px; font-weight: 700; color: #fff; margin-left: 6px; }
+  #case-panel .score-50 { background: #e67e22; }
+  #case-panel .score-100 { background: #27ae60; }
+  #case-panel .score-0 { background: #e74c3c; }
+
+  #case-panel .stmt-counts { font-size: 12px; color: #888; margin-top: 4px; }
+  #case-panel .legend-mini { font-size: 11px; color: #888; margin: 8px 0 4px; }
+  #case-panel .legend-mini span { display: inline-block; width: 10px; height: 10px; margin-right: 3px; vertical-align: middle; border-radius: 2px; }
+
+  /* Node highlighting for case study */
+  .node-glow-base { filter: drop-shadow(0 0 4px #3498db); }
+  .node-glow-adapted { filter: drop-shadow(0 0 4px #9b59b6); }
+  .node-glow-both { filter: drop-shadow(0 0 4px #e67e22); }
+  .node-dimmed { opacity: 0.2; }
+  .link-dimmed { opacity: 0.15; }
 </style>
 </head>
 <body>
@@ -71,6 +134,7 @@
   | Click node to expand, hover for details
 </div>
 <div id="tooltip"></div>
+<div id="case-panel"></div>
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <script>
 
@@ -78,11 +142,13 @@
 Promise.all([
   fetch('data/cdt_with_keywords.json').then(r => r.json()),
   fetch('data/adapter_phases.json').then(r => r.json()),
-]).then(([treeData, adapterPhases]) => {
+  fetch('data/case_studies.json').then(r => r.json()),
+  fetch('data/case_activations.json').then(r => r.json()),
+]).then(([treeData, adapterPhases, caseStudies, caseActivations]) => {
   document.getElementById('loading').remove();
   document.getElementById('controls').style.display = '';
   document.getElementById('legend').style.display = '';
-  init(treeData, adapterPhases);
+  init(treeData, adapterPhases, caseStudies, caseActivations);
 }).catch(err => {
   document.getElementById('loading').textContent = 'Failed to load data: ' + err.message;
 });
@@ -90,7 +156,6 @@ Promise.all([
 // =========== Keyword Highlighting ===========
 function hl(text, keywords) {
   if (!keywords || keywords.length === 0) return text;
-  // Sort by length descending so longer phrases match first
   const sorted = [...keywords].sort((a, b) => b.length - a.length);
   const escaped = sorted.map(k => k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
   const re = new RegExp('\\b(' + escaped.join('|') + ')\\b', 'gi');
@@ -98,29 +163,29 @@ function hl(text, keywords) {
 }
 
 // =========== Main Visualization ===========
-function init(treeData, adapterPhases) {
+function init(treeData, adapterPhases, caseStudies, caseActivations) {
 
-const ACTION_COLORS = {
-  modify: "#e67e22",
-  delete: "#e74c3c",
-  add:    "#27ae60",
-};
+const ACTION_COLORS = { modify: "#e67e22", delete: "#e74c3c", add: "#27ae60" };
 const DEFAULT_COLOR = "#3498db";
 const EMPTY_COLOR = "#e8e8e8";
+const CASE_BASE_COLOR = "#3498db";
+const CASE_ADAPTED_COLOR = "#9b59b6";
 
-// =========== State ===========
 let activePhaseIdx = -1;
 let activeActions = {};
+let activeCaseIdx = -1;
 
 // =========== Controls ===========
 const controls = d3.select("#controls");
-controls.append("div").attr("class", "title").text("Adapter Phases");
+controls.append("div").attr("class", "title").text("CDT Visualization");
+
+controls.append("div").attr("class", "section-label").text("Adapter Phases");
 
 controls.append("button")
   .attr("class", "phase-btn active")
   .attr("data-idx", -1)
   .html("Base CDT <div class='phase-date'>Original tree</div>")
-  .on("click", function() { selectPhase(-1); });
+  .on("click", function() { clearCase(); selectPhase(-1); });
 
 adapterPhases.forEach((phase, i) => {
   const modCount = phase.actions.filter(a => a.action === "modify").length;
@@ -132,7 +197,17 @@ adapterPhases.forEach((phase, i) => {
     .html(`Phase ${i}: ${phase.phase_name}
       <div class="phase-date">${phase.date_range}</div>
       <div class="phase-stats">${modCount} modify, ${addCount} add, ${delCount} delete</div>`)
-    .on("click", function() { selectPhase(i); });
+    .on("click", function() { clearCase(); selectPhase(i); });
+});
+
+controls.append("div").attr("class", "section-label").text("Case Studies");
+
+caseStudies.forEach((cs, i) => {
+  controls.append("button")
+    .attr("class", "case-btn")
+    .attr("data-case-idx", i)
+    .html(`<span class="case-eid">${cs.event_id}</span> (Phase ${cs.phase})<div class="phase-date" style="color:#a569bd">${cs.analysis.key_difference.slice(0, 80)}...</div>`)
+    .on("click", function() { selectCase(i); });
 });
 
 function selectPhase(idx) {
@@ -140,7 +215,6 @@ function selectPhase(idx) {
   controls.selectAll(".phase-btn").classed("active", function() {
     return +this.getAttribute("data-idx") === idx;
   });
-
   activeActions = {};
   if (idx >= 0 && idx < adapterPhases.length) {
     adapterPhases[idx].actions.forEach(a => {
@@ -148,8 +222,144 @@ function selectPhase(idx) {
       activeActions[a.node_id].push(a);
     });
   }
-
   renderPies();
+}
+
+// =========== Case Study Logic ===========
+function selectCase(idx) {
+  activeCaseIdx = idx;
+  controls.selectAll(".case-btn").classed("active", function() {
+    return +this.getAttribute("data-case-idx") === idx;
+  });
+  controls.selectAll(".phase-btn").classed("active", false);
+  activeActions = {};
+
+  const cs = caseStudies[idx];
+  const act = caseActivations[idx];
+
+  // Highlight activated nodes on the tree
+  highlightCaseNodes(act);
+
+  // Show the comparison panel
+  showCasePanel(cs, act);
+}
+
+function clearCase() {
+  activeCaseIdx = -1;
+  controls.selectAll(".case-btn").classed("active", false);
+  d3.select("#case-panel").style("display", "none");
+  // Remove node highlights
+  g.selectAll("g.node")
+    .classed("node-glow-base", false)
+    .classed("node-glow-adapted", false)
+    .classed("node-glow-both", false)
+    .classed("node-dimmed", false);
+  g.selectAll("path.link").classed("link-dimmed", false);
+}
+
+function highlightCaseNodes(act) {
+  const baseIds = new Set(act.base_cdt.activated_node_ids);
+  const adaptedIds = new Set(act.adapted_cdt.activated_node_ids);
+  const allActive = new Set([...baseIds, ...adaptedIds]);
+
+  g.selectAll("g.node").each(function(d) {
+    const el = d3.select(this);
+    const nid = d.data.node_id;
+    const inBase = baseIds.has(nid);
+    const inAdapted = adaptedIds.has(nid);
+
+    el.classed("node-dimmed", !allActive.has(nid));
+    el.classed("node-glow-both", inBase && inAdapted);
+    el.classed("node-glow-base", inBase && !inAdapted);
+    el.classed("node-glow-adapted", !inBase && inAdapted);
+  });
+
+  g.selectAll("path.link").classed("link-dimmed", true);
+}
+
+function showCasePanel(cs, act) {
+  const panel = d3.select("#case-panel");
+  panel.style("display", "block");
+
+  const baseStmts = act.base_cdt.all_statements;
+  const adaptedStmts = act.adapted_cdt.all_statements;
+  const baseSet = new Set(baseStmts);
+  const adaptedSet = new Set(adaptedStmts);
+
+  const shared = baseStmts.filter(s => adaptedSet.has(s));
+  const onlyBase = baseStmts.filter(s => !adaptedSet.has(s));
+  const onlyAdapted = adaptedStmts.filter(s => !baseSet.has(s));
+
+  const scoreBadge = (score) => `<span class="score-badge score-${score}">${score}</span>`;
+
+  let html = `
+    <div class="panel-header">
+      ${cs.event_id} &mdash; Phase ${cs.phase}
+      <button class="close-btn" onclick="document.getElementById('case-panel').style.display='none'">&times;</button>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Context</div>
+      <div class="context-text">${act.context}</div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Ground Truth</div>
+      <div class="ref-text">${act.reference}</div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Predictions</div>
+      <div class="pred-box base-pred">
+        <b style="color:#3498db">Base CDT</b> ${scoreBadge(cs.base_cdt.score)}<br>
+        ${cs.base_cdt.prediction}
+      </div>
+      <div class="pred-box adapted-pred">
+        <b style="color:#9b59b6">Adapted CDT</b> ${scoreBadge(cs.adapted_cdt.score)}<br>
+        ${cs.adapted_cdt.prediction}
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Activated Statements Comparison</div>
+      <div class="stmt-counts">
+        Base CDT: <b>${baseStmts.length}</b> statements &nbsp;|&nbsp;
+        Adapted CDT: <b>${adaptedStmts.length}</b> statements &nbsp;|&nbsp;
+        Shared: <b>${shared.length}</b> &nbsp;|&nbsp;
+        <span style="color:#3498db">Only Base: <b>${onlyBase.length}</b></span> &nbsp;|&nbsp;
+        <span style="color:#9b59b6">Only Adapted: <b>${onlyAdapted.length}</b></span>
+      </div>
+      <div class="legend-mini">
+        <span style="background:#f0f0f0;border:1px solid #ddd"></span> Shared &nbsp;
+        <span style="background:#ebf5fb;border:1px solid #3498db"></span> Only Base &nbsp;
+        <span style="background:#f5eef8;border:1px solid #9b59b6"></span> Only Adapted
+      </div>
+    </div>
+
+    <div class="compare-cols">
+      <div class="compare-col">
+        <div class="col-title base">Base CDT (${baseStmts.length})</div>
+        ${baseStmts.map(s => {
+          const cls = adaptedSet.has(s) ? 'shared' : 'only-base';
+          return `<div class="stmt-item ${cls}">${s}</div>`;
+        }).join('')}
+      </div>
+      <div class="compare-col">
+        <div class="col-title adapted">Adapted CDT (${adaptedStmts.length})</div>
+        ${adaptedStmts.map(s => {
+          const cls = baseSet.has(s) ? 'shared' : 'only-adapted';
+          return `<div class="stmt-item ${cls}">${s}</div>`;
+        }).join('')}
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Analysis</div>
+      <div class="context-text">${cs.analysis.why_adapter_wins}</div>
+    </div>
+  `;
+
+  panel.html(html);
 }
 
 // =========== Pie helpers ===========
