@@ -4,7 +4,7 @@
     "event_id": "OAI-066",
     "phase": 0,
     "phase_name": "Infrastructure Ambitions & Model Race",
-    "context": "OpenAI was originally founded as a nonprofit organization with the mission to ensure that AI research benefits all of humanity. In 2019, it adopted a 'capped-profit' structure, and there are plans to ...",
+    "context": "OpenAI was originally founded as a nonprofit organization with the mission to ensure that AI research benefits all of humanity. In 2019, it adopted a 'capped-profit' structure, and there are plans to restructure into a public benefit corporation. This transition has sparked legal challenges and regulatory scrutiny, as some stakeholders, including Elon Musk, argue that it could compromise the company's original mission.\n\nOpenAI was originally founded as a nonprofit research lab in 2015. To raise the necessary funding to scale operations and attract top talent, the organization began moving away from its pure nonprofit roots in 2019 by creating a for-profit subsidiary with a capped-profit model. This restructuring was part of a broader strategy to secure financial resources while maintaining some of the original nonprofit's mission.",
     "reference": "OpenAI continued pursuing its for-profit conversion despite legal and regulatory challenges.",
     "base": {
       "prediction": "OpenAI will likely restructure its corporate governance to align with a public benefit corporation, potentially through a public offering of shares or a similar mechanism, to secure additional funding while maintaining its original mission.",
@@ -29,7 +29,7 @@
     "event_id": "OAI-157",
     "phase": 1,
     "phase_name": "Product Explosion & Corporate Transformation",
-    "context": "Crossing Minds was a startup providing AI recommendation systems to e-commerce businesses, backed by several venture capital firms and having raised significant funding. The startup focused on improvi...",
+    "context": "Crossing Minds was a startup providing AI recommendation systems to e-commerce businesses, backed by several venture capital firms and having raised significant funding. The startup focused on improving personalization and recommendation systems for e-commerce companies, emphasizing privacy in customer data analysis. The team expressed alignment with OpenAI's mission to ensure artificial general intelligence benefits all of humanity.",
     "reference": "OpenAI hired the team from AI recommendation startup Crossing Minds.",
     "base": {
       "prediction": "OpenAI will not take any specific action next as the context provided does not mention any future plans or decisions by OpenAI.",
@@ -54,7 +54,7 @@
     "event_id": "OAI-242",
     "phase": 2,
     "phase_name": "GPT-5 Era & Platformization",
-    "context": "Software Applications, Inc., co-founded by Ari Weinstein and Conrad Kramer, had built an unreleased AI Mac interface called Sky that floats over the desktop. Weinstein and Kramer previously created Wo...",
+    "context": "Software Applications, Inc., co-founded by Ari Weinstein and Conrad Kramer, had built an unreleased AI Mac interface called Sky that floats over the desktop. Weinstein and Kramer previously created Workflow, which Apple acquired and turned into Shortcuts. The startup raised $6.5 million from investors including Sam Altman and Figma CEO Dylan Field.",
     "reference": "OpenAI acquired Software Applications, Inc., the makers of an AI-powered natural language interface for Mac computers called Sky.",
     "base": {
       "prediction": "OpenAI will not take any specific action next as the context provided does not mention any future plans or decisions by OpenAI.",
@@ -79,7 +79,7 @@
     "event_id": "OAI-306",
     "phase": 3,
     "phase_name": "Monetization & Global Expansion",
-    "context": "OpenAI restructured into a public benefit corporation and renegotiated terms of its deal with Microsoft. The company is experiencing significant revenue growth and is looking to raise additional fundi...",
+    "context": "OpenAI restructured into a public benefit corporation and renegotiated terms of its deal with Microsoft. The company is experiencing significant revenue growth and is looking to raise additional funding at a high valuation.",
     "reference": "OpenAI agreed to buy another $250 billion of Azure services.",
     "base": {
       "prediction": "OpenAI will likely proceed with raising additional funding at a high valuation, possibly through an initial public offering (IPO) or a strategic investment from a major corporation.",
