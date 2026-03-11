@@ -2,6 +2,7 @@
   "OpenAI often introduces new features, enhancements, or product adjustments in response to competitive pressures, evolving user needs, or market opportunities.": {
     "source": "base",
     "node_id": "Root",
+    "gate": "",
     "yes": [
       "OAI-003",
       "OAI-004",
@@ -210,6 +211,7 @@
   "OpenAI often seeks to expand or diversify its infrastructure and partnerships to secure the resources necessary for scaling and reliable operation.": {
     "source": "base",
     "node_id": "Root",
+    "gate": "",
     "yes": [
       "OAI-003",
       "OAI-004",
@@ -418,6 +420,7 @@
   "OpenAI often adapts or tailors its offerings to address the needs of new markets, industries, or user groups.": {
     "source": "base",
     "node_id": "Root",
+    "gate": "",
     "yes": [
       "OAI-002",
       "OAI-004",
@@ -626,6 +629,7 @@
   "OpenAI demonstrates a willingness to revise or reverse prior decisions when circumstances or priorities change.": {
     "source": "base",
     "node_id": "Root",
+    "gate": "",
     "yes": [
       "OAI-003",
       "OAI-004",
@@ -834,6 +838,7 @@
   "OpenAI often revises or refines its products and features in response to significant user feedback or dissatisfaction.": {
     "source": "base",
     "node_id": "1",
+    "gate": "Does the scene involve OpenAI piloting, testing, or limiting access to new features or products before a broader rollout?",
     "yes": [
       "OAI-008",
       "OAI-036",
@@ -857,6 +862,7 @@
   "OpenAI may adjust its product roadmap, launch timing, or feature set in response to competitive developments or operational constraints.": {
     "source": "base",
     "node_id": "1",
+    "gate": "Does the scene involve OpenAI piloting, testing, or limiting access to new features or products before a broader rollout?",
     "yes": [
       "OAI-021",
       "OAI-036",
@@ -880,6 +886,7 @@
   "OpenAI tends to pilot new functionalities or integrations with select users or regions before expanding access more widely.": {
     "source": "base",
     "node_id": "1",
+    "gate": "Does the scene involve OpenAI piloting, testing, or limiting access to new features or products before a broader rollout?",
     "yes": [
       "OAI-008",
       "OAI-021",
@@ -903,6 +910,7 @@
   "OpenAI is willing to test alternative product configurations or access models to improve user satisfaction or manage technical challenges.": {
     "source": "base",
     "node_id": "1",
+    "gate": "Does the scene involve OpenAI piloting, testing, or limiting access to new features or products before a broader rollout?",
     "yes": [
       "OAI-008",
       "OAI-021",
@@ -925,6 +933,7 @@
   "OpenAI frequently incorporates user feedback and observed usage data to guide the refinement, scaling, or adaptation of its offerings.": {
     "source": "base",
     "node_id": "1",
+    "gate": "Does the scene involve OpenAI piloting, testing, or limiting access to new features or products before a broader rollout?",
     "yes": [
       "OAI-008",
       "OAI-021",
@@ -948,6 +957,7 @@
   "OpenAI regularly explores and iterates on new ways for users to interact with its products, including collaborative and app-integrated experiences.": {
     "source": "base",
     "node_id": "1",
+    "gate": "Does the scene involve OpenAI piloting, testing, or limiting access to new features or products before a broader rollout?",
     "yes": [
       "OAI-008",
       "OAI-021",
@@ -970,6 +980,7 @@
   "OpenAI sometimes reintroduces or maintains legacy features or models when there is substantial user demand or negative response to their removal.": {
     "source": "base",
     "node_id": "1-1",
+    "gate": "Does the scene suggest that OpenAI's next action may involve restoring, re-enabling, or maintaining previously removed or deprecated features or models due to renewed user demand or backlash?",
     "yes": [
       "OAI-180"
     ],
@@ -978,6 +989,7 @@
   "OpenAI often explores and expands integrations with third-party services to enhance its platform's versatility.": {
     "source": "base",
     "node_id": "1-2",
+    "gate": "Does the scene involve OpenAI collaborating with external partners or integrating third-party services, suggesting a possible expansion or deepening of such integrations?",
     "yes": [
       "OAI-260"
     ],
@@ -989,6 +1001,7 @@
   "OpenAI sometimes launches lightweight or partial versions of features to gauge user response and manage resources before broader deployment.": {
     "source": "base",
     "node_id": "1-3",
+    "gate": "Does the scene mention OpenAI releasing a simplified or limited version of a tool or feature, implying that OpenAI may monitor usage and adjust availability or functionality in response?",
     "yes": [
       "OAI-008",
       "OAI-036",
@@ -1004,6 +1017,7 @@
   "OpenAI frequently secures long-term access to essential resources through substantial financial commitments, multi-year agreements, or new partnerships.": {
     "source": "base",
     "node_id": "2",
+    "gate": "Does the scene describe OpenAI collaborating with external partners, organizations, or platforms, or seeking to expand its ecosystem?",
     "yes": [
       "OAI-016",
       "OAI-019",
@@ -1068,6 +1082,7 @@
   "OpenAI often explores diversification into new domains, products, or markets when encountering challenges or limitations in its primary business lines.": {
     "source": "base",
     "node_id": "2",
+    "gate": "Does the scene describe OpenAI collaborating with external partners, organizations, or platforms, or seeking to expand its ecosystem?",
     "yes": [
       "OAI-003",
       "OAI-013",
@@ -1132,6 +1147,7 @@
   "OpenAI frequently revisits and renegotiates financial terms or partnership agreements to optimize its strategic position and respond to external pressures.": {
     "source": "base",
     "node_id": "2-1",
+    "gate": "Does the scene involve OpenAI facing legal, regulatory, or stakeholder pressures that could impact its governance, organizational structure, or autonomy?",
     "yes": [
       "OAI-126",
       "OAI-169",
@@ -1144,6 +1160,7 @@
   "OpenAI tends to restructure or expand its leadership and governance in response to significant internal changes or strategic shifts.": {
     "source": "base",
     "node_id": "2-1",
+    "gate": "Does the scene involve OpenAI facing legal, regulatory, or stakeholder pressures that could impact its governance, organizational structure, or autonomy?",
     "yes": [
       "OAI-197"
     ],
@@ -1156,6 +1173,7 @@
   "OpenAI often accelerates decision-making or operational timelines in response to urgent competitive or reputational challenges.": {
     "source": "base",
     "node_id": "2-1",
+    "gate": "Does the scene involve OpenAI facing legal, regulatory, or stakeholder pressures that could impact its governance, organizational structure, or autonomy?",
     "yes": [
       "OAI-169"
     ],
@@ -1168,6 +1186,7 @@
   "OpenAI frequently modifies its organizational structure or strategy to balance growth ambitions with stakeholder and regulatory expectations.": {
     "source": "base",
     "node_id": "2-1",
+    "gate": "Does the scene involve OpenAI facing legal, regulatory, or stakeholder pressures that could impact its governance, organizational structure, or autonomy?",
     "yes": [
       "OAI-126",
       "OAI-169",
@@ -1180,6 +1199,7 @@
   "OpenAI often launches new initiatives, hires, or partnerships to address emerging opportunities or challenges in the AI ecosystem.": {
     "source": "base",
     "node_id": "2-1",
+    "gate": "Does the scene involve OpenAI facing legal, regulatory, or stakeholder pressures that could impact its governance, organizational structure, or autonomy?",
     "yes": [
       "OAI-169",
       "OAI-197"
@@ -1192,6 +1212,7 @@
   "OpenAI tends to pursue high-profile partnerships and financial arrangements to secure its operational and strategic objectives, even if these involve complex or unconventional terms.": {
     "source": "base",
     "node_id": "2-1",
+    "gate": "Does the scene involve OpenAI facing legal, regulatory, or stakeholder pressures that could impact its governance, organizational structure, or autonomy?",
     "yes": [
       "OAI-126",
       "OAI-169",
@@ -1204,6 +1225,7 @@
   "OpenAI tends to adapt its governance or organizational structure in response to evolving stakeholder expectations, legal scrutiny, or regulatory requirements.": {
     "source": "base",
     "node_id": "2-1-1",
+    "gate": "Does the scene involve OpenAI encountering significant stakeholder, legal, or regulatory pressures that could prompt reconsideration or adjustment of its governance or organizational structure?",
     "yes": [
       "OAI-126",
       "OAI-197"
@@ -1216,6 +1238,7 @@
   "OpenAI often pursues large-scale funding rounds or strategic investments to support ambitious projects, operational expansion, or to address resource constraints.": {
     "source": "base",
     "node_id": "2-2",
+    "gate": "Does the scene suggest that OpenAI is encountering financial pressures, increased operational costs, or the need for substantial capital to support ongoing or planned initiatives?",
     "yes": [
       "OAI-003",
       "OAI-016",
@@ -1243,6 +1266,7 @@
   "OpenAI tends to diversify or adjust its strategic partnerships and alliances, often engaging multiple major industry players to mitigate risks and reduce reliance on any single entity.": {
     "source": "base",
     "node_id": "2-3",
+    "gate": "Does the scene involve OpenAI experiencing strained, shifting, or insufficient partnerships, dependencies, or market dynamics that could prompt a change in alliances or business relationships?",
     "yes": [
       "OAI-016",
       "OAI-019",
@@ -1266,6 +1290,7 @@
   "OpenAI frequently introduces experimental features or pilots in limited settings to gather feedback and iterate before broader deployment.": {
     "source": "base",
     "node_id": "2-4",
+    "gate": "Does the scene describe OpenAI piloting, testing, or gradually rolling out new features, products, or interaction models to select regions or user groups?",
     "yes": [
       "OAI-021",
       "OAI-115",
@@ -1279,6 +1304,7 @@
   "OpenAI often expands its platform by integrating new user experiences, such as collaborative tools, commerce, or novel interaction modes.": {
     "source": "base",
     "node_id": "2-5",
+    "gate": "Does the scene suggest that OpenAI is seeking to enhance user engagement, collaboration, or expand the types of activities users can perform within its platform?",
     "yes": [
       "OAI-021",
       "OAI-033",
@@ -1305,6 +1331,7 @@
   "OpenAI often develops new products, services, or ventures to address perceived gaps or evolving demands in technology and user experience.": {
     "source": "base",
     "node_id": "2-6",
+    "gate": "Does the scene involve the availability of specialized talent, teams, or startups with relevant expertise or technology that could accelerate OpenAI's goals?",
     "yes": [
       "OAI-013",
       "OAI-031",
@@ -1323,6 +1350,7 @@
   "OpenAI tends to accelerate innovation, expand offerings, or make strategic investments in response to competitive pressures or industry changes.": {
     "source": "base",
     "node_id": "2-6",
+    "gate": "Does the scene involve the availability of specialized talent, teams, or startups with relevant expertise or technology that could accelerate OpenAI's goals?",
     "yes": [
       "OAI-013",
       "OAI-031",
@@ -1341,6 +1369,7 @@
   "OpenAI frequently seeks early-mover advantages by rapidly launching products, forming partnerships, or tailoring offerings to capture emerging opportunities.": {
     "source": "base",
     "node_id": "2-6",
+    "gate": "Does the scene involve the availability of specialized talent, teams, or startups with relevant expertise or technology that could accelerate OpenAI's goals?",
     "yes": [
       "OAI-013",
       "OAI-031",
@@ -1359,6 +1388,7 @@
   "OpenAI tends to initiate new ventures, product lines, or local operations to extend its influence and address opportunities in new or adjacent markets.": {
     "source": "base",
     "node_id": "2-6",
+    "gate": "Does the scene involve the availability of specialized talent, teams, or startups with relevant expertise or technology that could accelerate OpenAI's goals?",
     "yes": [
       "OAI-013",
       "OAI-031",
@@ -1377,6 +1407,7 @@
   "OpenAI often acts to secure, co-develop, or integrate new technologies or platforms that could redefine user experience or industry standards.": {
     "source": "base",
     "node_id": "2-6",
+    "gate": "Does the scene involve the availability of specialized talent, teams, or startups with relevant expertise or technology that could accelerate OpenAI's goals?",
     "yes": [
       "OAI-013",
       "OAI-031",
@@ -1395,6 +1426,7 @@
   "OpenAI often adapts or customizes its products and go-to-market strategies to address the unique needs of regulated or high-value customer groups.": {
     "source": "base",
     "node_id": "2-6-1",
+    "gate": "Does the scene suggest that OpenAI's next action could be influenced by the need to meet compliance, security, or operational requirements of specific industries, sectors, or customer segments?",
     "yes": [
       "OAI-037",
       "OAI-184",
@@ -1405,6 +1437,7 @@
   "OpenAI often responds to internal or external pressures by making bold organizational moves, such as leadership changes, team restructuring, or strategic acquisitions.": {
     "source": "base",
     "node_id": "2-6-3",
+    "gate": "Does the scene suggest that OpenAI's next action could be motivated by the need to accelerate adoption among large-scale, institutional, or government customers?",
     "yes": [
       "OAI-089",
       "OAI-297"
@@ -1416,6 +1449,7 @@
   "OpenAI frequently leverages strategic agreements, exclusive terms, or tailored programs to facilitate adoption and strengthen relationships with key institutional clients.": {
     "source": "base",
     "node_id": "2-6-4",
+    "gate": "",
     "yes": [],
     "no": [
       "OAI-037",
@@ -1426,6 +1460,7 @@
   "OpenAI often initiates region- or sector-specific programs, partnerships, or product adaptations to address local needs and compliance requirements.": {
     "source": "base",
     "node_id": "2-7",
+    "gate": "Does the scene indicate that OpenAI is responding to region-specific regulatory, cultural, or market requirements?",
     "yes": [
       "OAI-037",
       "OAI-175",
@@ -1437,6 +1472,7 @@
   "OpenAI sometimes forms strategic collaborations or invests in external organizations and experts to enhance adoption, differentiation, or address emerging user expectations.": {
     "source": "base",
     "node_id": "2-8",
+    "gate": "Does the scene suggest that OpenAI is seeking to accelerate adoption, differentiation, or market presence through collaborations with influential partners, organizations, or experts?",
     "yes": [
       "OAI-010",
       "OAI-013",
@@ -1490,6 +1526,7 @@
   "OpenAI tends to prioritize safety, reliability, and compliance by updating its systems, policies, or safeguards in response to risks, incidents, or external pressures.": {
     "source": "base",
     "node_id": "3",
+    "gate": "Does the scene indicate that OpenAI is encountering or anticipating technical, safety, or ethical challenges, or facing public or regulatory scrutiny?",
     "yes": [
       "OAI-009",
       "OAI-015",
@@ -1557,6 +1594,7 @@
   "OpenAI may accelerate, modify, or publicize product releases, features, or usage metrics in response to competitive pressures or market dynamics.": {
     "source": "base",
     "node_id": "4-1",
+    "gate": "Does the scene involve OpenAI responding to increased competition, market shifts, or the emergence of rival products?",
     "yes": [
       "OAI-028",
       "OAI-034",
@@ -1577,6 +1615,7 @@
   "OpenAI often revises its internal policies, public stances, or documentation to address external criticism or evolving societal expectations.": {
     "source": "base",
     "node_id": "4-2",
+    "gate": "Does the scene indicate OpenAI facing public, media, or stakeholder criticism regarding its policies, transparency, or the societal impact of its products?",
     "yes": [
       "OAI-009",
       "OAI-028",
@@ -1613,6 +1652,7 @@
   "OpenAI frequently introduces or updates safety mechanisms, content moderation, or user protections in response to incidents or concerns about user harm.": {
     "source": "base",
     "node_id": "4-3",
+    "gate": "Does the scene involve OpenAI encountering incidents, risks, or scrutiny related to user safety, harm, or the well-being of vulnerable groups?",
     "yes": [
       "OAI-009",
       "OAI-094",
@@ -1643,6 +1683,7 @@
   "OpenAI tends to implement new safeguards, compliance measures, or operational changes when confronted with privacy, security, or responsible use concerns.": {
     "source": "base",
     "node_id": "4-4",
+    "gate": "Does the scene describe OpenAI facing heightened scrutiny or requirements regarding privacy, data security, or responsible AI use?",
     "yes": [
       "OAI-035",
       "OAI-039",
@@ -1670,6 +1711,7 @@
   "OpenAI often takes legal, procedural, or structural actions to defend its autonomy, mission alignment, or control in response to external threats or disputes.": {
     "source": "base",
     "node_id": "4-5",
+    "gate": "Does the scene involve OpenAI being subject to legal disputes, acquisition offers, or challenges to its organizational autonomy or governance?",
     "yes": [
       "OAI-040",
       "OAI-047",
@@ -1696,6 +1738,7 @@
   "OpenAI may adjust the timing, extent, or nature of its safety and evaluation practices in response to resource limitations or external pressures.": {
     "source": "base",
     "node_id": "4-6",
+    "gate": "Does the scene indicate OpenAI experiencing resource constraints, time pressure, or external urgency affecting its safety, evaluation, or reporting processes?",
     "yes": [
       "OAI-040",
       "OAI-097",
@@ -1711,6 +1754,7 @@
   "OpenAI sometimes modifies its transparency or openness practices, such as releasing open-weight models or sharing more about model reasoning, in response to external expectations or industry trends.": {
     "source": "base",
     "node_id": "4-7",
+    "gate": "Does the scene involve OpenAI responding to calls for increased transparency, openness, or alignment with industry norms regarding open-source or accessible AI?",
     "yes": [
       "OAI-009",
       "OAI-028",
@@ -1731,6 +1775,7 @@
   "OpenAI tends to implement or clarify compliance, transparency, or data handling measures when facing legal, regulatory, or jurisdictional scrutiny.": {
     "source": "base",
     "node_id": "4-8",
+    "gate": "Does the scene show OpenAI engaging with influential stakeholders, such as regulators, policymakers, major partners, or investors, in ways that could affect its strategy or operations?",
     "yes": [
       "OAI-006",
       "OAI-022",
@@ -1759,6 +1804,7 @@
   "OpenAI frequently revisits and modifies its governance structure or organizational controls to address emerging challenges or preserve its independence.": {
     "source": "base",
     "node_id": "4-8",
+    "gate": "Does the scene show OpenAI engaging with influential stakeholders, such as regulators, policymakers, major partners, or investors, in ways that could affect its strategy or operations?",
     "yes": [
       "OAI-007",
       "OAI-035",
@@ -1787,6 +1833,7 @@
   "OpenAI tends to renegotiate or redefine its relationships and implement mechanisms to maintain control or influence during periods of transition or external pressure.": {
     "source": "base",
     "node_id": "4-8",
+    "gate": "Does the scene show OpenAI engaging with influential stakeholders, such as regulators, policymakers, major partners, or investors, in ways that could affect its strategy or operations?",
     "yes": [
       "OAI-006",
       "OAI-022",
@@ -1815,6 +1862,7 @@
   "OpenAI sometimes implements new control mechanisms or safeguards to maintain or reinforce operational autonomy during periods of organizational change.": {
     "source": "base",
     "node_id": "4-8",
+    "gate": "Does the scene show OpenAI engaging with influential stakeholders, such as regulators, policymakers, major partners, or investors, in ways that could affect its strategy or operations?",
     "yes": [
       "OAI-035",
       "OAI-040",
@@ -1843,6 +1891,7 @@
   "OpenAI frequently introduces or updates user protection mechanisms or safeguards in response to concerns about the safety or well-being of vulnerable users.": {
     "source": "base",
     "node_id": "4-8-2",
+    "gate": "Does the scene involve OpenAI's next action being shaped by increased competition or external pressure from other technology providers?",
     "yes": [
       "OAI-193",
       "OAI-282"
@@ -1852,6 +1901,7 @@
   "OpenAI sometimes increases the transparency, openness, or accessibility of its technology or policies in response to competitive or reputational pressures.": {
     "source": "base",
     "node_id": "4-8-3",
+    "gate": "Does the scene involve OpenAI's next action being motivated by opportunities to expand its user base, enter new markets, or respond to stakeholder expectations?",
     "yes": [
       "OAI-022",
       "OAI-028",
@@ -1865,6 +1915,7 @@
   "OpenAI may adjust its product accessibility, pricing, or offerings to appeal to new or strategically important user groups or partners.": {
     "source": "base",
     "node_id": "4-8-4",
+    "gate": "",
     "yes": [
       "OAI-035",
       "OAI-092",
@@ -1881,6 +1932,7 @@
   "OpenAI tends to update its internal processes, oversight, or security protocols when facing heightened risks of misuse, leaks, or competitive threats.": {
     "source": "base",
     "node_id": "4-9",
+    "gate": "Does the scene involve OpenAI encountering new or intensified risks related to misuse, security breaches, or information leaks?",
     "yes": [
       "OAI-094",
       "OAI-118",
@@ -1904,6 +1956,7 @@
   "OpenAI may broaden its technology's availability or integration by pursuing new partnerships or distribution strategies.": {
     "source": "base",
     "node_id": "4-10",
+    "gate": "Does the scene describe OpenAI seeking to expand its reach or accessibility through new platforms, partnerships, or distribution channels?",
     "yes": [
       "OAI-169",
       "OAI-212"
@@ -1917,6 +1970,7 @@
   "OpenAI appears to modify its products, features, or moderation policies in response to user feedback, criticism, or identified shortcomings.": {
     "source": "base",
     "node_id": "5",
+    "gate": "Does the scene involve OpenAI facing criticism, negative feedback, or evidence of unmet user needs regarding its products or user experience?",
     "yes": [
       "OAI-009",
       "OAI-020",
@@ -1970,6 +2024,7 @@
   "OpenAI regularly seeks large-scale investments, funding, or resource commitments to support anticipated growth and technological advancement.": {
     "source": "base",
     "node_id": "6",
+    "gate": "Does the scene involve OpenAI pursuing significant growth, expansion, or investment opportunities?",
     "yes": [
       "OAI-002",
       "OAI-003",
@@ -2094,6 +2149,7 @@
   "OpenAI tends to adapt its offerings and infrastructure to comply with local regulations and data sovereignty laws.": {
     "source": "base",
     "node_id": "7",
+    "gate": "Does the scene indicate that OpenAI is engaging with new regulatory environments or compliance requirements in different regions?",
     "yes": [
       "OAI-006",
       "OAI-023",
@@ -2115,6 +2171,7 @@
   "OpenAI frequently broadens or restructures its infrastructure, alliances, and resource strategies to enhance scalability, operational resilience, and global reach.": {
     "source": "phase_0",
     "node_id": "Root",
+    "gate": "",
     "yes": [
       "OAI-004",
       "OAI-007",
@@ -2173,6 +2230,7 @@
   "OpenAI regularly revisits, updates, or overturns previous decisions, policies, or initiatives in response to shifting internal goals, stakeholder feedback, or external developments.": {
     "source": "phase_0",
     "node_id": "Root",
+    "gate": "",
     "yes": [
       "OAI-001",
       "OAI-002",
@@ -2231,6 +2289,7 @@
   "OpenAI actively engages with policymakers, regulators, and industry stakeholders to influence, respond to, or shape the broader regulatory and ethical landscape surrounding AI.": {
     "source": "phase_0",
     "node_id": "Root",
+    "gate": "",
     "yes": [
       "OAI-003",
       "OAI-006",
@@ -2289,6 +2348,7 @@
   "OpenAI frequently pursues new infrastructure strategies and forms diverse partnerships—including shifts in compute providers, collaborations with global firms, and securing large-scale funding—to support its operational growth and resilience.": {
     "source": "phase_0",
     "node_id": "Root",
+    "gate": "",
     "yes": [
       "OAI-004",
       "OAI-013",
@@ -2347,6 +2407,7 @@
   "OpenAI regularly revisits and alters its prior decisions, policies, or product plans in response to shifting external pressures, stakeholder feedback, or changes in strategic direction.": {
     "source": "phase_0",
     "node_id": "Root",
+    "gate": "",
     "yes": [
       "OAI-001",
       "OAI-002",
@@ -2405,6 +2466,7 @@
   "OpenAI actively engages with government agencies and policymakers, both to influence regulatory outcomes and to address concerns related to competition, security, and responsible AI development.": {
     "source": "phase_0",
     "node_id": "Root",
+    "gate": "",
     "yes": [
       "OAI-006",
       "OAI-012",
@@ -2463,6 +2525,7 @@
   "OpenAI frequently updates its systems, policies, and safeguards to address technical, safety, compliance, or reputational risks arising from incidents, stakeholder concerns, or external scrutiny.": {
     "source": "phase_0",
     "node_id": "3",
+    "gate": "Does the scene indicate that OpenAI is encountering or anticipating technical, safety, or ethical challenges, or facing public or regulatory scrutiny?",
     "yes": [
       "OAI-009",
       "OAI-015",
@@ -2483,6 +2546,7 @@
   "OpenAI often revises its public-facing content moderation, transparency, and intellectual freedom policies in response to criticism or political pressure regarding bias, censorship, or the handling of sensitive content.": {
     "source": "phase_0",
     "node_id": "3",
+    "gate": "Does the scene indicate that OpenAI is encountering or anticipating technical, safety, or ethical challenges, or facing public or regulatory scrutiny?",
     "yes": [
       "OAI-001",
       "OAI-009",
@@ -2503,6 +2567,7 @@
   "OpenAI responds to technical, safety, and regulatory challenges by revising its systems, policies, or safeguards to address emerging risks, stakeholder concerns, or compliance requirements.": {
     "source": "phase_0",
     "node_id": "3",
+    "gate": "Does the scene indicate that OpenAI is encountering or anticipating technical, safety, or ethical challenges, or facing public or regulatory scrutiny?",
     "yes": [
       "OAI-009",
       "OAI-020",
@@ -2523,6 +2588,7 @@
   "OpenAI adapts its content moderation practices, model specifications, and user-facing policies in response to public criticism, political pressure, or evolving societal expectations around fairness, intellectual freedom, and transparency.": {
     "source": "phase_0",
     "node_id": "3",
+    "gate": "Does the scene indicate that OpenAI is encountering or anticipating technical, safety, or ethical challenges, or facing public or regulatory scrutiny?",
     "yes": [
       "OAI-009",
       "OAI-020",
@@ -2543,6 +2609,7 @@
   "OpenAI consistently pursues large-scale investments, funding, and strategic resource partnerships to accelerate growth, expand technological capabilities, and maintain a competitive edge in the AI industry.": {
     "source": "phase_0",
     "node_id": "6",
+    "gate": "Does the scene involve OpenAI pursuing significant growth, expansion, or investment opportunities?",
     "yes": [
       "OAI-002",
       "OAI-003",
@@ -2578,6 +2645,7 @@
   "OpenAI aggressively expands its global presence, product offerings, and strategic collaborations—such as launching new features, entering new markets, revising product strategies, and forming high-profile partnerships—to drive growth, respond to competition, and capture emerging opportunities.": {
     "source": "phase_0",
     "node_id": "6",
+    "gate": "Does the scene involve OpenAI pursuing significant growth, expansion, or investment opportunities?",
     "yes": [
       "OAI-004",
       "OAI-007",
@@ -2613,6 +2681,7 @@
   "OpenAI frequently pursues large-scale investments, restructures partnerships, and secures substantial resource commitments—including funding, compute infrastructure, and strategic alliances—to enable rapid growth and technological advancement.": {
     "source": "phase_0",
     "node_id": "6",
+    "gate": "Does the scene involve OpenAI pursuing significant growth, expansion, or investment opportunities?",
     "yes": [
       "OAI-002",
       "OAI-003",
@@ -2648,6 +2717,7 @@
   "OpenAI consistently adapts its product offerings, organizational structure, and market strategies—including launching new features, entering new markets, adjusting leadership, and engaging in high-profile collaborations—to strengthen its competitive position and capitalize on growth opportunities.": {
     "source": "phase_0",
     "node_id": "6",
+    "gate": "Does the scene involve OpenAI pursuing significant growth, expansion, or investment opportunities?",
     "yes": [
       "OAI-002",
       "OAI-003",
@@ -2683,6 +2753,7 @@
   "OpenAI frequently revises, refines, or expands its products and features both in response to user feedback and as part of iterative testing or staged rollouts.": {
     "source": "phase_0",
     "node_id": "1",
+    "gate": "Does the scene involve OpenAI piloting, testing, or limiting access to new features or products before a broader rollout?",
     "yes": [
       "OAI-008",
       "OAI-021",
@@ -2694,6 +2765,7 @@
   "OpenAI routinely revises, refines, or expands access to its products and features in response to user feedback, observed usage patterns, or identified areas for improvement.": {
     "source": "phase_0",
     "node_id": "1",
+    "gate": "Does the scene involve OpenAI piloting, testing, or limiting access to new features or products before a broader rollout?",
     "yes": [
       "OAI-008",
       "OAI-021",
@@ -2705,6 +2777,7 @@
   "OpenAI frequently adjusts its policies, organizational structure, product features, and public communications in response to legal challenges, regulatory requirements, government scrutiny, and stakeholder pressure.": {
     "source": "phase_0",
     "node_id": "4",
+    "gate": "Does the scene describe OpenAI facing legal, regulatory, or governance challenges, or significant stakeholder pressure?",
     "yes": [
       "OAI-006",
       "OAI-009",
@@ -2729,6 +2802,7 @@
   "OpenAI frequently responds to legal, regulatory, or governance challenges and stakeholder pressure by adjusting its policies, governance structures, public communications, product features, or compliance strategies.": {
     "source": "phase_0",
     "node_id": "4",
+    "gate": "Does the scene describe OpenAI facing legal, regulatory, or governance challenges, or significant stakeholder pressure?",
     "yes": [
       "OAI-006",
       "OAI-009",
@@ -2753,6 +2827,7 @@
   "OpenAI frequently forges strategic collaborations, investments, or resource-sharing agreements with external partners—including technology firms, research institutions, and government entities—to secure critical capabilities, infrastructure, or market access.": {
     "source": "phase_0",
     "node_id": "2",
+    "gate": "Does the scene describe OpenAI collaborating with external partners, organizations, or platforms, or seeking to expand its ecosystem?",
     "yes": [
       "OAI-010",
       "OAI-013",
@@ -2774,6 +2849,7 @@
   "OpenAI frequently forges strategic partnerships, multi-year agreements, or makes significant financial commitments to secure critical resources, infrastructure, or market access necessary for scaling and reliable operation.": {
     "source": "phase_0",
     "node_id": "2",
+    "gate": "Does the scene describe OpenAI collaborating with external partners, organizations, or platforms, or seeking to expand its ecosystem?",
     "yes": [
       "OAI-013",
       "OAI-016",
@@ -2795,6 +2871,7 @@
   "OpenAI frequently forms strategic collaborations, investments, or partnerships with external organizations, experts, or institutions to accelerate adoption, differentiate its offerings, expand into new domains, or address emerging user and market expectations.": {
     "source": "phase_0",
     "node_id": "2-8",
+    "gate": "Does the scene suggest that OpenAI is seeking to accelerate adoption, differentiation, or market presence through collaborations with influential partners, organizations, or experts?",
     "yes": [
       "OAI-010",
       "OAI-013",
@@ -2813,6 +2890,7 @@
   "OpenAI often pursues major organizational initiatives—such as opening international offices, shifting infrastructure providers, filing intellectual property, raising large funding rounds, or redefining its technological focus—to strengthen its global presence, secure resources, and position itself competitively through high-impact collaborations or ecosystem expansion.": {
     "source": "phase_0",
     "node_id": "2-8",
+    "gate": "Does the scene suggest that OpenAI is seeking to accelerate adoption, differentiation, or market presence through collaborations with influential partners, organizations, or experts?",
     "yes": [
       "OAI-003",
       "OAI-013",
@@ -2831,6 +2909,7 @@
   "OpenAI frequently forges strategic collaborations, investments, or partnerships with external organizations, experts, or industry leaders to accelerate adoption, differentiate its offerings, or respond to evolving user and market expectations.": {
     "source": "phase_0",
     "node_id": "2-8",
+    "gate": "Does the scene suggest that OpenAI is seeking to accelerate adoption, differentiation, or market presence through collaborations with influential partners, organizations, or experts?",
     "yes": [
       "OAI-010",
       "OAI-013",
@@ -2849,6 +2928,7 @@
   "OpenAI actively pursues geographic expansion, resource acquisition, and new product initiatives—such as opening international offices, securing large-scale funding, shifting infrastructure partnerships, and advancing toward superintelligence—to strengthen its global presence and long-term strategic position.": {
     "source": "phase_0",
     "node_id": "2-8",
+    "gate": "Does the scene suggest that OpenAI is seeking to accelerate adoption, differentiation, or market presence through collaborations with influential partners, organizations, or experts?",
     "yes": [
       "OAI-003",
       "OAI-024",
@@ -2867,6 +2947,7 @@
   "OpenAI often accelerates, adapts, or highlights product features, releases, or technical disclosures in response to competitive threats, market shifts, or rival innovations.": {
     "source": "phase_0",
     "node_id": "4-1",
+    "gate": "Does the scene involve OpenAI responding to increased competition, market shifts, or the emergence of rival products?",
     "yes": [
       "OAI-028",
       "OAI-034"
@@ -2880,6 +2961,7 @@
   "OpenAI actively engages with government officials, updates public policies, or participates in legal and regulatory proceedings to address external scrutiny, stakeholder concerns, or industry-wide challenges.": {
     "source": "phase_0",
     "node_id": "4-1",
+    "gate": "Does the scene involve OpenAI responding to increased competition, market shifts, or the emergence of rival products?",
     "yes": [
       "OAI-012",
       "OAI-039"
@@ -2893,6 +2975,7 @@
   "OpenAI may adjust, accelerate, or highlight product features, releases, or transparency initiatives in response to competitive pressures, market shifts, or the actions of rival organizations.": {
     "source": "phase_0",
     "node_id": "4-1",
+    "gate": "Does the scene involve OpenAI responding to increased competition, market shifts, or the emergence of rival products?",
     "yes": [
       "OAI-028",
       "OAI-034"
@@ -2906,6 +2989,7 @@
   "OpenAI often adapts its public communications, policy positions, or engagement with external stakeholders—including government bodies and critics—in response to legal challenges, regulatory scrutiny, or reputational concerns arising from competitive or societal pressures.": {
     "source": "phase_0",
     "node_id": "4-1",
+    "gate": "Does the scene involve OpenAI responding to increased competition, market shifts, or the emergence of rival products?",
     "yes": [
       "OAI-012",
       "OAI-028",
@@ -2919,6 +3003,7 @@
   "OpenAI frequently undertakes legal, procedural, structural, and governance measures—including board restructuring, special voting rights, and policy adjustments—to defend its autonomy, mission alignment, and control when confronted with external legal, regulatory, or stakeholder challenges.": {
     "source": "phase_0",
     "node_id": "4-5",
+    "gate": "Does the scene involve OpenAI being subject to legal disputes, acquisition offers, or challenges to its organizational autonomy or governance?",
     "yes": [
       "OAI-007",
       "OAI-040",
@@ -2931,6 +3016,7 @@
   "OpenAI frequently undertakes legal, procedural, structural, or governance measures—including board restructuring, special voting rights, or resisting acquisition offers—to preserve its autonomy, mission alignment, and organizational control when confronted with external threats, disputes, or stakeholder challenges.": {
     "source": "phase_0",
     "node_id": "4-5",
+    "gate": "Does the scene involve OpenAI being subject to legal disputes, acquisition offers, or challenges to its organizational autonomy or governance?",
     "yes": [
       "OAI-040",
       "OAI-047"
@@ -2943,6 +3029,7 @@
   "OpenAI frequently revises its content moderation policies, safety mechanisms, and user protections in response to public criticism, incidents, or concerns about bias and user harm.": {
     "source": "phase_0",
     "node_id": "4-3",
+    "gate": "Does the scene involve OpenAI encountering incidents, risks, or scrutiny related to user safety, harm, or the well-being of vulnerable groups?",
     "yes": [
       "OAI-009",
       "OAI-041",
@@ -2956,6 +3043,7 @@
   "OpenAI often updates its AI model specifications, public communications, and product features to address external pressures and criticisms regarding political bias, censorship, or intellectual freedom.": {
     "source": "phase_0",
     "node_id": "4-3",
+    "gate": "Does the scene involve OpenAI encountering incidents, risks, or scrutiny related to user safety, harm, or the well-being of vulnerable groups?",
     "yes": [
       "OAI-009",
       "OAI-041",
@@ -2969,6 +3057,7 @@
   "OpenAI frequently revises its content moderation policies, user protections, and safety mechanisms in response to external criticism, incidents, or concerns about bias, censorship, or user harm.": {
     "source": "phase_0",
     "node_id": "4-3",
+    "gate": "Does the scene involve OpenAI encountering incidents, risks, or scrutiny related to user safety, harm, or the well-being of vulnerable groups?",
     "yes": [
       "OAI-009",
       "OAI-041",
@@ -2982,6 +3071,7 @@
   "OpenAI often updates its public policy documents, model specifications, and product features to address political pressure, stakeholder concerns, or accusations of bias and censorship in its AI systems.": {
     "source": "phase_0",
     "node_id": "4-3",
+    "gate": "Does the scene involve OpenAI encountering incidents, risks, or scrutiny related to user safety, harm, or the well-being of vulnerable groups?",
     "yes": [
       "OAI-009",
       "OAI-041",
@@ -2995,6 +3085,7 @@
   "OpenAI responds to legal, regulatory, and stakeholder scrutiny by enhancing compliance, increasing transparency, adapting data practices, or publicly clarifying its positions.": {
     "source": "phase_0",
     "node_id": "4-8",
+    "gate": "Does the scene show OpenAI engaging with influential stakeholders, such as regulators, policymakers, major partners, or investors, in ways that could affect its strategy or operations?",
     "yes": [
       "OAI-006",
       "OAI-012",
@@ -3010,6 +3101,7 @@
   "OpenAI regularly revises its governance structures, board composition, and organizational policies to address external challenges, stakeholder demands, or to safeguard its strategic direction and independence.": {
     "source": "phase_0",
     "node_id": "4-8",
+    "gate": "Does the scene show OpenAI engaging with influential stakeholders, such as regulators, policymakers, major partners, or investors, in ways that could affect its strategy or operations?",
     "yes": [
       "OAI-006",
       "OAI-007",
@@ -3025,6 +3117,7 @@
   "OpenAI proactively adapts its compliance, transparency, and data management practices—including public policy advocacy and increased lobbying—when confronted with legal, regulatory, or jurisdictional scrutiny or uncertainty.": {
     "source": "phase_0",
     "node_id": "4-8",
+    "gate": "Does the scene show OpenAI engaging with influential stakeholders, such as regulators, policymakers, major partners, or investors, in ways that could affect its strategy or operations?",
     "yes": [
       "OAI-006",
       "OAI-012",
@@ -3040,6 +3133,7 @@
   "OpenAI regularly adjusts its governance structures, board composition, and organizational controls in response to external challenges or to safeguard its independence and strategic direction.": {
     "source": "phase_0",
     "node_id": "4-8",
+    "gate": "Does the scene show OpenAI engaging with influential stakeholders, such as regulators, policymakers, major partners, or investors, in ways that could affect its strategy or operations?",
     "yes": [
       "OAI-007",
       "OAI-040"
@@ -3055,6 +3149,7 @@
   "OpenAI frequently invests in strengthening its technical infrastructure, forming strategic partnerships, and acquiring talent or technology to support growth, reliability, and innovation.": {
     "source": "phase_1",
     "node_id": "Root",
+    "gate": "",
     "yes": [
       "OAI-086",
       "OAI-087",
@@ -3107,6 +3202,7 @@
   "OpenAI is willing to accelerate or adjust its internal processes, such as safety reviews or deployment timelines, in response to urgent external pressures or opportunities.": {
     "source": "phase_1",
     "node_id": "Root",
+    "gate": "",
     "yes": [
       "OAI-087",
       "OAI-088",
@@ -3159,6 +3255,7 @@
   "OpenAI responds to technical, safety, and compliance challenges or external scrutiny by updating its systems, policies, or safeguards, and by implementing new features or processes to address identified risks or incidents.": {
     "source": "phase_1",
     "node_id": "3",
+    "gate": "Does the scene indicate that OpenAI is encountering or anticipating technical, safety, or ethical challenges, or facing public or regulatory scrutiny?",
     "yes": [
       "OAI-092",
       "OAI-093",
@@ -3185,6 +3282,7 @@
   "OpenAI adapts its strategies, communications, and organizational structure in response to public scrutiny, legal disputes, regulatory requirements, competitive pressures, or stakeholder concerns.": {
     "source": "phase_1",
     "node_id": "3",
+    "gate": "Does the scene indicate that OpenAI is encountering or anticipating technical, safety, or ethical challenges, or facing public or regulatory scrutiny?",
     "yes": [
       "OAI-090",
       "OAI-093",
@@ -3211,6 +3309,7 @@
   "OpenAI frequently pursues growth and expansion by launching new products, features, or business initiatives, adapting its offerings to competitive pressures, user needs, and emerging markets.": {
     "source": "phase_1",
     "node_id": "6",
+    "gate": "Does the scene involve OpenAI pursuing significant growth, expansion, or investment opportunities?",
     "yes": [
       "OAI-087",
       "OAI-088",
@@ -3245,6 +3344,7 @@
   "OpenAI routinely adapts its products, features, and organizational structures to comply with regional regulations, data sovereignty requirements, and governance expectations in different jurisdictions.": {
     "source": "phase_1",
     "node_id": "7",
+    "gate": "Does the scene indicate that OpenAI is engaging with new regulatory environments or compliance requirements in different regions?",
     "yes": [
       "OAI-111",
       "OAI-128"
@@ -3257,6 +3357,7 @@
   "OpenAI frequently adjusts its products, features, or policies in response to user feedback, public criticism, or the identification of product limitations or failures.": {
     "source": "phase_1",
     "node_id": "5",
+    "gate": "Does the scene involve OpenAI facing criticism, negative feedback, or evidence of unmet user needs regarding its products or user experience?",
     "yes": [
       "OAI-094",
       "OAI-113",
@@ -3278,6 +3379,7 @@
   "OpenAI sometimes alters its communication practices, technical disclosures, or model evaluation processes in response to external scrutiny, competitive dynamics, or concerns about transparency and safety.": {
     "source": "phase_1",
     "node_id": "5",
+    "gate": "Does the scene involve OpenAI facing criticism, negative feedback, or evidence of unmet user needs regarding its products or user experience?",
     "yes": [
       "OAI-094",
       "OAI-097",
@@ -3299,6 +3401,7 @@
   "OpenAI frequently responds to legal, regulatory, governance, or stakeholder challenges by adjusting its policies, product features, organizational structure, or public communications to address compliance requirements, stakeholder concerns, or reputational risks.": {
     "source": "phase_1",
     "node_id": "4",
+    "gate": "Does the scene describe OpenAI facing legal, regulatory, or governance challenges, or significant stakeholder pressure?",
     "yes": [
       "OAI-092",
       "OAI-094",
@@ -3320,6 +3423,7 @@
   "OpenAI frequently establishes strategic collaborations, resource agreements, or content partnerships with external organizations to secure critical assets, expand capabilities, or enhance its ecosystem.": {
     "source": "phase_1",
     "node_id": "2",
+    "gate": "Does the scene describe OpenAI collaborating with external partners, organizations, or platforms, or seeking to expand its ecosystem?",
     "yes": [
       "OAI-089",
       "OAI-107",
@@ -3338,6 +3442,7 @@
   "OpenAI sometimes forms strategic collaborations, content partnerships, or invests in external organizations and experts to accelerate adoption, differentiate its offerings, or respond to evolving user and market expectations.": {
     "source": "phase_1",
     "node_id": "2-8",
+    "gate": "Does the scene suggest that OpenAI is seeking to accelerate adoption, differentiation, or market presence through collaborations with influential partners, organizations, or experts?",
     "yes": [
       "OAI-089",
       "OAI-112",
@@ -3353,6 +3458,7 @@
   "OpenAI frequently adapts its business models, product access, and partnership terms in response to competitive pressures, capacity constraints, or shifting strategic priorities.": {
     "source": "phase_1",
     "node_id": "2-8",
+    "gate": "Does the scene suggest that OpenAI is seeking to accelerate adoption, differentiation, or market presence through collaborations with influential partners, organizations, or experts?",
     "yes": [
       "OAI-089",
       "OAI-102",
@@ -3367,6 +3473,7 @@
   "OpenAI typically responds to heightened risks of misuse, security breaches, or competitive threats by updating its internal processes, oversight mechanisms, security protocols, or by introducing new access controls.": {
     "source": "phase_1",
     "node_id": "4-9",
+    "gate": "Does the scene involve OpenAI encountering new or intensified risks related to misuse, security breaches, or information leaks?",
     "yes": [
       "OAI-094",
       "OAI-118"
@@ -3379,6 +3486,7 @@
   "OpenAI frequently adjusts its policies, public communications, or documentation in response to external criticism, stakeholder concerns, or changing societal expectations regarding its practices and products.": {
     "source": "phase_1",
     "node_id": "4-2",
+    "gate": "Does the scene indicate OpenAI facing public, media, or stakeholder criticism regarding its policies, transparency, or the societal impact of its products?",
     "yes": [
       "OAI-097",
       "OAI-118"
@@ -3394,6 +3502,7 @@
   "OpenAI often takes visible actions—such as releasing new products, updating governance structures, or engaging in legal proceedings—to address public scrutiny, competitive pressures, or stakeholder disputes related to its transparency, safety practices, or organizational mission.": {
     "source": "phase_1",
     "node_id": "4-2",
+    "gate": "Does the scene indicate OpenAI facing public, media, or stakeholder criticism regarding its policies, transparency, or the societal impact of its products?",
     "yes": [
       "OAI-090",
       "OAI-097",
@@ -3409,6 +3518,7 @@
   "OpenAI frequently adapts or accelerates its safety processes, user protections, or content moderation mechanisms in response to incidents, external scrutiny, or competitive pressures related to user harm.": {
     "source": "phase_1",
     "node_id": "4-3",
+    "gate": "Does the scene involve OpenAI encountering incidents, risks, or scrutiny related to user safety, harm, or the well-being of vulnerable groups?",
     "yes": [
       "OAI-094",
       "OAI-097",
@@ -3422,6 +3532,7 @@
   "OpenAI frequently expands or diversifies its infrastructure, partnerships, and cloud provider relationships to ensure scalability, operational reliability, and access to critical resources.": {
     "source": "phase_2",
     "node_id": "Root",
+    "gate": "",
     "yes": [
       "OAI-161",
       "OAI-165",
@@ -3484,6 +3595,7 @@
   "OpenAI regularly revisits, updates, or reverses previous decisions in response to shifting external conditions, stakeholder feedback, or strategic priorities.": {
     "source": "phase_2",
     "node_id": "Root",
+    "gate": "",
     "yes": [
       "OAI-160",
       "OAI-161",
@@ -3546,6 +3658,7 @@
   "OpenAI actively engages in legal, regulatory, and policy-related actions to protect its interests, navigate industry challenges, and influence the broader AI landscape.": {
     "source": "phase_2",
     "node_id": "Root",
+    "gate": "",
     "yes": [
       "OAI-159",
       "OAI-160",
@@ -3608,6 +3721,7 @@
   "OpenAI adapts its product strategies, transparency practices, and market positioning in response to public scrutiny, legal pressures, and demands for greater openness or social responsibility.": {
     "source": "phase_2",
     "node_id": "3",
+    "gate": "Does the scene indicate that OpenAI is encountering or anticipating technical, safety, or ethical challenges, or facing public or regulatory scrutiny?",
     "yes": [
       "OAI-162",
       "OAI-163",
@@ -3634,6 +3748,7 @@
   "OpenAI actively pursues large-scale investments, funding, strategic partnerships, and resource commitments—including major infrastructure deals and organizational restructuring—to enable rapid growth, technological advancement, and market expansion.": {
     "source": "phase_2",
     "node_id": "6",
+    "gate": "Does the scene involve OpenAI pursuing significant growth, expansion, or investment opportunities?",
     "yes": [
       "OAI-161",
       "OAI-165",
@@ -3673,6 +3788,7 @@
   "OpenAI frequently launches new products, features, and market initiatives—including open models, pricing adjustments, regional expansions, and strategic partnerships—to accelerate user adoption, enter new markets, and strengthen its competitive position.": {
     "source": "phase_2",
     "node_id": "6",
+    "gate": "Does the scene involve OpenAI pursuing significant growth, expansion, or investment opportunities?",
     "yes": [
       "OAI-161",
       "OAI-165",
@@ -3712,6 +3828,7 @@
   "OpenAI publicly acknowledges limitations, legal risks, or user concerns related to its products and communicates planned shifts in strategy or focus in response to criticism or market feedback.": {
     "source": "phase_2",
     "node_id": "5",
+    "gate": "Does the scene involve OpenAI facing criticism, negative feedback, or evidence of unmet user needs regarding its products or user experience?",
     "yes": [
       "OAI-167",
       "OAI-177",
@@ -3733,6 +3850,7 @@
   "OpenAI frequently responds to legal, regulatory, and stakeholder challenges by adjusting its product features, organizational structure, and public communications to address safety, transparency, and compliance concerns.": {
     "source": "phase_2",
     "node_id": "4",
+    "gate": "Does the scene describe OpenAI facing legal, regulatory, or governance challenges, or significant stakeholder pressure?",
     "yes": [
       "OAI-160",
       "OAI-167",
@@ -3757,6 +3875,7 @@
   "OpenAI frequently secures long-term access to critical resources and infrastructure through substantial financial investments, multi-year agreements, or strategic partnerships with major technology and cloud providers.": {
     "source": "phase_2",
     "node_id": "2",
+    "gate": "Does the scene describe OpenAI collaborating with external partners, organizations, or platforms, or seeking to expand its ecosystem?",
     "yes": [
       "OAI-165",
       "OAI-166",
@@ -3781,6 +3900,7 @@
   "OpenAI actively pursues diversification into new domains, products, or markets—often through partnerships, acquisitions, or platform integrations—when facing challenges, competition, or growth opportunities in its core business.": {
     "source": "phase_2",
     "node_id": "2",
+    "gate": "Does the scene describe OpenAI collaborating with external partners, organizations, or platforms, or seeking to expand its ecosystem?",
     "yes": [
       "OAI-165",
       "OAI-166",
@@ -3805,6 +3925,7 @@
   "OpenAI regularly collaborates with leading industry partners and research organizations to advance AI safety, governance, and organizational structure, particularly in response to emerging risks, stakeholder interests, or shifts in the broader technology landscape.": {
     "source": "phase_2",
     "node_id": "2",
+    "gate": "Does the scene describe OpenAI collaborating with external partners, organizations, or platforms, or seeking to expand its ecosystem?",
     "yes": [
       "OAI-165",
       "OAI-166",
@@ -3829,6 +3950,7 @@
   "OpenAI frequently forges strategic collaborations, investments, or acquisitions with external organizations and experts to accelerate adoption, differentiate its offerings, or respond to evolving user and market expectations.": {
     "source": "phase_2",
     "node_id": "2-8",
+    "gate": "Does the scene suggest that OpenAI is seeking to accelerate adoption, differentiation, or market presence through collaborations with influential partners, organizations, or experts?",
     "yes": [
       "OAI-165",
       "OAI-169",
@@ -3850,6 +3972,7 @@
   "OpenAI actively pursues large-scale partnerships, market expansions, and organizational transformations—including entering new geographies, securing major funding, revising governance structures, and collaborating with influential technology and government entities—to strengthen its market presence and support long-term growth.": {
     "source": "phase_2",
     "node_id": "2-8",
+    "gate": "Does the scene suggest that OpenAI is seeking to accelerate adoption, differentiation, or market presence through collaborations with influential partners, organizations, or experts?",
     "yes": [
       "OAI-165",
       "OAI-169",
@@ -3870,6 +3993,7 @@
   "OpenAI frequently undertakes legal, procedural, or organizational measures—including litigation, subpoenas, and public disclosures—to protect its autonomy, governance structure, and strategic direction when confronted with legal disputes, regulatory scrutiny, or challenges to its control.": {
     "source": "phase_2",
     "node_id": "4-5",
+    "gate": "Does the scene involve OpenAI being subject to legal disputes, acquisition offers, or challenges to its organizational autonomy or governance?",
     "yes": [],
     "no": [
       "OAI-167",
@@ -3884,6 +4008,7 @@
   "OpenAI responds to legal, regulatory, and stakeholder challenges—especially those involving user safety or harm—by implementing new technical safeguards, product restrictions, and public commitments to address risks and enhance protections for vulnerable users.": {
     "source": "phase_2",
     "node_id": "4-5",
+    "gate": "Does the scene involve OpenAI being subject to legal disputes, acquisition offers, or challenges to its organizational autonomy or governance?",
     "yes": [
       "OAI-167",
       "OAI-187",
@@ -3899,6 +4024,7 @@
   "OpenAI frequently updates its internal policies, public communications, or documentation in response to external criticism, legal challenges, or shifting societal expectations regarding the safety, privacy, and ethical use of its AI products.": {
     "source": "phase_2",
     "node_id": "4-2",
+    "gate": "Does the scene indicate OpenAI facing public, media, or stakeholder criticism regarding its policies, transparency, or the societal impact of its products?",
     "yes": [
       "OAI-167",
       "OAI-168",
@@ -3917,6 +4043,7 @@
   "OpenAI often restructures teams, launches new features, or adapts product offerings to address stakeholder concerns, competitive pressures, or to align with its public mission amid external scrutiny.": {
     "source": "phase_2",
     "node_id": "4-2",
+    "gate": "Does the scene indicate OpenAI facing public, media, or stakeholder criticism regarding its policies, transparency, or the societal impact of its products?",
     "yes": [
       "OAI-168",
       "OAI-174",
@@ -3935,6 +4062,7 @@
   "OpenAI sometimes expands or adapts its product offerings and user experiences, including launching new features or applications, even while facing ongoing scrutiny or controversy regarding user safety and harm.": {
     "source": "phase_2",
     "node_id": "4-3",
+    "gate": "Does the scene involve OpenAI encountering incidents, risks, or scrutiny related to user safety, harm, or the well-being of vulnerable groups?",
     "yes": [
       "OAI-167",
       "OAI-168",
@@ -3951,6 +4079,7 @@
   "OpenAI frequently secures large-scale funding, strategic investments, or restructures its organizational and partnership arrangements to enable ambitious projects, operational expansion, and sustained access to critical resources.": {
     "source": "phase_2",
     "node_id": "2-2",
+    "gate": "Does the scene suggest that OpenAI is encountering financial pressures, increased operational costs, or the need for substantial capital to support ongoing or planned initiatives?",
     "yes": [
       "OAI-165",
       "OAI-169",
@@ -3966,6 +4095,7 @@
   "OpenAI regularly enters into multi-year, high-value infrastructure agreements and forms strategic technology alliances with leading industry partners to scale its AI capabilities and diversify its operational ecosystem.": {
     "source": "phase_2",
     "node_id": "2-2",
+    "gate": "Does the scene suggest that OpenAI is encountering financial pressures, increased operational costs, or the need for substantial capital to support ongoing or planned initiatives?",
     "yes": [
       "OAI-165",
       "OAI-169",
@@ -3982,6 +4112,7 @@
   "OpenAI proactively clarifies its compliance, transparency, and data handling practices, and issues public warnings or policy updates, when responding to legal, regulatory, or jurisdictional scrutiny or investor-related concerns.": {
     "source": "phase_2",
     "node_id": "4-8",
+    "gate": "Does the scene show OpenAI engaging with influential stakeholders, such as regulators, policymakers, major partners, or investors, in ways that could affect its strategy or operations?",
     "yes": [
       "OAI-186",
       "OAI-193"
@@ -3997,6 +4128,7 @@
   "OpenAI regularly revises its governance structure, organizational controls, and legal strategies to address external challenges, stakeholder disputes, or to safeguard its mission and independence.": {
     "source": "phase_2",
     "node_id": "4-8",
+    "gate": "Does the scene show OpenAI engaging with influential stakeholders, such as regulators, policymakers, major partners, or investors, in ways that could affect its strategy or operations?",
     "yes": [
       "OAI-169",
       "OAI-185",
@@ -4012,6 +4144,7 @@
   "OpenAI adapts its product offerings, public communications, and legal tactics in response to competitive pressures, stakeholder disputes, or reputational challenges that arise during periods of significant organizational transition.": {
     "source": "phase_2",
     "node_id": "4-8",
+    "gate": "Does the scene show OpenAI engaging with influential stakeholders, such as regulators, policymakers, major partners, or investors, in ways that could affect its strategy or operations?",
     "yes": [
       "OAI-169",
       "OAI-185",
@@ -4027,6 +4160,7 @@
   "OpenAI frequently broadens its technical infrastructure and forges diverse partnerships—including hardware, cloud, and industry alliances—to ensure scalable, resilient, and innovative AI operations.": {
     "source": "phase_3",
     "node_id": "Root",
+    "gate": "",
     "yes": [
       "OAI-251",
       "OAI-252",
@@ -4087,6 +4221,7 @@
   "OpenAI shows flexibility in its strategic direction by altering, discontinuing, or reinstating features, policies, or partnerships in response to changing business needs, user feedback, or external factors.": {
     "source": "phase_3",
     "node_id": "Root",
+    "gate": "",
     "yes": [
       "OAI-251",
       "OAI-253",
@@ -4147,6 +4282,7 @@
   "OpenAI is willing to experiment with branding, terminology, and user experience elements, even when such choices may generate controversy or require subsequent clarification.": {
     "source": "phase_3",
     "node_id": "Root",
+    "gate": "",
     "yes": [
       "OAI-251",
       "OAI-253",
@@ -4207,6 +4343,7 @@
   "OpenAI frequently responds to user and public feedback by refining product features, language choices, or user experience to address concerns about appropriateness, tone, or potential misuse.": {
     "source": "phase_3",
     "node_id": "3",
+    "gate": "Does the scene indicate that OpenAI is encountering or anticipating technical, safety, or ethical challenges, or facing public or regulatory scrutiny?",
     "yes": [
       "OAI-258",
       "OAI-272",
@@ -4226,6 +4363,7 @@
   "OpenAI aggressively pursues substantial investments, acquisitions, partnerships, and resource commitments—including infrastructure, talent, and technology—to drive rapid growth, expand capabilities, and maintain a competitive edge.": {
     "source": "phase_3",
     "node_id": "6",
+    "gate": "Does the scene involve OpenAI pursuing significant growth, expansion, or investment opportunities?",
     "yes": [
       "OAI-252",
       "OAI-255",
@@ -4266,6 +4404,7 @@
   "OpenAI consistently expands its market presence and product offerings through strategic launches, feature enhancements, executive hires, competitive responses, and integration of new technologies or teams.": {
     "source": "phase_3",
     "node_id": "6",
+    "gate": "Does the scene involve OpenAI pursuing significant growth, expansion, or investment opportunities?",
     "yes": [
       "OAI-250",
       "OAI-252",
@@ -4306,6 +4445,7 @@
   "OpenAI regularly revises, refines, or disables features and product elements in response to user feedback, dissatisfaction, or confusion during pilots and rollouts.": {
     "source": "phase_3",
     "node_id": "1",
+    "gate": "Does the scene involve OpenAI piloting, testing, or limiting access to new features or products before a broader rollout?",
     "yes": [
       "OAI-259",
       "OAI-262",
@@ -4318,6 +4458,7 @@
   "OpenAI typically pilots new features or integrations with select users or regions, then expands access globally after evaluating results and feedback.": {
     "source": "phase_3",
     "node_id": "1",
+    "gate": "Does the scene involve OpenAI piloting, testing, or limiting access to new features or products before a broader rollout?",
     "yes": [
       "OAI-259",
       "OAI-272"
@@ -4330,6 +4471,7 @@
   "OpenAI frequently adjusts its products, features, or moderation policies in direct response to user feedback, public criticism, or the identification of product shortcomings, aiming to address concerns and improve user experience.": {
     "source": "phase_3",
     "node_id": "5",
+    "gate": "Does the scene involve OpenAI facing criticism, negative feedback, or evidence of unmet user needs regarding its products or user experience?",
     "yes": [
       "OAI-258",
       "OAI-266",
@@ -4348,6 +4490,7 @@
   "OpenAI also responds to external pressures—including legal challenges, reputational risks, and competitive threats—by altering its communication, legal strategies, or product positioning to mitigate negative impacts and maintain its market standing.": {
     "source": "phase_3",
     "node_id": "5",
+    "gate": "Does the scene involve OpenAI facing criticism, negative feedback, or evidence of unmet user needs regarding its products or user experience?",
     "yes": [
       "OAI-258",
       "OAI-263",
@@ -4366,6 +4509,7 @@
   "OpenAI frequently responds to legal, regulatory, or stakeholder challenges by adjusting its products, policies, or public communications, and by engaging in legal or policy processes to address or mitigate risks.": {
     "source": "phase_3",
     "node_id": "4",
+    "gate": "Does the scene describe OpenAI facing legal, regulatory, or governance challenges, or significant stakeholder pressure?",
     "yes": [
       "OAI-255",
       "OAI-268",
@@ -4382,6 +4526,7 @@
   "OpenAI frequently secures long-term access to critical resources and capabilities—such as compute, data, and strategic partnerships—through substantial financial commitments, multi-year agreements, acquisitions, or collaborative ventures.": {
     "source": "phase_3",
     "node_id": "2",
+    "gate": "Does the scene describe OpenAI collaborating with external partners, organizations, or platforms, or seeking to expand its ecosystem?",
     "yes": [
       "OAI-256",
       "OAI-257",
@@ -4407,6 +4552,7 @@
   "OpenAI routinely diversifies into new domains, products, or markets—including hardware, global initiatives, and platform integrations—especially when facing competitive pressures, operational challenges, or evolving business opportunities.": {
     "source": "phase_3",
     "node_id": "2",
+    "gate": "Does the scene describe OpenAI collaborating with external partners, organizations, or platforms, or seeking to expand its ecosystem?",
     "yes": [
       "OAI-256",
       "OAI-260",
@@ -4432,6 +4578,7 @@
   "OpenAI actively adapts its organizational structure, workforce, and external communications—including through high-profile hires, legal maneuvers, and policy adjustments—to navigate industry competition, legal disputes, and public perception.": {
     "source": "phase_3",
     "node_id": "2",
+    "gate": "Does the scene describe OpenAI collaborating with external partners, organizations, or platforms, or seeking to expand its ecosystem?",
     "yes": [
       "OAI-257",
       "OAI-260",
@@ -4457,6 +4604,7 @@
   "OpenAI frequently accelerates adoption and market differentiation by forming strategic collaborations, investing in external organizations, acquiring teams, or partnering with influential experts to enhance its ecosystem and address emerging user needs.": {
     "source": "phase_3",
     "node_id": "2-8",
+    "gate": "Does the scene suggest that OpenAI is seeking to accelerate adoption, differentiation, or market presence through collaborations with influential partners, organizations, or experts?",
     "yes": [
       "OAI-256",
       "OAI-260",
@@ -4480,6 +4628,7 @@
   "OpenAI aggressively expands its market presence and platform capabilities through major funding efforts, high-profile product launches, legal maneuvers, and data acquisition strategies, often in response to competitive pressures and evolving business opportunities.": {
     "source": "phase_3",
     "node_id": "2-8",
+    "gate": "Does the scene suggest that OpenAI is seeking to accelerate adoption, differentiation, or market presence through collaborations with influential partners, organizations, or experts?",
     "yes": [
       "OAI-257",
       "OAI-260",
@@ -4503,6 +4652,7 @@
   "OpenAI frequently updates its internal policies, public positions, product features, or user communications in response to external criticism, societal expectations, or stakeholder concerns.": {
     "source": "phase_3",
     "node_id": "4-2",
+    "gate": "Does the scene indicate OpenAI facing public, media, or stakeholder criticism regarding its policies, transparency, or the societal impact of its products?",
     "yes": [
       "OAI-272",
       "OAI-282",
@@ -4516,6 +4666,7 @@
   "OpenAI strategically acquires teams, startups, or key talent to expand its capabilities, accelerate growth, and strengthen its position in emerging or competitive markets.": {
     "source": "phase_3",
     "node_id": "2-6",
+    "gate": "Does the scene involve the availability of specialized talent, teams, or startups with relevant expertise or technology that could accelerate OpenAI's goals?",
     "yes": [
       "OAI-291",
       "OAI-297"
@@ -4528,6 +4679,7 @@
   "OpenAI frequently acquires startups, hires specialized teams or executives, and partners with external experts or contractors to rapidly augment its talent pool and technical capabilities in pursuit of strategic objectives.": {
     "source": "phase_3",
     "node_id": "2-6-2",
+    "gate": "Does the scene involve significant organizational or leadership changes, or internal restructuring, that could influence OpenAI's next action?",
     "yes": [
       "OAI-264",
       "OAI-291",
