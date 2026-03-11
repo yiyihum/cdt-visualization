@@ -252,7 +252,7 @@ caseStudies.forEach((cs, i) => {
   controls.append("button")
     .attr("class", "case-btn")
     .attr("data-case-idx", i)
-    .html(`<span class="case-eid">${cs.event_id}</span> <span style="font-size:10px">(P${cs.phase})</span><div class="phase-date" style="color:#a569bd">Score: ${cs.base_cdt.score} → ${cs.adapted_cdt.score}</div>`)
+    .html(`<span class="case-eid">${cs.event_id}</span> <span style="font-size:10px">(P${cs.phase})</span><div class="phase-date" style="color:#a569bd">Score: ${cs.base.score} → ${cs.base_cdt.score} → ${cs.adapted_cdt.score}</div>`)
     .on("click", function() { selectCase(i); });
 });
 
@@ -281,131 +281,58 @@ function selectCase(idx) {
   activeActions = {};
 
   const cs = caseStudies[idx];
-  const act = caseActivations[idx];
-
-  // Highlight activated nodes on the tree
-  highlightCaseNodes(act);
-
-  // Show the comparison panel
-  showCasePanel(cs, act);
+  showCasePanel(cs);
 }
 
 function clearCase() {
   activeCaseIdx = -1;
   controls.selectAll(".case-btn").classed("active", false);
   d3.select("#case-panel").style("display", "none");
-  // Remove node highlights
-  g.selectAll("g.node")
-    .classed("node-glow-base", false)
-    .classed("node-glow-adapted", false)
-    .classed("node-glow-both", false)
-    .classed("node-dimmed", false);
-  g.selectAll("path.link").classed("link-dimmed", false);
 }
 
-function highlightCaseNodes(act) {
-  const baseIds = new Set(act.base_cdt.activated_node_ids);
-  const adaptedIds = new Set(act.adapted_cdt.activated_node_ids);
-  const allActive = new Set([...baseIds, ...adaptedIds]);
-
-  g.selectAll("g.node").each(function(d) {
-    const el = d3.select(this);
-    const nid = d.data.node_id;
-    const inBase = baseIds.has(nid);
-    const inAdapted = adaptedIds.has(nid);
-
-    el.classed("node-dimmed", !allActive.has(nid));
-    el.classed("node-glow-both", inBase && inAdapted);
-    el.classed("node-glow-base", inBase && !inAdapted);
-    el.classed("node-glow-adapted", !inBase && inAdapted);
-  });
-
-  g.selectAll("path.link").classed("link-dimmed", true);
-}
-
-function showCasePanel(cs, act) {
+function showCasePanel(cs) {
   const panel = d3.select("#case-panel");
   panel.style("display", "block");
 
-  const baseStmts = act.base_cdt.all_statements;
-  const adaptedStmts = act.adapted_cdt.all_statements;
-  const baseSet = new Set(baseStmts);
-  const adaptedSet = new Set(adaptedStmts);
-
-  const shared = baseStmts.filter(s => adaptedSet.has(s));
-  const onlyBase = baseStmts.filter(s => !adaptedSet.has(s));
-  const onlyAdapted = adaptedStmts.filter(s => !baseSet.has(s));
-
-  const scoreBadge = (score) => `<span class="score-badge score-${score}">${score}</span>`;
+  const scoreBadge = (score) => {
+    const cls = score >= 100 ? 'score-100' : score >= 50 ? 'score-50' : 'score-0';
+    return `<span class="score-badge ${cls}">${score}</span>`;
+  };
 
   let html = `
     <div class="panel-header">
-      ${cs.event_id} &mdash; Phase ${cs.phase}
+      ${cs.event_id} &mdash; Phase ${cs.phase}: ${cs.phase_name}
       <button class="close-btn" onclick="document.getElementById('case-panel').style.display='none'">&times;</button>
     </div>
 
     <div class="section">
       <div class="section-title">Context</div>
-      <div class="context-text">${act.context}</div>
+      <div class="context-text">${cs.context}</div>
     </div>
 
     <div class="section">
       <div class="section-title">Ground Truth</div>
-      <div class="ref-text">${act.reference}</div>
+      <div class="ref-text">${cs.reference}</div>
     </div>
 
     <div class="section">
       <div class="section-title">Predictions</div>
+      <div class="pred-box" style="background:#f9f9f9; border:1px solid #999;">
+        <b style="color:#999">Base (no CDT)</b> ${scoreBadge(cs.base.score)}<br>
+        ${cs.base.prediction}
+        <div style="font-size:11px;color:#888;margin-top:6px;border-top:1px solid #ddd;padding-top:4px"><b>Reasoning:</b> ${cs.base.score_reasoning}</div>
+      </div>
       <div class="pred-box base-pred">
-        <b style="color:#3498db">Base CDT</b> ${scoreBadge(cs.base_cdt.score)}<br>
+        <b style="color:#3498db">Base CDT</b> ${scoreBadge(cs.base_cdt.score)}
+        ${cs.base_cdt.n_statements_activated ? `<span style="font-size:11px;color:#888;margin-left:8px">(${cs.base_cdt.n_statements_activated} statements)</span>` : ''}<br>
         ${cs.base_cdt.prediction}
+        <div style="font-size:11px;color:#888;margin-top:6px;border-top:1px solid #ddd;padding-top:4px"><b>Reasoning:</b> ${cs.base_cdt.score_reasoning}</div>
       </div>
       <div class="pred-box adapted-pred">
-        <b style="color:#9b59b6">Adapted CDT</b> ${scoreBadge(cs.adapted_cdt.score)}<br>
+        <b style="color:#9b59b6">Adapted CDT</b> ${scoreBadge(cs.adapted_cdt.score)}
+        ${cs.adapted_cdt.n_statements_activated ? `<span style="font-size:11px;color:#888;margin-left:8px">(${cs.adapted_cdt.n_statements_activated} statements)</span>` : ''}<br>
         ${cs.adapted_cdt.prediction}
-      </div>
-    </div>
-
-    <div class="section">
-      <div class="section-title">Key Difference</div>
-      <div class="context-text">${cs.analysis.key_difference}</div>
-    </div>
-
-    <div class="section">
-      <div class="section-title">Analysis</div>
-      <div class="context-text">${cs.analysis.why_adapter_wins}</div>
-    </div>
-
-    <div class="section">
-      <div class="section-title">Activated Statements Comparison</div>
-      <div class="stmt-counts">
-        Base CDT: <b>${baseStmts.length}</b> statements &nbsp;|&nbsp;
-        Adapted CDT: <b>${adaptedStmts.length}</b> statements &nbsp;|&nbsp;
-        Shared: <b>${shared.length}</b> &nbsp;|&nbsp;
-        <span style="color:#3498db">Only Base: <b>${onlyBase.length}</b></span> &nbsp;|&nbsp;
-        <span style="color:#9b59b6">Only Adapted: <b>${onlyAdapted.length}</b></span>
-      </div>
-      <div class="legend-mini">
-        <span style="background:#f0f0f0;border:1px solid #ddd"></span> Shared &nbsp;
-        <span style="background:#ebf5fb;border:1px solid #3498db"></span> Only Base &nbsp;
-        <span style="background:#f5eef8;border:1px solid #9b59b6"></span> Only Adapted
-      </div>
-    </div>
-
-    <div class="compare-cols">
-      <div class="compare-col">
-        <div class="col-title base">Base CDT (${baseStmts.length})</div>
-        ${baseStmts.map(s => {
-          const cls = adaptedSet.has(s) ? 'shared' : 'only-base';
-          return `<div class="stmt-item ${cls}">${s}</div>`;
-        }).join('')}
-      </div>
-      <div class="compare-col">
-        <div class="col-title adapted">Adapted CDT (${adaptedStmts.length})</div>
-        ${adaptedStmts.map(s => {
-          const cls = baseSet.has(s) ? 'shared' : 'only-adapted';
-          return `<div class="stmt-item ${cls}">${s}</div>`;
-        }).join('')}
+        <div style="font-size:11px;color:#888;margin-top:6px;border-top:1px solid #ddd;padding-top:4px"><b>Reasoning:</b> ${cs.adapted_cdt.score_reasoning}</div>
       </div>
     </div>
   `;

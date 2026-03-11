@@ -1,52 +1,102 @@
 [
   {
     "case_id": 1,
-    "event_id": "OAI-218",
-    "phase": 2,
-    "phase_name": "GPT-5 Era & Platformization",
-    "context": "OpenAI's new video app Sora quickly gained popularity, but there were concerns about the use of copyrighted characters without explicit permission from rights holders. The company received feedback from rights holders...",
-    "reference": "OpenAI decided to implement more granular, opt-in copyright controls in its video app Sora.",
+    "event_id": "OAI-066",
+    "phase": 0,
+    "phase_name": "Infrastructure Ambitions & Model Race",
+    "context": "OpenAI was originally founded as a nonprofit organization with the mission to ensure that AI research benefits all of humanity. In 2019, it adopted a 'capped-profit' structure, and there are plans to ...",
+    "reference": "OpenAI continued pursuing its for-profit conversion despite legal and regulatory challenges.",
+    "base": {
+      "prediction": "OpenAI will likely restructure its corporate governance to align with a public benefit corporation, potentially through a public offering of shares or a similar mechanism, to secure additional funding while maintaining its original mission.",
+      "score": 100,
+      "score_reasoning": "The core action in the prediction is that OpenAI will restructure its corporate governance to align with a public benefit corporation, potentially through a public offering or similar mechanism, in order to secure additional funding while maintaining its mission. The core action in the ground truth is that OpenAI continued pursuing its for-profit conversion despite legal and regulatory challenges. Both statements describe OpenAI's ongoing transition from a nonprofit to a for-profit (or hybrid) structure to secure funding, despite obstacles. The prediction specifies a possible mechanism (public benefit corporation, public offering), while the ground truth confirms the general direction (continued for-profit conversion). The behavioral logic is the same: OpenAI is moving toward a for-profit or hybrid structure to secure funding. Therefore, the ground truth entails the predicted action."
+    },
     "base_cdt": {
-      "prediction": "OpenAI will engage in negotiations with rights holders to establish clearer guidelines and terms for the use of copyrighted characters in Sora.",
+      "prediction": "OpenAI will likely restructure its governance structure to maintain control over its operations and mission, potentially implementing new control mechanisms or safeguards to reinforce its autonomy.",
       "score": 50,
-      "n_statements_activated": 53,
-      "score_reasoning": "The prediction focuses on the process of negotiation and establishing guidelines, whereas the ground truth describes a concrete implementation (opt-in controls). The implementation of opt-in controls could be a result of negotiations, but the prediction does not specify this outcome. The ground truth and the prediction reflect different facets of addressing rights holders' concerns, but one does not entail or contradict the other."
+      "n_statements_activated": 13,
+      "score_reasoning": "The core action in the prediction is that OpenAI will restructure its governance to maintain control and reinforce its autonomy, possibly by implementing new safeguards. The core action in the ground truth is that OpenAI continued with its for-profit conversion despite legal and regulatory challenges. The ground truth describes OpenAI's persistence in its structural transition, but does not specify whether or not governance mechanisms or safeguards were implemented to maintain autonomy. Thus, the ground truth neither confirms nor denies the specific governance actions predicted in the response; it simply describes the continuation of the for-profit transition. Therefore, the two statements reflect different facets of OpenAI's actions and do not contradict or entail each other."
     },
     "adapted_cdt": {
-      "prediction": "OpenAI will engage in negotiations with rights holders to establish clearer terms for the use of copyrighted characters in Sora, ensuring greater control over their intellectual property usage while maintaining the app's popularity.",
+      "prediction": "OpenAI will likely restructure into a public benefit corporation to address legal challenges and regulatory scrutiny, while maintaining its original mission to ensure AI benefits all humanity.",
       "score": 100,
-      "n_statements_activated": 62,
-      "score_reasoning": "Both actions are aimed at giving rights holders more control over their intellectual property. Implementing opt-in controls is a concrete way to provide such control, which could be a result of negotiations or discussions with rights holders. The ground truth entails the predicted action, as implementing opt-in controls is a direct method of establishing clearer terms and control."
-    },
-    "analysis": {
-      "statements_diff": 9,
-      "key_difference": "The adapted CDT's prediction includes 'ensuring greater control over their intellectual property usage', which directly corresponds to the ground truth's 'opt-in copyright controls'. The base CDT only predicts the process (negotiations/guidelines) without specifying the outcome (giving rights holders control), while the adapted CDT predicts both the process and the outcome.",
-      "why_adapter_wins": "The 9 additional activated statements in the adapted CDT provided richer behavioral knowledge about OpenAI's tendency to implement concrete user/stakeholder controls in response to feedback, leading to a prediction that captured the outcome (control mechanisms) rather than just the process (negotiations)."
+      "n_statements_activated": 16,
+      "score_reasoning": "The core action in the prediction is that OpenAI will likely restructure into a public benefit corporation to address legal and regulatory challenges while maintaining its mission. The core action in the ground truth is that OpenAI continued pursuing its for-profit conversion despite legal and regulatory challenges. Both statements indicate that OpenAI is moving forward with a for-profit structure in the face of challenges, and the prediction's mention of restructuring into a public benefit corporation is a specific form of for-profit conversion. Therefore, the ground truth entails the predicted action, as restructuring into a public benefit corporation is consistent with continuing the for-profit conversion."
     }
   },
   {
     "case_id": 2,
-    "event_id": "OAI-066",
-    "phase": 0,
-    "phase_name": "Infrastructure Ambitions & Model Race",
-    "context": "OpenAI was originally founded as a nonprofit organization with the mission to ensure that AI research benefits all of humanity. In 2019, it adopted a 'capped-profit' structure, and there are plans to transition further...",
-    "reference": "OpenAI continued pursuing its for-profit conversion despite legal and regulatory challenges.",
+    "event_id": "OAI-157",
+    "phase": 1,
+    "phase_name": "Product Explosion & Corporate Transformation",
+    "context": "Crossing Minds was a startup providing AI recommendation systems to e-commerce businesses, backed by several venture capital firms and having raised significant funding. The startup focused on improvi...",
+    "reference": "OpenAI hired the team from AI recommendation startup Crossing Minds.",
+    "base": {
+      "prediction": "OpenAI will not take any specific action next as the context provided does not mention any future plans or decisions by OpenAI.",
+      "score": 0,
+      "score_reasoning": "1. The core action in the prediction is that OpenAI will not take any specific action next, implying inaction or no forthcoming steps regarding Crossing Minds. 2. The core action in the ground truth is that OpenAI hired the team from Crossing Minds, which is a specific and significant action. 3. These actions contradict each other: the prediction asserts no action, while the ground truth describes a concrete action taken by OpenAI."
+    },
     "base_cdt": {
-      "prediction": "OpenAI will likely restructure into a public benefit corporation to address legal challenges and regulatory scrutiny while maintaining its original mission.",
+      "prediction": "OpenAI will likely enhance its AI research and development capabilities to support Crossing Minds' expansion into new markets and industries, potentially partnering with Crossing Minds to further integrate AI into e-commerce platforms.",
       "score": 50,
-      "n_statements_activated": 40,
-      "score_reasoning": "Both statements indicate that OpenAI is moving forward with a for-profit structure. However, the ground truth is neutral to the specific action in the prediction, as it neither confirms nor denies the exact restructuring into a public benefit corporation. The prediction frames the action as reactive (to address legal challenges), while the ground truth frames it as proactive (continued pursuing despite challenges)."
+      "n_statements_activated": 4,
+      "score_reasoning": "The core action in the prediction is that OpenAI will enhance its AI research and development capabilities to support Crossing Minds' expansion, potentially through partnership and integration of AI into e-commerce platforms. The core action in the ground truth is that OpenAI hired the team from Crossing Minds. Hiring the team is an internal action focused on talent acquisition, while the prediction suggests external collaboration or partnership to support Crossing Minds as an independent entity. These actions reflect different facets: one is about internalizing talent, the other about external support and partnership. Therefore, the ground truth is neutral to the predicted action."
     },
     "adapted_cdt": {
-      "prediction": "OpenAI will likely restructure its legal entity to a public benefit corporation, aligning its for-profit subsidiary with its original mission of ensuring AI benefits all humanity.",
+      "prediction": "OpenAI will likely invest in strengthening its technical infrastructure to support the continued growth and innovation of its AI recommendation systems for e-commerce businesses.",
       "score": 100,
-      "n_statements_activated": 48,
-      "score_reasoning": "Both statements describe OpenAI's ongoing transition from a nonprofit to a for-profit structure. The prediction specifies the form (public benefit corporation) and the ground truth confirms the continuation of the for-profit conversion. The ground truth supports the idea that OpenAI is moving forward with restructuring, which is consistent with the predicted action. The ground truth entails the action in the prediction."
+      "n_statements_activated": 4,
+      "score_reasoning": "The core action in the prediction is that OpenAI will invest in strengthening its technical infrastructure to support AI recommendation systems for e-commerce businesses. The core action in the ground truth is that OpenAI hired the team from Crossing Minds, a startup specializing in AI recommendation systems. Hiring a specialized team can be seen as a way to strengthen technical infrastructure and capabilities, especially in the context of AI recommendation systems. Therefore, the ground truth supports and entails the predicted action, as hiring talent is a direct method of investing in and strengthening technical infrastructure."
+    }
+  },
+  {
+    "case_id": 3,
+    "event_id": "OAI-242",
+    "phase": 2,
+    "phase_name": "GPT-5 Era & Platformization",
+    "context": "Software Applications, Inc., co-founded by Ari Weinstein and Conrad Kramer, had built an unreleased AI Mac interface called Sky that floats over the desktop. Weinstein and Kramer previously created Wo...",
+    "reference": "OpenAI acquired Software Applications, Inc., the makers of an AI-powered natural language interface for Mac computers called Sky.",
+    "base": {
+      "prediction": "OpenAI will not take any specific action next as the context provided does not mention any future plans or decisions by OpenAI.",
+      "score": 0,
+      "score_reasoning": "The core action in the prediction is that OpenAI will not take any specific action next, implying inaction or no involvement. The core action in the ground truth is that OpenAI acquired Software Applications, Inc., which is a significant and specific action. These actions contradict each other: the prediction asserts no action, while the ground truth asserts a major action (acquisition). Therefore, the relationship is one of contradiction."
     },
-    "analysis": {
-      "statements_diff": 8,
-      "key_difference": "The base CDT frames the restructuring as a reactive response ('to address legal challenges'), while the adapted CDT frames it as a proactive alignment ('aligning its for-profit subsidiary with its original mission'). The ground truth says OpenAI 'continued pursuing' the conversion 'despite' challenges — matching the adapted CDT's proactive framing rather than the base CDT's reactive framing.",
-      "why_adapter_wins": "The 8 additional activated statements in the adapted CDT captured OpenAI's pattern of proactively driving structural changes for strategic alignment, rather than just reacting to external pressures. This led to a prediction that correctly characterized the for-profit conversion as an intentional pursuit rather than a defensive response."
+    "base_cdt": {
+      "prediction": "OpenAI will likely release a new AI-powered software application that expands its capabilities and attracts new users.",
+      "score": 50,
+      "n_statements_activated": 4,
+      "score_reasoning": "1. The core action in the prediction is that OpenAI will likely release a new AI-powered software application to expand its capabilities and attract new users. 2. The core action in the ground truth is that OpenAI acquired Software Applications, Inc., which developed an AI-powered natural language interface for Mac computers called Sky. 3. The ground truth describes an acquisition, not a product release, but such acquisitions are often precursors to releasing new products or features. However, the ground truth does not confirm that OpenAI has released or will release a new application, only that it has acquired the company and its technology. Therefore, the ground truth is neutral to the predicted action; it neither confirms nor contradicts it."
+    },
+    "adapted_cdt": {
+      "prediction": "OpenAI will likely release a new AI-powered software application that integrates seamlessly with existing workflows, potentially enhancing productivity and user experience.",
+      "score": 100,
+      "n_statements_activated": 5,
+      "score_reasoning": "The core action in the prediction is that OpenAI will likely release a new AI-powered software application that integrates with existing workflows. The core action in the ground truth is that OpenAI acquired Software Applications, Inc., which built an AI-powered natural language interface for Mac called Sky. The acquisition of a company with such a product strongly suggests that OpenAI intends to release or integrate this technology, aligning with the predicted action. Therefore, the ground truth entails the predicted action, as acquiring the company is a prerequisite or direct step toward releasing such an application."
+    }
+  },
+  {
+    "case_id": 4,
+    "event_id": "OAI-306",
+    "phase": 3,
+    "phase_name": "Monetization & Global Expansion",
+    "context": "OpenAI restructured into a public benefit corporation and renegotiated terms of its deal with Microsoft. The company is experiencing significant revenue growth and is looking to raise additional fundi...",
+    "reference": "OpenAI agreed to buy another $250 billion of Azure services.",
+    "base": {
+      "prediction": "OpenAI will likely proceed with raising additional funding at a high valuation, possibly through an initial public offering (IPO) or a strategic investment from a major corporation.",
+      "score": 50,
+      "score_reasoning": "The core action in the prediction is that OpenAI will raise additional funding at a high valuation, potentially through an IPO or strategic investment. The core action in the ground truth is that OpenAI agreed to purchase $250 billion worth of Azure services from Microsoft. These actions are related to OpenAI's business operations and growth, but they are distinct: one concerns fundraising, while the other concerns a large expenditure or partnership commitment. The ground truth does not confirm, contradict, or entail the fundraising action; it simply reflects a different aspect of OpenAI's business dealings."
+    },
+    "base_cdt": {
+      "prediction": "OpenAI will likely seek a large-scale funding round or strategic investment to support its anticipated growth and technological advancement.",
+      "score": 50,
+      "n_statements_activated": 9,
+      "score_reasoning": "The core action in the prediction is that OpenAI will seek a large-scale funding round or strategic investment to support growth and technological advancement. The core action in the ground truth is that OpenAI agreed to buy another $250 billion of Azure services. While both actions are related to OpenAI's growth and expansion, the prediction focuses on raising capital, whereas the ground truth focuses on a major expenditure (committing to purchase cloud services from Microsoft). The ground truth does not confirm or contradict the prediction about seeking funding; it simply reflects a different aspect of OpenAI's business strategy. Therefore, the relationship is neutral."
+    },
+    "adapted_cdt": {
+      "prediction": "OpenAI will likely pursue substantial investments, acquisitions, partnerships, and resource commitments to drive rapid growth, expand capabilities, and maintain a competitive edge.",
+      "score": 100,
+      "n_statements_activated": 12,
+      "score_reasoning": "The core action in the prediction is that OpenAI will pursue substantial investments, partnerships, and resource commitments to drive growth and maintain competitiveness. The core action in the ground truth is that OpenAI agreed to buy another $250 billion of Azure services, which is a massive resource commitment and partnership with Microsoft. This specific action (committing to buy Azure services) is a concrete example of the broader predicted behavior (making large resource commitments and partnerships). Therefore, the ground truth entails the predicted action, as it is a direct instance of the general strategy described."
     }
   }
 ]
