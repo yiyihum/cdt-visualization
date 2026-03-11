@@ -185,13 +185,14 @@ Promise.all([
   fetch('data/cdt_with_keywords.json').then(r => r.json()),
   fetch('data/adapter_phases.json').then(r => r.json()),
   fetch('data/case_studies.json').then(r => r.json()),
+  fetch('data/case_activations.json').then(r => r.json()),
   fetch('data/events.json').then(r => r.json()),
   fetch('data/coverage.json').then(r => r.json()),
-]).then(([treeData, adapterPhases, caseStudies, eventsData, coverageData]) => {
+]).then(([treeData, adapterPhases, caseStudies, caseActivations, eventsData, coverageData]) => {
   document.getElementById('loading').remove();
   document.getElementById('controls').style.display = '';
   document.getElementById('legend').style.display = '';
-  init(treeData, adapterPhases, caseStudies, eventsData, coverageData);
+  init(treeData, adapterPhases, caseStudies, caseActivations, eventsData, coverageData);
 }).catch(err => {
   document.getElementById('loading').textContent = 'Failed to load data: ' + err.message;
 });
@@ -206,7 +207,7 @@ function hl(text, keywords) {
 }
 
 // =========== Main Visualization ===========
-function init(treeData, adapterPhases, caseStudies, eventsData, coverageData) {
+function init(treeData, adapterPhases, caseStudies, caseActivations, eventsData, coverageData) {
 
 const ACTION_COLORS = { modify: "#e67e22", delete: "#e74c3c", add: "#27ae60" };
 const DEFAULT_COLOR = "#3498db";
@@ -280,18 +281,56 @@ function selectCase(idx) {
   activeActions = {};
 
   const cs = caseStudies[idx];
-  showCasePanel(cs);
+  const act = caseActivations[idx];
+
+  highlightCaseNodes(act);
+  showCasePanel(cs, act);
 }
 
 function clearCase() {
   activeCaseIdx = -1;
   controls.selectAll(".case-btn").classed("active", false);
   d3.select("#case-panel").style("display", "none");
+  g.selectAll("g.node")
+    .classed("node-glow-base", false)
+    .classed("node-glow-adapted", false)
+    .classed("node-glow-both", false)
+    .classed("node-dimmed", false);
+  g.selectAll("path.link").classed("link-dimmed", false);
 }
 
-function showCasePanel(cs) {
+function highlightCaseNodes(act) {
+  const baseIds = new Set(act.base_cdt.activated_node_ids);
+  const adaptedIds = new Set(act.adapted_cdt.activated_node_ids);
+  const allActive = new Set([...baseIds, ...adaptedIds]);
+
+  g.selectAll("g.node").each(function(d) {
+    const el = d3.select(this);
+    const nid = d.data.node_id;
+    const inBase = baseIds.has(nid);
+    const inAdapted = adaptedIds.has(nid);
+
+    el.classed("node-dimmed", !allActive.has(nid));
+    el.classed("node-glow-both", inBase && inAdapted);
+    el.classed("node-glow-base", inBase && !inAdapted);
+    el.classed("node-glow-adapted", !inBase && inAdapted);
+  });
+
+  g.selectAll("path.link").classed("link-dimmed", true);
+}
+
+function showCasePanel(cs, act) {
   const panel = d3.select("#case-panel");
   panel.style("display", "block");
+
+  const baseStmts = act.base_cdt.all_statements;
+  const adaptedStmts = act.adapted_cdt.all_statements;
+  const baseSet = new Set(baseStmts);
+  const adaptedSet = new Set(adaptedStmts);
+
+  const shared = baseStmts.filter(s => adaptedSet.has(s));
+  const onlyBase = baseStmts.filter(s => !adaptedSet.has(s));
+  const onlyAdapted = adaptedStmts.filter(s => !baseSet.has(s));
 
   const scoreBadge = (score) => {
     const cls = score >= 100 ? 'score-100' : score >= 50 ? 'score-50' : 'score-0';
@@ -306,12 +345,12 @@ function showCasePanel(cs) {
 
     <div class="section">
       <div class="section-title">Context</div>
-      <div class="context-text">${cs.context}</div>
+      <div class="context-text">${act.context}</div>
     </div>
 
     <div class="section">
       <div class="section-title">Ground Truth</div>
-      <div class="ref-text">${cs.reference}</div>
+      <div class="ref-text">${act.reference}</div>
     </div>
 
     <div class="section">
@@ -323,15 +362,48 @@ function showCasePanel(cs) {
       </div>
       <div class="pred-box base-pred">
         <b style="color:#3498db">Base CDT</b> ${scoreBadge(cs.base_cdt.score)}
-        ${cs.base_cdt.n_statements_activated ? `<span style="font-size:11px;color:#888;margin-left:8px">(${cs.base_cdt.n_statements_activated} statements)</span>` : ''}<br>
+        <span style="font-size:11px;color:#888;margin-left:8px">(${baseStmts.length} statements)</span><br>
         ${cs.base_cdt.prediction}
         <div style="font-size:11px;color:#888;margin-top:6px;border-top:1px solid #ddd;padding-top:4px"><b>Reasoning:</b> ${cs.base_cdt.score_reasoning}</div>
       </div>
       <div class="pred-box adapted-pred">
         <b style="color:#9b59b6">Adapted CDT</b> ${scoreBadge(cs.adapted_cdt.score)}
-        ${cs.adapted_cdt.n_statements_activated ? `<span style="font-size:11px;color:#888;margin-left:8px">(${cs.adapted_cdt.n_statements_activated} statements)</span>` : ''}<br>
+        <span style="font-size:11px;color:#888;margin-left:8px">(${adaptedStmts.length} statements)</span><br>
         ${cs.adapted_cdt.prediction}
         <div style="font-size:11px;color:#888;margin-top:6px;border-top:1px solid #ddd;padding-top:4px"><b>Reasoning:</b> ${cs.adapted_cdt.score_reasoning}</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Activated Statements Comparison</div>
+      <div class="stmt-counts">
+        Base CDT: <b>${baseStmts.length}</b> statements &nbsp;|&nbsp;
+        Adapted CDT: <b>${adaptedStmts.length}</b> statements &nbsp;|&nbsp;
+        Shared: <b>${shared.length}</b> &nbsp;|&nbsp;
+        <span style="color:#3498db">Only Base: <b>${onlyBase.length}</b></span> &nbsp;|&nbsp;
+        <span style="color:#9b59b6">Only Adapted: <b>${onlyAdapted.length}</b></span>
+      </div>
+      <div class="legend-mini">
+        <span style="background:#f0f0f0;border:1px solid #ddd"></span> Shared &nbsp;
+        <span style="background:#ebf5fb;border:1px solid #3498db"></span> Only Base &nbsp;
+        <span style="background:#f5eef8;border:1px solid #9b59b6"></span> Only Adapted
+      </div>
+    </div>
+
+    <div class="compare-cols">
+      <div class="compare-col">
+        <div class="col-title base">Base CDT (${baseStmts.length})</div>
+        ${baseStmts.map(s => {
+          const cls = adaptedSet.has(s) ? 'shared' : 'only-base';
+          return `<div class="stmt-item ${cls}">${s}</div>`;
+        }).join('')}
+      </div>
+      <div class="compare-col">
+        <div class="col-title adapted">Adapted CDT (${adaptedStmts.length})</div>
+        ${adaptedStmts.map(s => {
+          const cls = baseSet.has(s) ? 'shared' : 'only-adapted';
+          return `<div class="stmt-item ${cls}">${s}</div>`;
+        }).join('')}
       </div>
     </div>
   `;
